@@ -306,16 +306,19 @@
         "sections": {
           "type": "object",
           "description": "Predefined sections that can be conditionally rendered in a question w/ type: section",
-          "properties": {
-            "content": {
-              "$ref": "#/definitions/copy"
-            },
-            "title": {
-              "$ref": "#/definitions/copy",
-              "description": "The title is rendered as a header in an an accordion."
-            },
-            "id": {
-              "type": "string"
+          "patternProperties": {
+            ".*": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "content": {
+                  "$ref": "#/definitions/copy"
+                },
+                "title": {
+                  "$ref": "#/definitions/copy",
+                  "description": "The title is rendered as a header in an an accordion."
+                }
+              }
             }
           }
         },
