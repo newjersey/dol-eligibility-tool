@@ -405,6 +405,8 @@ pages:
       es: Herramienta de elegibilidad de beneficios NJDOL
     instructions:
       en: |-
+        The COVID-19 outbreak is causing extraordinary disruption in the livelihood of residents of New Jersey. The New Jersey Department of Labor (NJDOL) wants to make it easier for you to understand what benefits programs are available to you to help stabilize your household during this difficult time. 
+
         This is a beta version of this tool. We will be updating it regularly as new federal, state, and local benefits become available. We will check your eligibility for the programs below based on the information you provide.
 
         #### Included programs
@@ -414,7 +416,8 @@ pages:
         - Earned Sick Leave (ESL)
         - Unemployment Assistance
         - Family Leave (FLI)
-        - Coronavirus Aid, Relief, and Economic - Security (CARES) Act
+        - Coronavirus Aid, Relief, and Economic
+        - Security (CARES) Act
         - Federal Pandemic Unemployment Compensation (FPUC)
         - Pandemic Emergency Unemployment Compensation (PEUC)
         - Pandemic Unemployment Assistance (PUA)
@@ -436,6 +439,8 @@ pages:
 
         The information you share for purposes of this screening tool will be anonymous and may be shared with New Jersey State agencies to improve access to benefits and programs.
       es: |-
+        El brote de COVID-19 está causando una interrupción extraordinaria en los medios de vida de los residentes de Nueva Jersey. El Departamento de Trabajo de Nueva Jersey (NJDOL) quiere facilitarle la comprensión de los programas de beneficios disponibles para ayudarlo a estabilizar su hogar durante este momento difícil.
+
         Esta es una versión beta de esta herramienta. Lo actualizaremos regularmente a medida que estén disponibles nuevos beneficios federales, estatales y locales. Verificaremos su elegibilidad para los siguientes programas según la información que proporcione.
 
         #### Programas incluidos
@@ -445,7 +450,8 @@ pages:
         - Permiso por enfermedad por enfermedad (ESL)
         - Asistencia de desempleo
         - Licencia familiar (FLI)
-        - Ley de ayuda, socorro y seguridad económica de coronavirus (CARES)
+        - Ayuda, alivio y economía de coronavirus
+        - Ley de Seguridad (CUIDADOS)
         - Compensación federal de desempleo pandémico (FPUC)
         - Compensación por desempleo de emergencia pandémica (PEUC)
         - Asistencia de desempleo pandémico (PUA)
@@ -463,7 +469,7 @@ pages:
 
         NJDOL ofrece esta herramienta de evaluación que enumera los programas de beneficios que puede decidir considerar en función de la información que proporcione sobre su empleo más reciente.
 
-        Esta herramienta de evaluación proporcionará los siguientes pasos sugeridos que pueden incluir solicitar beneficios fuera de este sitio web, pero no puede garantizar la elegibilidad y no reserva ningún beneficio ni un lugar en ninguna cola de solicitud. La organización o agencia administradora determinará todos los requisitos de elegibilidad al momento de enviar una solicitud y / u otros documentos relevantes a esa organización o agencia para el programa respectivo.
+        Esta herramienta de evaluación proporcionará los siguientes pasos sugeridos que pueden incluir solicitar beneficios fuera de este sitio web, pero no puede garantizar la elegibilidad y no reserva ningún beneficio ni un lugar en ninguna cola de solicitud. La organización o agencia administradora determinará todos los requisitos de elegibilidad al momento de enviar una solicitud y / u otros documentos relevantes a esa organización u agencia para el programa respectivo.
 
         La información que comparta para los fines de esta herramienta de evaluación será anónima y puede compartirse con las agencias estatales de Nueva Jersey para mejorar el acceso a los beneficios y programas.
     questions:
@@ -724,7 +730,7 @@ definitions:
           job-protections: 'A3848,FMLA-FED,FLA-NJ'
           icon:
             label: K
-            color: 'lightgrey'
+            color: lightgrey
       switch:
         ? 'situation-1,situation-2,situation-3,situation-4,situation-5,situation-6,situation-7,situation-8,situation-9,situation-11'
         : - name:
@@ -735,8 +741,12 @@ definitions:
             instructions:
               en: |-
                 Based on the information you've provided, you may be eligible for protection or financial aid from these program(s):
+
+                Note: All protections are **unpaid leave**. We have listed these programs in suggested priority order for your convenience.
               es: |-
                 Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
+
+                Nota: Todas las protecciones son ** licencia no remunerada **. Hemos enumerado estos programas en orden de prioridad sugerido para su conveniencia.
           - id: terminal-eligibility-benefits
             type: sections
             sections:
