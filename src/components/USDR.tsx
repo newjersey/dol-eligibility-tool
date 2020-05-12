@@ -1,5 +1,5 @@
-import React from 'react'
-import { Box, Image, Paragraph } from 'grommet'
+import React, { useContext } from 'react'
+import { Box, Image, Paragraph, ResponsiveContext } from 'grommet'
 
 /**
  * The USDR component wraps an underlying component with USDR branding.
@@ -52,17 +52,19 @@ const Header: React.FC = () => {
 }
 
 const Footer: React.FC = () => {
+  const size = useContext(ResponsiveContext)
+
   return (
     <Box background={{ color: '#FFFFFF' }} elevation="medium" align="center">
       <Box
         width="100%"
         justify="start"
-        style={{ maxWidth: '1200px' }}
-        pad={{ horizontal: 'medium', vertical: '16px' }}
+        style={{ maxWidth: size === 'large' ? '1200px' : '850px' }}
+        pad={{ vertical: '16px', horizontal: 'medium' }}
         direction="row"
         align="center"
       >
-        <Paragraph style={{ fontWeight: 600 }} size="small">
+        <Paragraph style={{ fontWeight: 600, flexShrink: 0 }} size="small">
           Built by
         </Paragraph>
         <a href="https://www.usdigitalresponse.org/" target="_blank" rel="noopener noreferrer" tabIndex={-1}>
@@ -73,7 +75,9 @@ const Footer: React.FC = () => {
             margin={{ horizontal: '12px' }}
           />
         </a>
-        <Paragraph size="small">a nonpartisan effort to assist the U.S. government.</Paragraph>
+        <Paragraph size="small" style={{ flexShrink: 1 }}>
+          a nonpartisan effort to assist the U.S. government.
+        </Paragraph>
       </Box>
     </Box>
   )
