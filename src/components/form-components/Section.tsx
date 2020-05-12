@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { Question } from '../../lib/types'
 import { FormContext } from '../../contexts/form'
-import { getSections } from '../../forms'
+import { getSections } from '../../lib/sections'
 import { Box, Heading, Paragraph } from 'grommet'
 import { Markdown } from '../helper-components/Markdown'
 import Caret from './Caret'

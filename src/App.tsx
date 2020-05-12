@@ -28,6 +28,14 @@ const sizing = {
 
 const theme = {
   global: {
+    breakpoints: {
+      small: {
+        value: 550,
+      },
+      medium: {
+        value: 1050,
+      },
+    },
     colors: {
       text: {
         dark: 'white',

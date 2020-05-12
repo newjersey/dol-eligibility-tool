@@ -24,8 +24,8 @@ const Form: React.FC<{}> = () => {
           </Heading>
           {page.instructions && <Markdown size="small">{translateCopy(page.instructions)}</Markdown>}
         </Box>
-        {page.questions.map((question) => (
-          <Question question={question} key={question.id} />
+        {page.questions.map((question, i) => (
+          <Question question={question} previous={i > 0 ? page.questions[i - 1] : undefined} key={question.id} />
         ))}
       </Box>
     )),
@@ -93,8 +93,20 @@ const Form: React.FC<{}> = () => {
   }, [form, pageIndex])
 
   return (
-    <Box align="center" pad="medium" direction="column" width="100%" style={{ maxWidth: '1200px' }}>
-      <Box width="100%" height="100%" justify="center" direction={size === 'small' ? 'column' : 'row'}>
+    <Box
+      align="center"
+      pad="medium"
+      direction="column"
+      width="100%"
+      style={{ maxWidth: size === 'large' ? '1200px' : '850px' }}
+    >
+      <Box
+        width="100%"
+        height="100%"
+        justify="center"
+        direction={size === 'large' ? 'row' : 'column'}
+        align={size === 'large' ? 'start' : 'center'}
+      >
         <Card justify="between" flex={{ grow: 1, shrink: 1 }} pad={{ vertical: '48px' }}>
           {pageComponents[pageIndex]}
           <Box justify="between" pad={{ horizontal: 'large' }} margin={{ top: '48px' }} direction="row">

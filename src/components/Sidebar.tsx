@@ -52,85 +52,88 @@ const Sidebar: React.FC<Props> = (props) => {
   return (
     <Box
       flex={{ shrink: 0 }}
-      margin={size === 'small' ? { top: 'small' } : { left: 'small' }}
+      margin={size === 'large' ? { left: 'small' } : { top: 'small' }}
       direction="column"
-      width={size === 'small' ? '100%' : '350px'}
+      width={size === 'large' ? '350px' : '100%'}
+      style={{ maxWidth: '850px' }}
     >
-      <Card margin={{ bottom: 'small' }} pad={{ horizontal: size === 'small' ? '24px' : 'medium', vertical: 'small' }}>
+      <Card margin={{ bottom: 'small' }} pad={{ horizontal: size === 'large' ? 'medium' : '24px', vertical: 'small' }}>
         <Markdown>{translateByID('demo-warning')}</Markdown>
       </Card>
-      <Card pad="medium">
+      <Card pad="medium" direction={size === 'medium' ? 'row' : 'column'}>
         {form.seal && (
           <Box margin={{ bottom: 'medium' }}>
             <Image src={form.seal} style={{ maxHeight: '175px', maxWidth: '100%', objectFit: 'contain' }} />
           </Box>
         )}
-        <Box>
-          <Heading level={4} margin="none">
-            {translateByID('language')}
-          </Heading>
-          <StyledSelect
-            a11yTitle="select language"
-            margin={{ top: 'xsmall' }}
-            options={languages}
-            labelKey="title"
-            valueKey={{ key: 'value', reduce: true }}
-            value={language}
-            onChange={onChangeLanguage}
-          />
-        </Box>
-        <Box margin={{ top: 'medium' }}>
-          <Box direction="row" justify="between">
+        <Box flex={{ grow: 1 }} margin={{ left: size === 'medium' ? '24px' : 'none' }}>
+          <Box>
             <Heading level={4} margin="none">
-              {translateByID('progress')}
+              {translateByID('language')}
             </Heading>
-            <Paragraph margin="none">{percent}%</Paragraph>
+            <StyledSelect
+              a11yTitle="select language"
+              margin={{ top: 'xsmall' }}
+              options={languages}
+              labelKey="title"
+              valueKey={{ key: 'value', reduce: true }}
+              value={language}
+              onChange={onChangeLanguage}
+            />
           </Box>
-          <Box
-            margin={{ top: 'xsmall' }}
-            style={{ width: '100%', height: '12px', borderRadius: '12px', background: '#F2F2F2' }}
-          >
-            <Box style={{ width: `${percent}%`, height: '100%', borderRadius: '12px', background: '#3A80C2' }} />
-          </Box>
-        </Box>
-        <Box margin={{ top: 'medium' }}>
-          {size === 'small' && pages.length > 2 ? (
-            <>
-              {/* On small screens, we collapse the section titles to a Select */}
+          <Box margin={{ top: '24px' }}>
+            <Box direction="row" justify="between">
               <Heading level={4} margin="none">
-                {translateByID('section')}
+                {translateByID('progress')}
               </Heading>
-              <StyledSelect
-                a11yTitle="select section"
-                margin={{ top: 'xsmall' }}
-                options={pages.map((page, i) => ({ page, i, disabled: !canClickPage(i) }))}
-                labelKey="page"
-                valueKey={{ key: 'i', reduce: true }}
-                disabledKey="disabled"
-                value={pageIndex as any} /* These type definitions don't support values as numbers */
-                // TODO: In production, add a `canClickPage(i) && ` below to prevent folks from jumping forward.
-                onChange={({ value: i }) => setPage(i)}
-              />
-            </>
-          ) : (
-            /* On larger screens, we show all section titles as a list */
-            pages.map((page, i) => {
-              return (
-                <Text
-                  style={{
-                    cursor: canClickPage(i) ? 'pointer' : 'not-allowed',
-                    opacity: currentPage === page ? '100%' : canClickPage(i) ? '50%' : '20%',
-                  }}
+              <Paragraph margin="none">{percent}%</Paragraph>
+            </Box>
+            <Box
+              margin={{ top: 'xsmall' }}
+              style={{ width: '100%', height: '12px', borderRadius: '12px', background: '#F2F2F2' }}
+            >
+              <Box style={{ width: `${percent}%`, height: '100%', borderRadius: '12px', background: '#3A80C2' }} />
+            </Box>
+          </Box>
+          <Box margin={{ top: '24px' }}>
+            {size === 'large' ? (
+              /* On larger screens, we show all section titles as a list */
+              pages.map((page, i) => {
+                return (
+                  <Text
+                    style={{
+                      cursor: canClickPage(i) ? 'pointer' : 'not-allowed',
+                      opacity: currentPage === page ? '100%' : canClickPage(i) ? '50%' : '20%',
+                    }}
+                    // TODO: In production, add a `canClickPage(i) && ` below to prevent folks from jumping forward.
+                    onClick={() => canClickPage(i) && setPage(i)}
+                    margin={{ bottom: 'xsmall' }}
+                    key={page}
+                  >
+                    {page}
+                  </Text>
+                )
+              })
+            ) : (
+              <>
+                {/* On small screens, we collapse the section titles to a Select */}
+                <Heading level={4} margin="none">
+                  {translateByID('section')}
+                </Heading>
+                <StyledSelect
+                  a11yTitle="select section"
+                  margin={{ top: 'xsmall' }}
+                  options={pages.map((page, i) => ({ page, i, disabled: !canClickPage(i) }))}
+                  labelKey="page"
+                  valueKey={{ key: 'i', reduce: true }}
+                  disabledKey="disabled"
+                  value={pageIndex as any} /* These type definitions don't support values as numbers */
                   // TODO: In production, add a `canClickPage(i) && ` below to prevent folks from jumping forward.
-                  onClick={() => canClickPage(i) && setPage(i)}
-                  margin={{ bottom: 'xsmall' }}
-                  key={page}
-                >
-                  {page}
-                </Text>
-              )
-            })
-          )}
+                  onChange={({ value: i }) => setPage(i)}
+                />
+              </>
+            )}
+          </Box>
         </Box>
       </Card>
     </Box>

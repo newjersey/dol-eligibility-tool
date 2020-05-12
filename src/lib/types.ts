@@ -83,6 +83,7 @@ export type QuestionType =
   | 'multiselect'
   | 'state-picker'
   | 'instructions-only'
+  | 'warning-only'
   | 'email'
   | 'file'
   | 'checkbox'
