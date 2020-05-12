@@ -65,6 +65,7 @@ const typeComponentMappings: Partial<Record<QuestionType, React.FC>> = {
   multiselect: Multiselect as React.FC,
   longtext: TextArea as React.FC,
   'instructions-only': Box,
+  'warning-only': Box,
   'state-picker': StateSelect as React.FC,
   decimal: NumberComponent as React.FC,
   integer: NumberComponent as React.FC,

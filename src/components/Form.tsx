@@ -24,8 +24,8 @@ const Form: React.FC<{}> = () => {
           </Heading>
           {page.instructions && <Markdown size="small">{translateCopy(page.instructions)}</Markdown>}
         </Box>
-        {page.questions.map((question) => (
-          <Question question={question} key={question.id} />
+        {page.questions.map((question, i) => (
+          <Question question={question} previous={i > 0 ? page.questions[i - 1] : undefined} key={question.id} />
         ))}
       </Box>
     )),

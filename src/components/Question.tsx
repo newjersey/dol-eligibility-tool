@@ -8,10 +8,11 @@ import { Markdown } from './helper-components'
 
 interface Props {
   question: QuestionInterface
+  previous: QuestionInterface | undefined
 }
 
 const Question: React.FC<Props> = (props) => {
-  const { question } = props
+  const { question, previous } = props
   const Component = getComponent(question.type)
 
   const { values, errors, form, translateCopy, translateByID } = useContext(FormContext)
@@ -31,43 +32,68 @@ const Question: React.FC<Props> = (props) => {
     return <Box />
   }
 
+  const isNote = ['instructions-only', 'warning-only'].includes(question.type)
+  const isStriped = ['instructions-only', 'warning-only'].includes(question.type)
+
   return (
-    <Box direction="column" margin={{ top: question.type === 'sections' ? 'none' : '48px' }}>
-      {(question.name || question.instructions) && (
-        <Box fill={true} className="question-heading-box" pad={{ horizontal: 'large' }} margin={{ bottom: '16px' }}>
-          {question.name && (
-            <Box direction="row" align="start">
-              <Heading
-                style={{
-                  maxWidth: 'none',
-                }}
-                level={4}
-                margin={{ horizontal: 'none', top: 'none', bottom: question.instructions ? '8px' : 'none' }}
-              >
-                {translateCopy(question.name)}
-                {!question.required && !['instructions-only', 'sections'].includes(question.type) && (
-                  <em> ({translateByID('optional')})</em>
-                )}
-              </Heading>
-            </Box>
-          )}
-          {question.instructions && <Markdown size="small">{translateCopy(question.instructions)}</Markdown>}
-        </Box>
+    <Box
+      direction="row"
+      // Remove margin between sections:
+      margin={{ top: question.type == 'sections' && previous?.type === 'sections' ? 'none' : '48px' }}
+    >
+      {/* Optionally inserts a vertical stripe alongside the question: */}
+      {isStriped && (
+        <Box
+          flex={{ grow: 0, shrink: 0 }}
+          basis="8px"
+          background={question.type === 'warning-only' ? '#FFAE00' : '#3A80C2'}
+        />
       )}
 
-      <Component question={question} />
-      {error && (
-        <Box pad={{ horizontal: 'large' }}>
-          {error.map((e) => (
-            <Text key={e.en} margin={{ top: 'xsmall' }} color="#E42906">
-              {translateCopy(e)}
-            </Text>
-          ))}
+      <Box direction="column" pad={{ vertical: isStriped ? '16px' : 'none' }}>
+        {(question.name || question.instructions) && (
+          <Box
+            fill={true}
+            className="question-heading-box"
+            pad={{ horizontal: 'large' }}
+            margin={{ bottom: isNote ? 'none' : '16px' }}
+          >
+            {question.name && (
+              <Box direction="row" align="start">
+                <Heading
+                  style={{
+                    maxWidth: 'none',
+                  }}
+                  level={isNote ? 2 : 4}
+                  margin={{ horizontal: 'none', top: 'none', bottom: question.instructions ? '8px' : 'none' }}
+                >
+                  {translateCopy(question.name)}
+                  {!question.required && !isNote && question.type !== 'sections' && (
+                    <em> ({translateByID('optional')})</em>
+                  )}
+                </Heading>
+              </Box>
+            )}
+            {question.instructions && <Markdown size="small">{translateCopy(question.instructions)}</Markdown>}
+          </Box>
+        )}
+
+        <Component question={question} />
+        {error && (
+          <Box pad={{ horizontal: 'large' }}>
+            {error.map((e) => (
+              <Text key={e.en} margin={{ top: 'xsmall' }} color="#E42906">
+                {translateCopy(e)}
+              </Text>
+            ))}
+          </Box>
+        )}
+        <Box ref={(el) => (switchComponent = el)}>
+          {question.switch &&
+            getSwitch(question.switch, value as string | string[])?.map((q, i, all) => (
+              <Question question={q} previous={i > 0 ? all[i - 1] : undefined} key={q.id} />
+            ))}
         </Box>
-      )}
-      <Box ref={(el) => (switchComponent = el)}>
-        {question.switch &&
-          getSwitch(question.switch, value as string | string[])?.map((q) => <Question question={q} key={q.id} />)}
       </Box>
     </Box>
   )
