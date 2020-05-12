@@ -630,7 +630,7 @@ definitions:
             en: "I can't work, or my hours are reduced, because I need to care for children due to COVID-19."
             es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a los niños debido a COVID-19.'
           id: situation-1
-          benefits: 'UA,ESL-NJ,FEC-FMLA-FED'
+          benefits: 'ESL-NJ,UA,FEC-FMLA-FED'
           job-protections: 'FMLA-FED,FLA-NJ'
           icon:
             label: A
@@ -641,7 +641,7 @@ definitions:
             es: |-
               No puedo trabajar, o mis horas se reducen, porque estoy cuidando a un miembro de la familia que es diagnosticado con COVID-19 o en cuarentena con sospecha de exposición.
           id: situation-2
-          benefits: 'UA,ESL-NJ,FLI-NJ,EPSL-FED'
+          benefits: 'ESL-NJ,EPSL-FED,UA,FLI-NJ'
           job-protections: 'FMLA-FED,FLA-NJ'
           icon:
             label: B
@@ -726,7 +726,7 @@ definitions:
             es: |-
               Ninguna de las declaraciones anteriores describe mi situación. Me gustaría saber más sobre todos los beneficios del programa.
           id: situation-10
-          benefits: 'UA,EPSL-FED,ESL-NJ,TDI-NJ,FLI-NJ,FEC-FMLA-FED'
+          benefits: 'UA,EPSL-FED,ESL-NJ,FLI-NJ,TDI-NJ,FEC-FMLA-FED'
           job-protections: 'A3848,FMLA-FED,FLA-NJ'
           icon:
             label: K

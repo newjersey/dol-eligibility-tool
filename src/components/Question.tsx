@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import { Question as QuestionInterface } from '../lib/types'
-import { getComponent, getSwitch, getSections } from '../forms'
+import { getComponent, getSwitch } from '../forms'
+import { getSections } from '../lib/sections'
 import { Box, Heading, Text } from 'grommet'
 import { FormContext } from '../contexts/form'
 import { Markdown } from './helper-components'
