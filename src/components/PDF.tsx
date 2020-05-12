@@ -1,31 +1,42 @@
 import React, { ReactNode } from 'react'
-import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer'
+import { Page, Text, View, Document, StyleSheet, Font, Link } from '@react-pdf/renderer'
 import { Form, Values, Question, Option } from '../lib/types'
 import { getFlattenedQuestions } from '../forms'
 import { getSections } from '../lib/sections'
 import { FormState } from '../contexts/form'
-import removeMarkdown from 'remove-markdown'
 import moment from 'moment'
+import regular from '../fonts/Roboto-Regular.ttf'
+import medium from '../fonts/Roboto-Medium.ttf'
+import bold from '../fonts/Roboto-Bold.ttf'
+
+Font.register({
+  family: 'Roboto',
+  fonts: [
+    { src: regular, fontWeight: 'normal' },
+    { src: medium, fontWeight: 'medium' },
+    { src: bold, fontWeight: 'bold' },
+  ],
+})
 
 // Create styles
 const styles = StyleSheet.create({
   page: {
     flexDirection: 'row',
     backgroundColor: 'white',
+    fontFamily: 'Roboto',
   },
   pageContent: {
-    margin: 10,
-    padding: 10,
+    padding: '48px',
     flexGrow: 1,
   },
   heading: {
     fontSize: 20,
-    fontWeight: 500,
+    fontWeight: 'bold',
     marginBottom: 8,
   },
   questionTitle: {
-    fontSize: 16,
-    fontWeight: 500,
+    fontSize: 14,
+    fontWeight: 'medium',
     marginBottom: 8,
   },
   questionAnswer: {
@@ -40,7 +51,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 12,
     marginBottom: 8,
-    fontWeight: 'bold',
+    fontWeight: 'medium',
   },
   sectionContent: { fontSize: 10 },
   questionSection: {
@@ -50,14 +61,33 @@ const styles = StyleSheet.create({
 })
 
 const linkRegex = /\[([^[]+)\](\(.*\))/gm
-function processLinks(content: string) {
+const urlRegex = /\((http[^)]+)\)/
+
+function stripBasicMarkdown(content: string) {
   if (!content) {
     return content
   }
 
-  return content.replace(linkRegex, (match, p1, p2) => {
-    return `${p1}: ${p2.replace(/[{()}]/g, '')}`
+  content = content.replace('#', '').replace(/\*/g, '')
+
+  const contentParts: any[] = content.split(linkRegex)
+  const finalParts: any[] = []
+
+  contentParts.forEach((part, i) => {
+    if (urlRegex.test(part)) {
+      const url = part.replace(/[{()}]/g, '')
+      finalParts.push(': ')
+      finalParts.push(
+        <Link style={{ marginLeft: 8, color: '#7D4CDB' }} src={url}>
+          {url}
+        </Link>
+      )
+      return
+    }
+    finalParts.push(part)
   })
+
+  return finalParts
 }
 
 interface Props {
@@ -102,7 +132,7 @@ const PDF: React.FC<Props> = (props) => {
           return <View />
         }
         if (!option.icon) {
-          return `\n• ${removeMarkdown(translateCopy(option.name))}`
+          return `\n• ${translateCopy(option.name)}`
         }
         return (
           <View
@@ -110,7 +140,7 @@ const PDF: React.FC<Props> = (props) => {
             key={question.id}
           >
             <Icon option={option} />
-            <Text style={{ fontSize: 12, width: '90%' }}>{removeMarkdown(translateCopy(option.name))}</Text>
+            <Text style={{ fontSize: 12, width: '90%' }}>{translateCopy(option.name)}</Text>
           </View>
         )
       })
@@ -119,15 +149,16 @@ const PDF: React.FC<Props> = (props) => {
     if (question.type === 'single-select') {
       const option = question.options!.find((o) => o.id === values[question.id])
       if (option) {
-        return <Text style={styles.questionAnswer}>{removeMarkdown(translateCopy(option.name))}</Text>
+        return <Text style={styles.questionAnswer}>{translateCopy(option.name)}</Text>
       }
     }
     if (question.type === 'checkbox') {
-      return <Text style={styles.questionAnswer}>{removeMarkdown(translateCopy(question.options![0].name))}</Text>
+      return <Text style={styles.questionAnswer}>{translateCopy(question.options![0].name)}</Text>
     }
     if (question.type === 'sections') {
       return (
         <View>
+          <Text style={styles.questionTitle}>{translateCopy(question.sections?.name)}</Text>
           {getSections(question.sections, form, values).map(({ section, options }, i) => (
             <View style={styles.section} key={`${translateCopy(section.title)}_${i}`}>
               <View
@@ -139,22 +170,14 @@ const PDF: React.FC<Props> = (props) => {
                   marginBottom: 12,
                 }}
               >
-                <Text
-                  style={{
-                    fontSize: 12,
-                    marginBottom: 8,
-                    fontWeight: 'bold',
-                  }}
-                >
-                  {translateCopy(section.title)}
-                </Text>
+                <Text style={styles.sectionTitle}>{translateCopy(section.title)}</Text>
                 <View style={{ display: 'flex', flexDirection: 'row' }}>
                   {options.map((o) => (
                     <Icon key={o.id} option={o} />
                   ))}
                 </View>
               </View>
-              <Text style={styles.sectionContent}>{removeMarkdown(processLinks(translateCopy(section.content)))}</Text>
+              <Text style={styles.sectionContent}>{stripBasicMarkdown(translateCopy(section.content))}</Text>
             </View>
           ))}
         </View>
@@ -170,6 +193,11 @@ const PDF: React.FC<Props> = (props) => {
         <View style={styles.pageContent}>
           <Text style={styles.heading}>{translateCopy(form.title)}</Text>
           <Text style={{ fontSize: 12, marginBottom: 20 }}>Completed {moment().format('MMMM DD, YYYY')}</Text>
+          <Text style={{ fontSize: 12, marginBottom: 20 }}>
+            Below is a summary of your responses and the benefits and protections that may be relevant for you, based on
+            the answers you provided.
+          </Text>
+
           {questions.map((q, i) => {
             const value = getValue(q, values)
             const name = translateCopy(q.name)
@@ -178,11 +206,9 @@ const PDF: React.FC<Props> = (props) => {
               return <View />
             }
             return (
-              <View style={{ marginBottom: 20 }} key={`${q.id}_${i}`}>
+              <View style={{ marginBottom: 32 }} key={`${q.id}_${i}`}>
                 <Text style={styles.questionTitle}>
-                  {isPresentationalQuestion
-                    ? removeMarkdown(processLinks(translateCopy(q.instructions!)))
-                    : `${i + 1}. ${name}`}
+                  {isPresentationalQuestion ? stripBasicMarkdown(translateCopy(q.instructions!)) : `${i + 1}. ${name}`}
                 </Text>
 
                 {value}
