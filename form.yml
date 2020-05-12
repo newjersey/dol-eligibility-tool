@@ -563,7 +563,7 @@ pages:
                         - name:
                             en: Eligibility
                             es: Elegibilidad
-                          type: instructions-only
+                          type: warning-only
                           id: terminal-eligibility-2
                           instructions:
                             en: |-
@@ -600,7 +600,7 @@ pages:
             - name:
                 en: Eligibility
                 es: Elegibilidad
-              type: instructions-only
+              type: warning-only
               id: terminal-eligibility-1
               required: true
               instructions:
@@ -775,7 +775,7 @@ definitions:
               en: Additional Information
               es: Información Adicional
             id: additional-information
-            type: instructions-only
+            type: warning-only
             instructions:
               en: |-
                 Based on the information you may not be eligible for any of the following benefits that are being offered at this time:
