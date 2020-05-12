@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://newjersey.github.io/dol-eligibility-tool/precache-manifest.08ce576a4c0e1e7bc85f95e57fc2f6fe.js"
+  "https://newjersey.github.io/dol-eligibility-tool/precache-manifest.350e1b33ee987a836d508f805860d262.js"
 );
 
 self.addEventListener('message', (event) => {
