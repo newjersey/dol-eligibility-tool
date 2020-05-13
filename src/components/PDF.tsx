@@ -73,7 +73,7 @@ function stripBasicMarkdown(content: string) {
   const contentParts: any[] = content.split(linkRegex)
   const finalParts: any[] = []
 
-  contentParts.forEach((part, i) => {
+  contentParts.forEach((part) => {
     if (urlRegex.test(part)) {
       const url = part.replace(/[{()}]/g, '')
       finalParts.push(': ')
