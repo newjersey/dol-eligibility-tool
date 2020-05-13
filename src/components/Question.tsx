@@ -20,13 +20,13 @@ const Question: React.FC<Props> = (props) => {
 
   const value = values[question.id]
   const error = errors[question.id]
-  let switchComponent: HTMLDivElement | null
+  let switchComponent: HTMLDivElement | null = null
 
   useEffect(() => {
     if (value && form.variables?.autoscroll) {
       switchComponent?.scrollIntoView({ behavior: 'smooth' })
     }
-  }, [value])
+  }, [value, form, switchComponent])
 
   useEffect(() => {
     amplitude.getInstance().logEvent('Question Rendered', {
@@ -47,7 +47,7 @@ const Question: React.FC<Props> = (props) => {
     <Box
       direction="row"
       // Remove margin between sections:
-      margin={{ top: question.type == 'sections' && previous?.type === 'sections' ? 'none' : '48px' }}
+      margin={{ top: question.type === 'sections' && previous?.type === 'sections' ? 'none' : '48px' }}
     >
       {/* Optionally inserts a vertical stripe alongside the question: */}
       {isStriped && (
