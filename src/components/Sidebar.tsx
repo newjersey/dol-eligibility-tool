@@ -4,7 +4,6 @@ import { Box, Text, Image, ResponsiveContext, Heading, Paragraph } from 'grommet
 import { LanguageContext } from '../contexts/language'
 import { FormContext } from '../contexts/form'
 import { range } from 'lodash'
-import { Markdown } from './helper-components/Markdown'
 import { StyledSelect } from './helper-components/StyledSelect'
 import amplitude from 'amplitude-js'
 
