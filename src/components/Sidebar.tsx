@@ -57,9 +57,6 @@ const Sidebar: React.FC<Props> = (props) => {
       width={size === 'large' ? '350px' : '100%'}
       style={{ maxWidth: '850px' }}
     >
-      <Card margin={{ bottom: 'small' }} pad={{ horizontal: size === 'large' ? 'medium' : '24px', vertical: 'small' }}>
-        <Markdown>{translateByID('demo-warning')}</Markdown>
-      </Card>
       <Card pad="medium" direction={size === 'medium' ? 'row' : 'column'}>
         {form.seal && (
           <Box margin={{ bottom: 'medium' }}>
