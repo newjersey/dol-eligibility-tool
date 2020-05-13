@@ -66,6 +66,7 @@ const Form: React.FC<{}> = () => {
     // for this blob:
     const a = document.createElement('a')
     a.setAttribute('style', 'display: none;')
+    a.setAttribute('target', '_blank')
     document.body.appendChild(a)
     const url = window.URL.createObjectURL(blob)
     a.setAttribute('href', url)

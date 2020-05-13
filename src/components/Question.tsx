@@ -5,6 +5,7 @@ import { getSections } from '../lib/sections'
 import { Box, Heading, Text } from 'grommet'
 import { FormContext } from '../contexts/form'
 import { Markdown } from './helper-components'
+import amplitude from 'amplitude-js'
 
 interface Props {
   question: QuestionInterface
@@ -26,6 +27,13 @@ const Question: React.FC<Props> = (props) => {
       switchComponent?.scrollIntoView({ behavior: 'smooth' })
     }
   }, [value, form, switchComponent])
+
+  useEffect(() => {
+    amplitude.getInstance().logEvent('Question Rendered', {
+      id: question.id,
+      value,
+    })
+  })
 
   // If question is "sections" but there are no sections, don't render.
   if (question.type === 'sections' && getSections(question.sections, form, values).length === 0) {

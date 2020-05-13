@@ -160,7 +160,7 @@ const PDF: React.FC<Props> = (props) => {
         <View>
           <Text style={styles.questionTitle}>{translateCopy(question.sections?.name)}</Text>
           {getSections(question.sections, form, values).map(({ section, options }, i) => (
-            <View style={styles.section} key={`${translateCopy(section.title)}_${i}`}>
+            <View wrap={false} style={styles.section} key={`${translateCopy(section.title)}_${i}`}>
               <View
                 style={{
                   display: 'flex',
@@ -202,11 +202,16 @@ const PDF: React.FC<Props> = (props) => {
             const value = getValue(q, values)
             const name = translateCopy(q.name)
             const isPresentationalQuestion = q.type === 'sections' || q.type === 'instructions-only'
+            const hasPageBreak = q.type === 'instructions-only'
             if (!value || (q.type === 'sections' && getSections(q.sections, form, values).length === 0)) {
               return <View />
             }
             return (
-              <View style={{ marginBottom: 32 }} key={`${q.id}_${i}`}>
+              <View
+                break={hasPageBreak}
+                style={{ marginTop: hasPageBreak ? 32 : 0, marginBottom: 32 }}
+                key={`${q.id}_${i}`}
+              >
                 <Text style={styles.questionTitle}>
                   {isPresentationalQuestion ? stripBasicMarkdown(translateCopy(q.instructions!)) : `${i + 1}. ${name}`}
                 </Text>
