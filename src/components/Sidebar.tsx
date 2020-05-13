@@ -1,27 +1,28 @@
 import React, { useContext } from 'react'
 import { Card } from './helper-components'
 import { Box, Text, Image, ResponsiveContext, Heading, Paragraph } from 'grommet'
-import { LanguageContext } from '../contexts/language'
+// import { LanguageContext } from '../contexts/language'
 import { FormContext } from '../contexts/form'
 import { range } from 'lodash'
 import { StyledSelect } from './helper-components/StyledSelect'
-import amplitude from 'amplitude-js'
+// import amplitude from 'amplitude-js'
 
 interface Props {
   pages: string[]
 }
 
-const languages = [
-  { title: 'English', value: 'en' },
-  // NJ isn't using Chinese language translations
-  // { title: '中文', value: 'zh' },
-  { title: 'Español', value: 'es' },
-]
+// NOTE: bring back once we have Spanish translations.
+// const languages = [
+//   { title: 'English', value: 'en' },
+//   // NJ isn't using Chinese language translations
+//   // { title: '中文', value: 'zh' },
+//   { title: 'Español', value: 'es' },
+// ]
 
 const Sidebar: React.FC<Props> = (props) => {
   const { pages } = props
   const { translateByID, form, pageIndex, setPage, completion } = useContext(FormContext)
-  const { language, setLanguage } = useContext(LanguageContext)
+  // const { language, setLanguage } = useContext(LanguageContext)
   const size = useContext(ResponsiveContext)
 
   const currentPage = pages[pageIndex]
@@ -34,19 +35,19 @@ const Sidebar: React.FC<Props> = (props) => {
     return range(0, i).every((index) => completion[index])
   }
 
-  const onChangeLanguage = ({ value }: any) => {
-    console.log('[Google Analytics] sending event: Change Language')
-    gtag('event', 'Change Language', {
-      prevLanguage: language,
-      newLanguage: value,
-    })
-    amplitude.getInstance().logEvent('Change Language', {
-      prevLanguage: language,
-      newLanguage: value,
-    })
+  // const onChangeLanguage = ({ value }: any) => {
+  //   console.log('[Google Analytics] sending event: Change Language')
+  //   gtag('event', 'Change Language', {
+  //     prevLanguage: language,
+  //     newLanguage: value,
+  //   })
+  //   amplitude.getInstance().logEvent('Change Language', {
+  //     prevLanguage: language,
+  //     newLanguage: value,
+  //   })
 
-    setLanguage(value)
-  }
+  //   setLanguage(value)
+  // }
 
   return (
     <Box
@@ -63,7 +64,8 @@ const Sidebar: React.FC<Props> = (props) => {
           </Box>
         )}
         <Box flex={{ grow: 1 }} margin={{ left: size === 'medium' ? '24px' : 'none' }}>
-          <Box>
+          {/* NOTE: bring this back once we have validated Spanish translations in. */}
+          {/* <Box>
             <Heading level={4} margin="none">
               {translateByID('language')}
             </Heading>
@@ -76,7 +78,7 @@ const Sidebar: React.FC<Props> = (props) => {
               value={language}
               onChange={onChangeLanguage}
             />
-          </Box>
+          </Box> */}
           <Box margin={{ top: '24px' }}>
             <Box direction="row" justify="between">
               <Heading level={4} margin="none">
