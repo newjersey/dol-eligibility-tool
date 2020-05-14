@@ -146,22 +146,20 @@ sections:
       es: Asistencia de desempleo
     content:
       en: |-
-        You may be eligible for federal benefits through the Coronavirus Aid, Relief, and Economic Security (CARES) Act. The new law created temporary federal program called Pandemic Unemployment Assistance (PUA) that provides up to 26 weeks of unemployment benefits. 
-        The CARES Act also created federal Pandemic Unemployment Compensation (FPUC), which provides an additional $600 per week to individuals collecting either PUA or traditional unemployment insurance benefits.
+        You may be eligible for federal benefits through the Coronavirus Aid, Relief, and Economic Security (CARES) Act. The new law created temporary federal program called Pandemic Unemployment Assistance (PUA) that provides up to 26 weeks of unemployment benefits. The CARES Act also created federal Pandemic Unemployment Compensation (PUC), which provides an additional $600 per week to individuals collecting either PUA or traditional unemployment insurance benefits, and federal Pandemic Emergency Unemployment Compensation, which provides an additional 13 weeks of benefits to all eligible PUA recipients and to individuals who have exhausted their regular unemployment benefits.
 
         **Suggested next steps:**
 
         1. Learn [how to apply](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/)
-        2. Create an account [here.](https://myunemployment.nj.gov)
+        2. Create an account at [myunemployment.nj.gov]((https://myunemployment.nj.gov))
         3. File an [application](https://myunemployment.nj.gov/) (online preferred)
       es: |-
-        Puede ser elegible para beneficios federales a través de la Ley de Ayuda, Alivio y Seguridad Económica (CARES) de Coronavirus. La nueva ley creó un programa federal temporal llamado Asistencia de desempleo pandémico (PUA) que brinda hasta 26 semanas de beneficios de desempleo.
-        La Ley CARES también creó la Compensación federal de desempleo pandémico (FPUC, por sus siglas en inglés), que proporciona $ 600 adicionales por semana a las personas que reciben beneficios de seguro de desempleo tradicional o PUA.
+        Puede ser elegible para beneficios federales a través de la Ley de Ayuda, Alivio y Seguridad Económica (CARES) de Coronavirus. La nueva ley creó un programa federal temporal llamado Asistencia de desempleo pandémico (PUA) que brinda hasta 26 semanas de beneficios de desempleo. La Ley CARES también creó la Compensación federal de desempleo pandémico (PUC), que proporciona $ 600 adicionales por semana a las personas que cobran beneficios de seguro de desempleo tradicional o PUA, y la Compensación federal de desempleo de emergencia pandémica, que brinda 13 semanas adicionales de beneficios a todos los PUA elegibles receptores y personas que han agotado sus beneficios regulares de desempleo.
 
         ** Próximos pasos sugeridos: **
 
         1. Aprenda [cómo solicitar](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/)
-        2. Cree una cuenta [aquí.](https://myunemployment.nj.gov)
+        2. Cree una cuenta en [myunemployment.nj.gov]((https://myunemployment.nj.gov))
         3. Presente una [solicitud](https://myunemployment.nj.gov/) (preferido en línea)
   PEUC-FED:
     title:
@@ -169,38 +167,38 @@ sections:
       es: Compensación de emergencia por desempleo pandémico (PEUC) a través de la Ley CARES
     content:
       en: |-
-        You may be eligible for federal benefits through Pandemic Emergency Unemployment Compensation due to COVID-19. The Coronavirus Aid, Relief, and Economic Security (CARES) Act created a new temporary federal program called Pandemic Emergency Unemployment Compensation that provides up to 13 additional weeks of benefits to individuals who have exhausted their regular unemployment Insurance entitlement.
+        You may be eligible for federal benefits through Pandemic Emergency Unemployment Compensation due to COVID-19. The Coronavirus Aid, Relief, and Economic Security (CARES) Act created a new temporary federal program called Pandemic Emergency Unemployment Compensation that provides up to 13 additional weeks of benefits to individuals who have exhausted their regular unemployment Insurance entitlement. PEUC is also available for eligible PUA recipients.
 
         **Suggested next step:**
 
         Get more information [here](https://www.dol.gov/coronavirus/unemployment-insurance)
       es: |-
-        Puede ser elegible para beneficios federales a través de la Compensación de desempleo de emergencia pandémica debido a COVID-19. La Ley de Ayuda, Alivio y Seguridad Económica de Coronavirus (CARES) creó un nuevo programa federal temporal llamado Compensación de emergencia por desempleo pandémico que brinda hasta 13 semanas adicionales de beneficios a las personas que han agotado su derecho regular de seguro de desempleo.
+        Puede ser elegible para beneficios federales a través de la Compensación de desempleo de emergencia pandémica debido a COVID-19. La Ley de Ayuda, Alivio y Seguridad Económica de Coronavirus (CARES) creó un nuevo programa federal temporal llamado Compensación de desempleo de emergencia pandémica que brinda hasta 13 semanas adicionales de beneficios a las personas que han agotado su derecho regular de seguro de desempleo. PEUC también está disponible para beneficiarios elegibles de PUA.
 
         ** Siguiente paso sugerido: **
 
         Obtenga más información [aquí](https://www.dol.gov/coronavirus/unemployment-insurance)
   ESL-NJ:
     title:
-      en: Earned Sick Leave (ESL)
-      es: Licencia por enfermedad ganada (ESL)
+      en: New Jersey Earned Sick Leave (ESL)
+      es: Licencia por enfermedad ganada de Nueva Jersey (ESL)
     content:
       en: |-
         You may be eligible for sick leave from your employer through New Jersey's Earned Sick Leave. The New Jersey Earned Sick Leave Law allows employees to accrue 1 hour of earned sick leave for every 30 hours worked, up to 40 hours each year.
 
         **Suggested next steps:**
 
-        1. Get more information: [mysickdays.nj.gov](http://mysickdays.nj.gov/)
+        1. Get more information: [mysickdays.nj.gov](https://mysickdays.nj.gov/)
         2. Talk to your employer about your right to utilize this leave
-        3. If they don't comply, [file a wage claim (online preferred):](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html)
+        3. If they don't comply, file a [wage claim](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html) (online preferred)
       es: |-
-        Puede ser elegible para licencia por enfermedad de su empleador a través de la licencia por enfermedad ganada de Nueva Jersey. La Ley de licencia por enfermedad ganada de Nueva Jersey permite a los empleados acumular 1 hora de licencia por enfermedad por cada 30 horas trabajadas, hasta 40 horas cada año.
+        Puede ser elegible para licencia por enfermedad de su empleador a través de la licencia por enfermedad ganada de Nueva Jersey. La Ley de licencia por enfermedad por enfermedad de Nueva Jersey permite a los empleados acumular 1 hora de licencia por enfermedad por cada 30 horas trabajadas, hasta 40 horas cada año.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información: [mysickdays.nj.gov](http://mysickdays.nj.gov/)
+        1. Obtenga más información: [mysickdays.nj.gov](https://mysickdays.nj.gov/)
         2. Hable con su empleador sobre su derecho a utilizar este permiso
-        3. Si no cumplen, [presente un reclamo salarial (preferido en línea):](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html)
+        3. Si no cumplen, presente un [reclamo salarial](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html) (preferido en línea)
   UI-NJ:
     title:
       en: Unemployment Insurance (UI)
@@ -224,32 +222,32 @@ sections:
         3. [Presente una solicitud (preferido en línea)](https://myunemployment.nj.gov/)
   FLI-NJ:
     title:
-      en: Family Leave
-      es: Licencia familiar
+      en: New Jersey Family Leave Insurance (FLI)
+      es: Seguro de licencia familiar de Nueva Jersey (FLI)
     content:
       en: |-
         You may be eligible for Family Leave Insurance from your employer. Family Leave Insurance provides New Jersey workers cash benefits for up to six weeks to provide care for a seriously ill or injured family member.
 
         **Suggested next steps:**
 
-        1. Go to [MyLeaveBenefits.NJ.gov](http://myleavebenefits.nj.gov/)
+        1. Go to [MyLeaveBenefits.NJ.gov](https://myleavebenefits.nj.gov/)
         2. Create an account
-        3. [File an application (online preferred)](https://myleavebenefits.nj.gov/labor/myleavebenefits/worker/fli/)
+        3. File an [application](https://myleavebenefits.nj.gov/labor/myleavebenefits/worker/fli/) (online preferred)
       es: |-
         Puede ser elegible para el seguro de licencia familiar de su empleador. El seguro de licencia familiar brinda a los trabajadores de Nueva Jersey beneficios en efectivo de hasta seis semanas para brindar atención a un familiar gravemente enfermo o lesionado.
 
         ** Próximos pasos sugeridos: **
 
-        1. Vaya a [MyLeaveBenefits.NJ.gov](http://myleavebenefits.nj.gov/)
+        1. Vaya a [MyLeaveBenefits.NJ.gov](https://myleavebenefits.nj.gov/)
         2. Crear una cuenta
-        3. [Presente una solicitud (preferido en línea)](https://myleavebenefits.nj.gov/labor/myleavebenefits/worker/fli/)
+        3. Presente una [solicitud](https://myleavebenefits.nj.gov/labor/myleavebenefits/worker/fli/) (preferido en línea)
   FLA-NJ:
     title:
-      en: The Family Leave Act (FLA)
-      es: La Ley de licencia familiar (FLA)
+      en: New Jersey Family Leave Act (FLA)
+      es: Ley de licencia familiar de Nueva Jersey (FLA)
     content:
       en: |-
-        You may be eligible for Family Leave from your employer under The New Jersey Family Leave Act. Under the New Jersey Family Leave Act, certain employees are entitled to take leave without losing their jobs to care for a family member, or someone who is the “equivalent” of family, who has a serious health condition.
+        You may be eligible for unpaid Family Leave from your employer under the New Jersey Family Leave Act. Under this law, certain employees are entitled to take leave without losing their jobs to care for a family member, or someone who is the "equivalent" of family, who has a serious health condition. Generally, employers with more than 30 employees must provide this leave.
 
         **Suggested next steps:**
 
@@ -257,7 +255,7 @@ sections:
         2. Talk to your employer about your job protection situation
         3. If they do not comply, [file a complaint](https://www.nj.gov/oag/dcr/filing.html)
       es: |-
-        Puede ser elegible para el permiso familiar de su empleador bajo la Ley de Permiso Familiar de Nueva Jersey. Según la Ley de Licencia Familiar de Nueva Jersey, ciertos empleados tienen derecho a tomarse una licencia sin perder su trabajo para cuidar a un miembro de la familia, o alguien que es el "equivalente" de la familia, que tiene una condición de salud grave.
+        Puede ser elegible para el Permiso familiar no pagado de su empleador bajo la Ley de Permiso Familiar de Nueva Jersey. Según esta ley, ciertos empleados tienen derecho a tomarse una licencia sin perder su trabajo para cuidar a un miembro de la familia, o alguien que sea el "equivalente" de la familia, que tenga una condición de salud grave. En general, los empleadores con más de 30 empleados deben proporcionar este permiso.
 
         ** Próximos pasos sugeridos: **
 
@@ -285,18 +283,18 @@ sections:
         2. Hable con su empleador sobre su derecho a utilizar este permiso
   FMLA-FED:
     title:
-      en: Familiy and Medical Leave Act (FMLA)
-      es: Ley de licencia médica y familiar (FMLA)
+      en: Federal Family and Medical Leave Act (FMLA)
+      es: Ley Federal de Licencia Médica y Familiar (FMLA)
     content:
       en: |-
-        You may be eligible for job protected leave, enforced by the United States Department of Labor, for your medical condition.
+        You may be eligible for unpaid job protected leave, enforced by the United States Department of Labor, for your medical condition. Generally, employers with more than 50 employees must provide this leave.
 
         **Suggested next steps:**
 
         1. Get more information: [Family and Medical Leave Act](https://www.dol.gov/agencies/whd/fmla)
         2. Talk to your employer about your right to utilize this leave
       es: |-
-        Puede ser elegible para un permiso de trabajo protegido, impuesto por el Departamento de Trabajo de los Estados Unidos, por su condición médica.
+        Puede ser elegible para un permiso de trabajo protegido no remunerado, impuesto por el Departamento de Trabajo de los Estados Unidos, por su condición médica. En general, los empleadores con más de 50 empleados deben proporcionar este permiso.
 
         ** Próximos pasos sugeridos: **
 
@@ -321,8 +319,8 @@ sections:
         Obtenga más información [aquí.](Https://www.dol.gov/coronavirus/unemployment-insurance)
   TDI-NJ:
     title:
-      en: Temporary Disability Insurance (TDI)
-      es: Seguro de incapacidad temporal (TDI)
+      en: New Jersey Temporary Disability Insurance (TDI)
+      es: Seguro de discapacidad temporal de Nueva Jersey (TDI)
     content:
       en: |-
         You may be eligible for Temporary Disability Insurance from your employer. Temporary Disability Insurance provides cash benefits to New Jersey workers who suffer an illness, injury, or other disability that prevents them from working, and wasn’t caused by their job.
@@ -346,7 +344,7 @@ sections:
       es: A3848 Legislación
     content:
       en: |-
-        You may be eligible for special job protection, due to COVID-19. Your employer cannot terminate or refuse to reinstate your employment status if you have, or is likely to have, an infectious disease which requires you to miss time at work.
+        You may be eligible for special job protection, due to COVID-19. Your employer cannot terminate or refuse to reinstate your employment status if you have, or are likely to have, an infectious disease which requires you to miss time at work.
 
         **Suggested next steps:**
 
@@ -354,7 +352,7 @@ sections:
         2. Talk to your employer about your right to job protection
         3. If they don't comply, [file a wage claim](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html)
       es: |-
-        Puede ser elegible para protección laboral especial, debido a COVID-19. Su empleador no puede rescindir o negarse a restablecer su situación laboral si tiene, o es probable que tenga, una enfermedad infecciosa que requiera que pierda tiempo en el trabajo.
+        Puede ser elegible para protección laboral especial, debido a COVID-19. Su empleador no puede rescindir o negarse a restablecer su estado de empleo si tiene, o es probable que tenga, una enfermedad infecciosa que requiera que pierda tiempo en el trabajo.
 
         ** Próximos pasos sugeridos: **
 
@@ -380,8 +378,8 @@ sections:
         Obtenga más información [aquí.](Https://www.dol.gov/coronavirus/unemployment-insurance)
   EPSL-FED:
     title:
-      en: Emergency Paid Sick Leave
-      es: Licencia por enfermedad pagada de emergencia
+      en: Federal Emergency Paid Sick Leave
+      es: Permiso federal por enfermedad pagado por emergencia
     content:
       en: |-
         You may be eligible for job protection rights enforced by the United States Department of Labor. Emergency Paid Sick Leave gives certain workers access to emergency paid leave to care for themselves, or a loved one, or to care for their children at home, due to COVID-19.
@@ -408,7 +406,7 @@ pages:
       es: Herramienta de elegibilidad de beneficios NJDOL
     instructions:
       en: |-
-        The COVID-19 outbreak is causing extraordinary disruption in the livelihood of residents of New Jersey. The New Jersey Department of Labor (NJDOL) wants to make it easier for you to understand what benefits programs are available to you to help stabilize your household during this difficult time. 
+        The COVID-19 outbreak is causing extraordinary disruption in the livelihood of residents of New Jersey. The New Jersey Department of Labor (NJDOL) wants to make it easier for you to understand what benefits programs are available to you to help stabilize your household during this difficult time.
 
         This is a beta version of this tool. We will be updating it regularly as new federal, state, and local benefits become available. We will check your eligibility for the programs below based on the information you provide.
 
@@ -416,23 +414,21 @@ pages:
 
         ###### Benefits
 
-        - Earned Sick Leave (ESL)
+        - NJ Earned Sick Leave (ESL)
+        - NJ Family Leave Insurance (FLI)
+        - NJ Temporary Disability Insurance (TDI)
         - Unemployment Assistance
-        - Family Leave (FLI)
-        - Coronavirus Aid, Relief, and Economic
-        - Security (CARES) Act
-        - Federal Pandemic Unemployment Compensation (FPUC)
+        - Federal Pandemic Unemployment Compensation (PUC)
         - Pandemic Emergency Unemployment Compensation (PEUC)
         - Pandemic Unemployment Assistance (PUA)
-        - Emergency Paid Sick Leave
-        - Federal Emergency Childcare
-        - Temporary Disability Insurance (TDI)
+        - Federal Emergency Paid Sick Leave
+        - Federal Emergency Childcare FMLA
 
         ###### Job Protections
 
         - A3848 Legislation
-        - Family and Medical Leave Act (FMLA)
-        - The Family Leave Act (FLA)
+        - Federal Family and Medical Leave Act (FMLA)
+        - NJ Family Leave Act (FLA)
 
         #### Terms of Service
 
@@ -444,35 +440,33 @@ pages:
       es: |-
         El brote de COVID-19 está causando una interrupción extraordinaria en los medios de vida de los residentes de Nueva Jersey. El Departamento de Trabajo de Nueva Jersey (NJDOL) quiere facilitarle la comprensión de los programas de beneficios disponibles para ayudarlo a estabilizar su hogar durante este momento difícil.
 
-        Esta es una versión beta de esta herramienta. Lo actualizaremos regularmente a medida que estén disponibles nuevos beneficios federales, estatales y locales. Verificaremos su elegibilidad para los siguientes programas según la información que proporcione.
+        Esta es una versión beta de esta herramienta. Lo actualizaremos regularmente a medida que estén disponibles nuevos beneficios federales, estatales y locales. Verificaremos su elegibilidad para los siguientes programas en función de la información que proporcione.
 
         #### Programas incluidos
 
         ###### Beneficios
 
-        - Permiso por enfermedad por enfermedad (ESL)
+        - Licencia por enfermedad por enfermedad de Nueva Jersey (ESL)
+        - Seguro de licencia familiar de NJ (FLI)
+        - Seguro de discapacidad temporal de NJ (TDI)
         - Asistencia de desempleo
-        - Licencia familiar (FLI)
-        - Ayuda, alivio y economía de coronavirus
-        - Ley de Seguridad (CUIDADOS)
-        - Compensación federal de desempleo pandémico (FPUC)
-        - Compensación por desempleo de emergencia pandémica (PEUC)
+        - Compensación federal de desempleo pandémico (PUC)
+        - Compensación de emergencia por desempleo pandémico (PEUC)
         - Asistencia de desempleo pandémico (PUA)
-        - Licencia por enfermedad pagada de emergencia
-        - Cuidado de niños federal de emergencia
-        - Seguro de discapacidad temporal (TDI)
+        - Permiso federal de emergencia por enfermedad pagada
+        - Federal Emergency Childcare FMLA
 
         ###### Protecciones laborales
 
         - Legislación A3848
-        - Ley de licencia médica y familiar (FMLA)
-        - La Ley de licencia familiar (FLA)
+        - Ley Federal de Licencia Médica y Familiar (FMLA)
+        - Ley de licencia familiar de Nueva Jersey (FLA)
 
         #### Términos de servicio
 
         NJDOL ofrece esta herramienta de evaluación que enumera los programas de beneficios que puede decidir considerar en función de la información que proporcione sobre su empleo más reciente.
 
-        Esta herramienta de evaluación proporcionará los siguientes pasos sugeridos que pueden incluir solicitar beneficios fuera de este sitio web, pero no puede garantizar la elegibilidad y no reserva ningún beneficio ni un lugar en ninguna cola de solicitud. La organización o agencia administradora determinará todos los requisitos de elegibilidad al momento de enviar una solicitud y / u otros documentos relevantes a esa organización u agencia para el programa respectivo.
+        Esta herramienta de evaluación proporcionará los siguientes pasos sugeridos que pueden incluir solicitar beneficios fuera de este sitio web, pero no puede garantizar la elegibilidad y no reserva ningún beneficio ni un lugar en ninguna cola de solicitud. La organización o agencia administradora determinará todos los requisitos de elegibilidad al momento de enviar una solicitud y / u otros documentos relevantes a esa organización o agencia para el programa respectivo.
 
         La información que comparta para los fines de esta herramienta de evaluación será anónima y puede compartirse con las agencias estatales de Nueva Jersey para mejorar el acceso a los beneficios y programas.
     questions:
