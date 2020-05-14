@@ -1,10 +1,12 @@
 import React, { useContext } from 'react'
+import { Button } from './helper-components'
 import { Card } from './helper-components'
 import { Box, Text, Image, ResponsiveContext, Heading, Paragraph } from 'grommet'
 // import { LanguageContext } from '../contexts/language'
 import { FormContext } from '../contexts/form'
 import { range } from 'lodash'
 import { StyledSelect } from './helper-components/StyledSelect'
+import { Refresh } from 'grommet-icons'
 // import amplitude from 'amplitude-js'
 
 interface Props {
@@ -21,7 +23,7 @@ interface Props {
 
 const Sidebar: React.FC<Props> = (props) => {
   const { pages } = props
-  const { translateByID, form, pageIndex, setPage, completion } = useContext(FormContext)
+  const { resetForm, translateByID, form, pageIndex, setPage, completion } = useContext(FormContext)
   // const { language, setLanguage } = useContext(LanguageContext)
   const size = useContext(ResponsiveContext)
 
@@ -91,6 +93,13 @@ const Sidebar: React.FC<Props> = (props) => {
               style={{ width: '100%', height: '12px', borderRadius: '12px', background: '#F2F2F2' }}
             >
               <Box style={{ width: `${percent}%`, height: '100%', borderRadius: '12px', background: '#3A80C2' }} />
+            </Box>
+            <Box margin={{ top: '24px' }}>
+              <Button
+                onClick={resetForm}
+                label={translateByID('reset')}
+                icon={<Refresh style={{ marginRight: '4px' }} />}
+              />
             </Box>
           </Box>
           <Box margin={{ top: '24px' }}>
