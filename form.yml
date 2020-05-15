@@ -530,27 +530,83 @@ pages:
                       en: Have you already applied for unemployment insurance through the state of New Jersey?
                       es: ¿Ya solicitó el seguro de desempleo en el estado de Nueva Jersey?
                     id: already-applied
-                    type: boolean
+                    type: single-select
                     required: true
+                    options:
+                      - name:
+                          en: Yes, I have applied for unemployment insurance and I have not heard back yet.
+                        id: yes-pending
+                      - name:
+                          en: Yes, I have applied for unemployment insurance and I was rejected, but accepted for Pandemic Unemployment Assistance (PUA).
+                        id: yes-rejected
+                      - name:
+                          en: No, I have not applied for unemployment insurance.
+                        id: no
                     switch:
-                      'false':
-                        - 'definition:situations'
-                      'true':
+                      yes-pending:
+                        - type: warning-only
+                          id: ui-eligibility-warning
+                          instructions:
+                            en: |-
+                              **If you applied for Unemployment Insurance, then your case will automatically be assessed for Pandemic Unemployment Assistance (PUA).**
                         - name:
                             en: Eligibility
                             es: Elegibilidad
-                          type: warning-only
-                          id: terminal-eligibility-2
+                          id: eligibility-instructions
+                          type: instructions-only
                           instructions:
                             en: |-
-                              **If you applied for Unemployment Insurance, then your case will automatically be assessed for federal unemployment benefits.**
-
-                              We encourage you to proceed to see if you are eligible for any additional benefits.
+                              Based on the information you've provided, you may be eligible for the following benefits:
+                        - id: terminal-not-applied-for-ui
+                          type: sections
+                          sections:
+                            name:
+                              en: Benefits
+                            color: '#F6F7F9'
+                            include:
+                              - EPSL-FED
+                              - FEC-FMLA-FED
+                      yes-rejected:
+                        - name:
+                            en: Eligibility
+                            es: Elegibilidad
+                          id: eligibility-instructions
+                          type: instructions-only
+                          instructions:
+                            en: |-
+                              Based on the information you've provided, you may be eligible for the following benefits:
                             es: |-
-                              **Si solicitó el seguro de desempleo, su caso será evaluado automáticamente para los beneficios federales de desempleo.**
-
-                              Le recomendamos que continúe para ver si es elegible para algún beneficio adicional.
-                        - 'definition:situations'
+                              Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
+                        - id: terminal-not-applied-for-ui
+                          type: sections
+                          sections:
+                            name:
+                              en: Benefits
+                            color: '#F6F7F9'
+                            include:
+                              - EPSL-FED
+                              - FEC-FMLA-FED
+                      no:
+                        - name:
+                            en: Eligibility
+                            es: Elegibilidad
+                          id: eligibility-instructions
+                          type: instructions-only
+                          instructions:
+                            en: |-
+                              Based on the information you've provided, you may be eligible for the following benefits:
+                            es: |-
+                              Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
+                        - id: terminal-not-applied-for-ui
+                          type: sections
+                          sections:
+                            name:
+                              en: Benefits
+                            color: '#F6F7F9'
+                            include:
+                              - UA
+                              - EPSL-FED
+                              - FEC-FMLA-FED
                 receiving-unemployment:
                   - name:
                       en: Eligibility
