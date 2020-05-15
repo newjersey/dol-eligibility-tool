@@ -28,7 +28,7 @@ export interface FormState {
   completion: Record<string, boolean>
   pageIndex: number
   setPage: (index: number) => void
-  resetForm: () => void
+  clearForm: () => void
 }
 
 const initialState = {
@@ -263,7 +263,7 @@ export const FormProvider: React.FC = (props) => {
   //   setPrefilled(true)
   // })
 
-  const resetForm = () => {
+  const clearForm = () => {
     setValues({})
     setErrors({})
     setPageIndex(0)
@@ -326,7 +326,7 @@ ${formValidationError.error ? '```' + JSON.stringify(formValidationError.error, 
     completion,
     pageIndex,
     setPage,
-    resetForm,
+    clearForm,
   }
 
   return <FormContext.Provider value={value}>{props.children}</FormContext.Provider>

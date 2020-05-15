@@ -6,7 +6,7 @@ import { Box, Text, Image, ResponsiveContext, Heading, Paragraph } from 'grommet
 import { FormContext } from '../contexts/form'
 import { range } from 'lodash'
 import { StyledSelect } from './helper-components/StyledSelect'
-import { Refresh } from 'grommet-icons'
+import { FormTrash } from 'grommet-icons'
 // import amplitude from 'amplitude-js'
 
 interface Props {
@@ -23,7 +23,7 @@ interface Props {
 
 const Sidebar: React.FC<Props> = (props) => {
   const { pages } = props
-  const { resetForm, translateByID, form, pageIndex, setPage, completion } = useContext(FormContext)
+  const { values, clearForm, translateByID, form, pageIndex, setPage, completion } = useContext(FormContext)
   // const { language, setLanguage } = useContext(LanguageContext)
   const size = useContext(ResponsiveContext)
 
@@ -96,9 +96,10 @@ const Sidebar: React.FC<Props> = (props) => {
             </Box>
             <Box margin={{ top: '24px' }}>
               <Button
-                onClick={resetForm}
-                label={translateByID('reset')}
-                icon={<Refresh style={{ marginRight: '4px' }} />}
+                onClick={clearForm}
+                disabled={Object.keys(values).length === 0}
+                label={translateByID('clear-form')}
+                icon={<FormTrash style={{ marginRight: '4px' }} />}
               />
             </Box>
           </Box>
