@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://newjersey.github.io/dol-eligibility-tool/precache-manifest.f06234f3ec937be15ad91a9f80eb03a7.js"
+  "https://newjersey.github.io/dol-eligibility-tool/precache-manifest.42b0d6e9326b6b629d10b22fffbba867.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -35,5 +35,5 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("https://newjersey.github.io/dol-eligibility-tool/index.html"), {
   
-  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
+  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
