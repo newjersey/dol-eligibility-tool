@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dcc039ddf46eb1dbbb7a500bec2b9eda",
+    "revision": "6d9fbdec3d0532df11ee02db01bf2ba2",
     "url": "https://getstarted.nj.gov/labor/index.html"
   },
   {
