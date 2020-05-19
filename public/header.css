@@ -2285,89 +2285,15 @@ body {
   padding: 0.5625rem;
 }
 
-a,
-abbr,
-acronym,
-address,
-applet,
-article,
-aside,
-audio,
-b,
-big,
-blockquote,
+.Header a,
 body,
-button,
-canvas,
-caption,
-center,
-cite,
-code,
-dd,
-del,
-details,
-dfn,
 div,
-dl,
-dt,
-em,
-embed,
-fieldset,
-figcaption,
-figure,
-footer,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-header,
-hgroup,
+.Header header,
 html,
-i,
-iframe,
-img,
-input,
-ins,
-kbd,
-label,
-legend,
-li,
-mark,
-menu,
-nav,
-object,
-ol,
-output,
-p,
-pre,
-q,
-ruby,
-s,
-samp,
-section,
-small,
-span,
-strike,
-strong,
-sub,
-summary,
-sup,
-table,
-tbody,
-td,
-tfoot,
-th,
-thead,
-time,
-tr,
-tt,
-u,
-ul,
-var,
-video {
+.Header img,
+.Header p,
+.Header span,
+.Header strong {
   border: 0;
   border-radius: 0;
   color: inherit;
@@ -2379,17 +2305,17 @@ video {
   text-decoration: none;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+.Header article,
+.Header aside,
+.Header details,
+.Header figcaption,
+.Header figure,
+.Header footer,
+.Header header,
+.Header hgroup,
+.Header menu,
+.Header nav,
+.Header section {
   display: block;
 }
 
@@ -2411,37 +2337,37 @@ body {
   flex-grow: 1;
 }
 
-ol,
-ul {
+.Header ol,
+.Header ul {
   list-style: none;
 }
 
-blockquote,
-q {
+.Header blockquote,
+.Header q {
   quotes: none;
 }
 
-blockquote:after,
-blockquote:before,
-q:after,
-q:before {
+.Header blockquote:after,
+.Header blockquote:before,
+.Header q:after,
+.Header q:before {
   content: '';
   content: none;
 }
 
-table {
+.Header table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-*,
-:after,
-:before {
+.Header *,
+.Header :after,
+.Header :before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-* {
+.Header * {
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
@@ -7909,59 +7835,3 @@ button {
 .CategoryList .Directory-listLinks {
   padding-bottom: 2rem;
 }
-
-</style > <style > html,
-body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-.wrapper {
-  display: flex;
-  flex-flow: column;
-  height: 100%;
-}
-
-main {
-  flex: 1;
-  height: 100%;
-  border-top: 1px solid #eee;
-}
-
-iframe {
-  border: 0;
-  width: 100%;
-}
-
-.preamble {
-  padding: 1em 0 2em;
-}
-
-.preamble h2 {
-  margin: 0.5em 0;
-  font-weight: bold;
-  font-size: x-large;
-}
-
-.preamble p {
-  margin: 0.5em 0;
-}
-
-.preamble a {
-  text-decoration: underline;
-  color: #0f70f0;
-}
-
-.preamble a:hover {
-  text-decoration: none;
-}
-
-strong {
-  font-weight: bold;
-}
-
-/* footer {
-  background: lightgreen;
-  min-height: 60px;
-} */
