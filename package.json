@@ -38,8 +38,8 @@
   "scripts": {
     "start": "SKIP_PREFLIGHT_CHECK=true react-scripts start",
     "build": "SKIP_PREFLIGHT_CHECK=true react-scripts build",
-    "predeploy": "PUBLIC_URL=https://newjersey.github.io/dol-eligibility-tool yarn run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "PUBLIC_URL=https://getstarted.nj.gov/labor npm run build",
+    "deploy": "gh-pages -d build -e labor",
     "test": "jest --testPathIgnorePatterns 'backend/.*'",
     "eject": "react-scripts eject",
     "lint:check": "eslint '**/*.{js,jsx,ts,tsx}' --max-warnings=0 && prettier --check .",
