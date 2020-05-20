@@ -2709,7 +2709,7 @@ button {
 
 .Header .state-seal {
   height: 40px;
-  margin: -5px;
+  margin: -5px 5px -5px -5px;
 }
 
 .Header-wrapper {
