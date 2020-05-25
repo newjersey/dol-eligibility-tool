@@ -42,12 +42,6 @@ const styles = StyleSheet.create({
   questionAnswer: {
     fontSize: 12,
   },
-  section: {
-    padding: 12,
-    border: '1px solid black',
-    backgroundColor: '#F8F8F8',
-    marginBottom: 12,
-  },
   sectionTitle: {
     fontSize: 12,
     marginBottom: 8,
@@ -160,7 +154,17 @@ const PDF: React.FC<Props> = (props) => {
         <View>
           <Text style={styles.questionTitle}>{translateCopy(question.sections?.name)}</Text>
           {getSections(question.sections, form, values).map(({ section, options }, i) => (
-            <View wrap={false} style={styles.section} key={`${translateCopy(section.title)}_${i}`}>
+            <View
+              wrap={false}
+              style={{
+                padding: 12,
+                border: '1px solid black',
+                backgroundColor: '#F8F8F8',
+                marginBottom: 12,
+                marginTop: i === 3 ? 48 : 0,
+              }}
+              key={`${translateCopy(section.title)}_${i}`}
+            >
               <View
                 style={{
                   display: 'flex',
@@ -202,7 +206,7 @@ const PDF: React.FC<Props> = (props) => {
             const value = getValue(q, values)
             const name = translateCopy(q.name)
             const isPresentationalQuestion = q.type === 'sections' || q.type === 'instructions-only'
-            const hasPageBreak = q.type === 'instructions-only'
+            const hasPageBreak = q.type === 'instructions-only' || q.id === 'terminal-eligibility-job-protections'
             if (!value || (q.type === 'sections' && getSections(q.sections, form, values).length === 0)) {
               return <View />
             }
