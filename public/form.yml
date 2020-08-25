@@ -771,18 +771,17 @@ definitions:
             instructions:
               en: |-
                 Based on the information you've provided, you may be eligible for protection or financial aid from these program(s):
-
-                Note: All protections are **unpaid leave**. We have listed these programs in suggested priority order for your convenience.
               es: |-
                 Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
-
-                Nota: Todas las protecciones son ** licencia no remunerada **. Hemos enumerado estos programas en orden de prioridad sugerido para su conveniencia.
           - id: terminal-eligibility-benefits
             type: sections
             sections:
               name:
                 en: Benefits
                 es: Beneficios
+              instructions:
+                en: We have listed these programs in suggested priority order for your convenience.
+                es: Hemos enumerado estos programas en el orden de prioridad sugerido para su conveniencia.
               id: benefits
               color: '#F6F7F9'
           - id: terminal-eligibility-job-protections
@@ -791,6 +790,9 @@ definitions:
               name:
                 en: Job Protections
                 es: Protecciones laborales
+              instructions:
+                en: 'Note: All protections are unpaid.'
+                es: 'Nota: Todas las protecciones no se pagan.'
               id: job-protections
               color: '#ECEEF1'
           - id: faq-terminal-not-eligible
