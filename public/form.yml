@@ -781,8 +781,8 @@ definitions:
                 en: Benefits
                 es: Beneficios
               instructions:
-                en: We have listed these programs in suggested priority order for your convenience.
-                es: Hemos enumerado estos programas en el orden de prioridad sugerido para su conveniencia.
+                en: 'Note: We have listed these programs in suggested priority order for your convenience.'
+                es: 'Nota: Hemos enumerado estos programas en el orden de prioridad sugerido para su conveniencia.'
               id: benefits
               color: '#F6F7F9'
           - id: terminal-eligibility-job-protections
@@ -792,8 +792,8 @@ definitions:
                 en: Job Protections
                 es: Protecciones laborales
               instructions:
-                en: 'Note: All protections are unpaid.'
-                es: 'Nota: Todas las protecciones no se pagan.'
+                en: 'Note: All protections are unpaid, but the timing could overlap with benefits listed above.'
+                es: 'Nota: Todas las protecciones no se pagan, pero el tiempo podría superponerse con los beneficios enumerados anteriormente.'
               id: job-protections
               color: '#ECEEF1'
           - id: faq-terminal-not-eligible
