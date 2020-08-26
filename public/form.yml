@@ -680,7 +680,7 @@ definitions:
             color: '#4FAB5B'
         - name:
             en: |-
-              I can’t work because I’m advised by a doctor or public health authority to quarantine.
+              I can't work because I'm advised by a doctor or public health authority to quarantine.
             es: |-
               No puedo trabajar porque un médico o una autoridad de salud pública me aconsejaron ponerme en cuarentena.
           id: situation-3
