@@ -93,6 +93,10 @@
               "$ref": "#/definitions/copy",
               "description": "The name of this group of sections"
             },
+            "instructions": {
+              "$ref": "#/definitions/copy",
+              "description": "Optional instructions for this section."
+            },
             "id": {
               "type": "string",
               "description": "If specified, a list of sections to render is pulled from the current form values using the provided id."

@@ -51,10 +51,14 @@ const Section: React.FC<Props> = (props) => {
       <Heading level={3} margin="none">
         {translateCopy(question.sections.name)}
       </Heading>
+      {question.sections.instructions && (
+        <Markdown margin={{ top: 'small' }} size="small">
+          {translateCopy(question.sections.instructions)}
+        </Markdown>
+      )}
       {sectionGroup.map(({ section, options }, index) => {
         const icons = options.filter((o) => !!o.icon).map((o) => o.icon!)
         icons.sort((i1, i2) => i1.label.localeCompare(i2.label))
-
         return (
           <Box
             background="#FFFFFF"

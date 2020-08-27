@@ -40,6 +40,7 @@ export interface Question {
 
 export interface Sections {
   name: Copy
+  instructions?: Copy
   id?: string
   include?: string[]
   color: string
