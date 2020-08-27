@@ -315,25 +315,26 @@ sections:
         2. Hable con su empleador sobre su derecho a utilizar este permiso
   A3848:
     title:
-      en: A3848 Legislation
-      es: A3848 Legislación
+      en: Protection against COVID-19 related discrimination at work
+      es: Protección contra la discriminación laboral relacionada con COVID-19
     content:
       en: |-
-        You may be eligible for special job protection, due to COVID-19. Your employer cannot terminate or refuse to reinstate your employment status if you have, or are likely to have, an infectious disease which requires you to miss time at work.
+        Employers are prohibited from firing or otherwise punishing an employee who requests time off or 
+        takes time off from work based on a medical professional’s determination that the employee has, or is likely to have, COVID-19. The law only applies during the COVID-19 Pandemic and related Public Health Emergency and State Emergency.
 
         **Suggested next steps:**
 
-        1. Get more information [here](https://www.njleg.state.nj.us/2020/Bills/A4000/3848_I1.HTM)
-        2. Talk to your employer about your right to job protection
-        3. If they don't comply, [file a wage claim](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html)
+        1. Get more information [here](https://www.nj.gov/labor/worker-protections/covid_discrimination.shtml).
+        2. Talk to your employer about your right to job protection; you can refer them to the information [here](https://www.nj.gov/labor/worker-protections/covid_discrimination.shtml).
+        3. If the employer doesn’t comply, file a [complaint](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html) (also known as wage claim) with NJDOL.
       es: |-
-        Puede ser elegible para protección laboral especial, debido a COVID-19. Su empleador no puede rescindir o negarse a restablecer su estado de empleo si tiene, o es probable que tenga, una enfermedad infecciosa que requiera que pierda tiempo en el trabajo.
+        Los empleadores tienen prohibido despedir o castigar a un empleado que solicita tiempo libre o se ausenta del trabajo en base a la determinación de un profesional médico de que el empleado tiene, o es probable que tenga, COVID-19. La ley solo se aplica durante la pandemia COVID-19 y la emergencia de salud pública relacionada y la emergencia estatal.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información [aquí](https://www.njleg.state.nj.us/2020/Bills/A4000/3848_I1.HTM)
-        2. Hable con su empleador sobre su derecho a la protección laboral
-        3. Si no cumplen, [presente un reclamo salarial](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html)
+        1. Obtenga más información [aquí](https://www.nj.gov/labor/worker-protections/covid_discrimination.shtml).
+        2. Hable con su empleador sobre su derecho a la protección laboral; puedes referirlos a la información [aquí](https://www.nj.gov/labor/worker-protections/covid_discrimination.shtml).
+        3. Si el empleador no cumple, presente una [queja](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html) (también conocida como reclamo salarial) ante NJDOL.
   FMLA-FED:
     title:
       en: Federal Family and Medical Leave Act (FMLA)
@@ -403,7 +404,7 @@ pages:
 
         ###### Job Protections
 
-        - A3848 Legislation
+        - Protection against COVID-19 related discrimination at work
         - Federal Family and Medical Leave Act (FMLA)
         - NJ Family Leave Act (FLA)
 
@@ -657,8 +658,8 @@ definitions:
       additionalKeys: 'benefits,job-protections'
       options:
         - name:
-            en: "I can't work, or my hours are reduced, because I need to care for children due to COVID-19."
-            es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a los niños debido a COVID-19.'
+            en: "I can't work, or my hours are reduced, because I need to care for my children due to COVID-19-related school or child care closures, including mandatory remote learning."
+            es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a mis hijos debido al cierre de escuelas o guarderías relacionadas con COVID-19, incluido el aprendizaje remoto obligatorio.'
           id: situation-1
           benefits: 'ESL-NJ,UA,FEC-FMLA-FED'
           job-protections: 'FMLA-FED,FLA-NJ'
@@ -678,9 +679,9 @@ definitions:
             color: '#4FAB5B'
         - name:
             en: |-
-              I can't work, or my hours are reduced, because I'm advised to by a doctor or public health authority to quarantine.
+              I can't work because I'm advised by a doctor or public health authority to quarantine.
             es: |-
-              No puedo trabajar, o mis horas se reducen, porque un médico o una autoridad de salud pública me lo recomiendan para poner en cuarentena.
+              No puedo trabajar porque un médico o una autoridad de salud pública me aconsejaron ponerme en cuarentena.
           id: situation-3
           benefits: 'UA,ESL-NJ,TDI-NJ,EPSL-FED'
           job-protections: 'A3848,FMLA-FED'
@@ -771,18 +772,17 @@ definitions:
             instructions:
               en: |-
                 Based on the information you've provided, you may be eligible for protection or financial aid from these program(s):
-
-                Note: All protections are **unpaid leave**. We have listed these programs in suggested priority order for your convenience.
               es: |-
                 Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
-
-                Nota: Todas las protecciones son ** licencia no remunerada **. Hemos enumerado estos programas en orden de prioridad sugerido para su conveniencia.
           - id: terminal-eligibility-benefits
             type: sections
             sections:
               name:
                 en: Benefits
                 es: Beneficios
+              instructions:
+                en: 'Note: We have listed these programs in suggested priority order for your convenience.'
+                es: 'Nota: Hemos enumerado estos programas en el orden de prioridad sugerido para su conveniencia.'
               id: benefits
               color: '#F6F7F9'
           - id: terminal-eligibility-job-protections
@@ -791,6 +791,9 @@ definitions:
               name:
                 en: Job Protections
                 es: Protecciones laborales
+              instructions:
+                en: 'Note: All protections are unpaid, but the timing could overlap with benefits listed above.'
+                es: 'Nota: Todas las protecciones no se pagan, pero el tiempo podría superponerse con los beneficios enumerados anteriormente.'
               id: job-protections
               color: '#ECEEF1'
           - id: faq-terminal-not-eligible
