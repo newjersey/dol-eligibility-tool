@@ -209,7 +209,7 @@ sections:
       es: Asistencia de desempleo
     content:
       en: |-
-        You may be eligible for federal benefits through the Coronavirus Aid, Relief, and Economic Security (CARES) Act. The new law created temporary federal program called Pandemic Unemployment Assistance (PUA) that provides up to 39 weeks of unemployment benefits. The CARES Act also created federal Pandemic Unemployment Compensation (PUC), which provides an additional $600 per week to individuals collecting either PUA or traditional unemployment insurance benefits, and federal Pandemic Emergency Unemployment Compensation, which provides an additional 13 weeks of benefits to individuals who have exhausted their regular unemployment benefits.
+        You may be eligible for federal benefits through the Coronavirus Aid, Relief, and Economic Security (CARES) Act. The new law created temporary federal program called Pandemic Unemployment Assistance (PUA) that provides up to 39 weeks of unemployment benefits. The CARES Act also created federal Pandemic Unemployment Compensation (FPUC), which provided an additional $600 per week to individuals collecting either PUA or traditional unemployment insurance benefits up until July 25, 2020, and federal Pandemic Emergency Unemployment Compensation, which provides an additional 13 weeks of benefits to individuals who have exhausted their regular unemployment benefits.
 
         **Suggested next steps:**
 
@@ -217,7 +217,7 @@ sections:
         2. Create an account at [myunemployment.nj.gov](https://myunemployment.nj.gov)
         3. File an [application](https://myunemployment.nj.gov/) (online preferred)
       es: |-
-        Puede ser elegible para beneficios federales a través de la Ley de Ayuda, Alivio y Seguridad Económica (CARES) de Coronavirus. La nueva ley creó un programa federal temporal llamado Asistencia de desempleo pandémico (PUA) que brinda hasta 39 semanas de beneficios de desempleo. La Ley CARES también creó la Compensación federal de desempleo pandémico (PUC), que proporciona $ 600 adicionales por semana a las personas que cobran beneficios de seguro de desempleo tradicional o PUA, y la Compensación federal de desempleo de emergencia pandémica, que brinda 13 semanas adicionales de beneficios a personas que han agotado sus beneficios regulares de desempleo.
+        Puede ser elegible para recibir beneficios federales a través de la Ley de Ayuda, Alivio y Seguridad Económica para el Coronavirus (CARES). La nueva ley creó un programa federal temporal llamado Asistencia por desempleo pandémico (PUA) que proporciona hasta 39 semanas de beneficios por desempleo. La Ley CARES también creó la Compensación por desempleo pandémico federal (FPUC), que proporcionó $ 600 adicionales por semana a las personas que recibían beneficios de seguro de desempleo tradicional o PUA hasta el 25 de julio de 2020, y la Compensación por desempleo de emergencia pandémica federal, que proporciona 13 semanas adicionales de prestaciones a las personas que hayan agotado sus prestaciones de desempleo regulares.
 
         ** Próximos pasos sugeridos: **
 
@@ -384,9 +384,9 @@ pages:
       es: Herramienta de elegibilidad de beneficios NJDOL
     instructions:
       en: |-
-        The COVID-19 outbreak is causing extraordinary disruption in the livelihood of residents of New Jersey. The New Jersey Department of Labor (NJDOL) wants to make it easier for you to understand what benefits programs are available to you to help stabilize your household during this difficult time.
+        The COVID-19 outbreak is causing extraordinary disruption in the lives of New Jersey workers. The New Jersey Department of Labor (NJDOL) wants to make it easier for you to understand what benefits programs may be available to you to help stabilize your household during this difficult time.
 
-        This is a beta version of this tool. We will be updating it regularly as new federal, state, and local benefits become available. We will check your eligibility for the programs below based on the information you provide.
+        This is a beta version of this tool. We will update it regularly as new federal, state, and local benefits become available. We will check your eligibility for the programs below based on the information you provide.
 
         #### Included programs
 
@@ -396,7 +396,7 @@ pages:
         - NJ Family Leave Insurance (FLI)
         - NJ Temporary Disability Insurance (TDI)
         - Unemployment Assistance
-        - Federal Pandemic Unemployment Compensation (PUC)
+        - Federal Pandemic Unemployment Compensation (FPUC)
         - Pandemic Emergency Unemployment Compensation (PEUC)
         - Pandemic Unemployment Assistance (PUA)
         - Federal Emergency Paid Sick Leave
@@ -412,13 +412,13 @@ pages:
 
         NJDOL is offering this screening tool that lists benefits programs that you may decide to consider based upon information you provide about your most recent employment.
 
-        This screening tool will provide suggested next steps that may include apply for benefits outside of this website, but cannot guarantee eligibility and does not reserve any benefits or a place in any application queue. The administering organization or agency will determine all eligibility requirements upon your submission of an application, and/or other relevant documents, to that organization or agency for the respective program.
+        This screening tool will provide suggested next steps that may include applying for benefits outside of this website, but cannot guarantee eligibility and does not reserve any benefits or a place in any application queue. The administering organization or agency will determine all eligibility requirements upon your submission of an application, and/or other relevant documents, to that organization or agency for the respective program.
 
         The information you share for purposes of this screening tool will be anonymous and may be shared with New Jersey State agencies to improve access to benefits and programs.
       es: |-
-        El brote de COVID-19 está causando una interrupción extraordinaria en los medios de vida de los residentes de Nueva Jersey. El Departamento de Trabajo de Nueva Jersey (NJDOL) quiere facilitarle la comprensión de los programas de beneficios disponibles para ayudarlo a estabilizar su hogar durante este momento difícil.
+        El brote de COVID-19 está causando una perturbación extraordinaria en la vida de los trabajadores de Nueva Jersey. El Departamento de Trabajo de Nueva Jersey (NJDOL) quiere facilitarle la comprensión de los programas de beneficios que pueden estar disponibles para ayudar a estabilizar su hogar durante este momento difícil.
 
-        Esta es una versión beta de esta herramienta. Lo actualizaremos regularmente a medida que estén disponibles nuevos beneficios federales, estatales y locales. Verificaremos su elegibilidad para los siguientes programas en función de la información que proporcione.
+        Esta es una versión beta de esta herramienta. Lo actualizaremos periódicamente a medida que estén disponibles nuevos beneficios federales, estatales y locales. Verificaremos su elegibilidad para los programas a continuación según la información que proporcione.
 
         #### Programas incluidos
 
@@ -428,7 +428,7 @@ pages:
         - Seguro de licencia familiar de NJ (FLI)
         - Seguro de discapacidad temporal de NJ (TDI)
         - Asistencia de desempleo
-        - Compensación federal de desempleo pandémico (PUC)
+        - Compensación federal de desempleo pandémico (FPUC)
         - Compensación de emergencia por desempleo pandémico (PEUC)
         - Asistencia de desempleo pandémico (PUA)
         - Permiso federal de emergencia por enfermedad pagada
@@ -444,7 +444,7 @@ pages:
 
         NJDOL ofrece esta herramienta de evaluación que enumera los programas de beneficios que puede decidir considerar en función de la información que proporcione sobre su empleo más reciente.
 
-        Esta herramienta de evaluación proporcionará los siguientes pasos sugeridos que pueden incluir solicitar beneficios fuera de este sitio web, pero no puede garantizar la elegibilidad y no reserva ningún beneficio ni un lugar en ninguna cola de solicitud. La organización o agencia administradora determinará todos los requisitos de elegibilidad al momento de enviar una solicitud y / u otros documentos relevantes a esa organización o agencia para el programa respectivo.
+        Esta herramienta de evaluación proporcionará los siguientes pasos sugeridos que pueden incluir solicitar beneficios fuera de este sitio web, pero no puede garantizar la elegibilidad y no reserva ningún beneficio ni un lugar en ninguna fila de solicitudes. La organización o agencia administradora determinará todos los requisitos de elegibilidad una vez que envíe una solicitud y / u otros documentos pertinentes a esa organización o agencia para el programa respectivo.
 
         La información que comparta para los fines de esta herramienta de evaluación será anónima y puede compartirse con las agencias estatales de Nueva Jersey para mejorar el acceso a los beneficios y programas.
     questions:
