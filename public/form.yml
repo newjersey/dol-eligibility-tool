@@ -416,27 +416,27 @@ pages:
 
         The information you share for purposes of this screening tool will be anonymous and may be shared with New Jersey State agencies to improve access to benefits and programs.
       es: |-
-        El brote de COVID-19 está causando una perturbación extraordinaria en la vida de los trabajadores de Nueva Jersey. El Departamento de Trabajo y Desarrollo Laboral de Nueva Jersey (NJDOL) quiere facilitarle la comprensión de los programas de beneficios que pueden estar disponibles para ayudar a estabilizar su hogar durante este momento difícil.
+        La pandemia del COVID-19 está causando una alteración extraordinaria en la vida de los trabajadores de Nueva Jersey. El Department of Labor and Workforce Development de New Jersey (NJDOL) quiere facilitarle la comprensión de los programas de beneficios que están disponibles para ayudar a estabilizar su situación económica durante estos momentos difíciles.
 
-        Esta es una versión beta de esta herramienta. Lo actualizaremos periódicamente a medida que estén disponibles nuevos beneficios federales, estatales y locales. Verificaremos su elegibilidad para los programas a continuación según la información que proporcione.
+        Esta es una versión beta de esta herramienta. Lo actualizaremos periódicamente a medida que estén disponibles nuevos beneficios federales, estatales y locales. Se revisa su posible elegibilidad para los programas a continuación según la información que proporcione.
 
         #### Programas incluidos
 
         ###### Beneficios
 
-        - Licencia por enfermedad por enfermedad de Nueva Jersey (ESL)
+        - Licencia por enfermedad pagada de Nueva Jersey (ESL)
         - Seguro de licencia familiar de NJ (FLI)
-        - Seguro de discapacidad temporal de NJ (TDI)
+        - Seguro de incapacidad temporal de NJ (TDI)
         - Asistencia de desempleo
         - Compensación federal de desempleo pandémico (FPUC)
         - Compensación de emergencia por desempleo pandémico (PEUC)
         - Asistencia de desempleo pandémico (PUA)
         - Permiso federal de emergencia por enfermedad pagada
-        - Federal Emergency Childcare FMLA
+        - Ley federal de emergencia – FMLA licencia por Cuidar Hijos
 
         ###### Protecciones laborales
 
-        - Legislación A3848
+        - Protección contra la discriminación laboral relacionada con COVID-19
         - Ley Federal de Licencia Médica y Familiar (FMLA)
         - Ley de licencia familiar de Nueva Jersey (NJFLA)
 
@@ -505,7 +505,7 @@ pages:
                     en: |-
                       I am/was paid hourly or salaried by an employer. (Hint: you receive(d) a W-2 form for tax purposes)
                     es: |-
-                      Me pagan / me pagan por hora o me pagan un empleador. (Sugerencia: recibe (d) un formulario W-2 para fines fiscales)
+                      Me pagan / me pagan por hora o me pagan un empleador. (Sugerencia: recibe (recibió) un formulario W-2 para fines fiscales)
                   id: paid-hourly-by-employer
                 - name:
                     en: I am receiving partial unemployment and I am partially employed.
@@ -515,7 +515,7 @@ pages:
                     en: |-
                       I am/was self employed or an independent contractor. (Hint: You receive(d) a 1099 form for tax purposes)
                     es: |-
-                      Soy / era trabajador independiente o un contratista independiente. (Sugerencia: recibe (d) un formulario 1099 para fines fiscales)
+                      Soy / era trabajador independiente o un contratista independiente. (Sugerencia: recibe (recibió) un formulario 1099 para fines fiscales)
                   id: self-employed-by-independent-contractor
                 - name:
                     en: I have been receiving unemployment and I am not otherwise employed.
@@ -534,12 +534,15 @@ pages:
                     options:
                       - name:
                           en: Yes, I have applied for unemployment insurance and I have not heard back yet.
+                          es: Sí, he solicitado el seguro de desempleo y todavía no he recibido respuesta.
                         id: yes-pending
                       - name:
                           en: Yes, I have applied for unemployment insurance and I was rejected, but accepted for Pandemic Unemployment Assistance (PUA).
+                          es: Sí, solicité el seguro de desempleo y me rechazaron, pero me aceptaron para la Asistencia por desempleo pandémico (PUA).
                         id: yes-rejected
                       - name:
                           en: No, I have not applied for unemployment insurance.
+                          es: No, no he solicitado el seguro de desempleo.
                         id: no
                     switch:
                       yes-pending:
@@ -548,6 +551,8 @@ pages:
                           instructions:
                             en: |-
                               **If you applied for Unemployment Insurance, then your case will automatically be assessed for Pandemic Unemployment Assistance (PUA).**
+                            es: |-
+                              **Si solicitó el seguro de desempleo, su caso se evaluará automáticamente para la Asistencia por desempleo pandémico (PUA).**
                         - name:
                             en: Eligibility
                             es: Elegibilidad
@@ -556,11 +561,14 @@ pages:
                           instructions:
                             en: |-
                               Based on the information you've provided, you may be eligible for the following benefits:
+                            es: |-
+                              Según la información que ha proporcionado, puede ser elegible para los siguientes beneficios:
                         - id: terminal-not-applied-for-ui
                           type: sections
                           sections:
                             name:
                               en: Benefits
+                              es: Beneficios
                             color: '#F6F7F9'
                             include:
                               - EPSL-FED
@@ -581,6 +589,7 @@ pages:
                           sections:
                             name:
                               en: Benefits
+                              es: Beneficios
                             color: '#F6F7F9'
                             include:
                               - EPSL-FED
@@ -601,6 +610,7 @@ pages:
                           sections:
                             name:
                               en: Benefits
+                              es: Beneficios
                             color: '#F6F7F9'
                             include:
                               - UA
@@ -692,7 +702,7 @@ definitions:
             en: |-
               I can't work, or my hours are reduced, because I was exposed in my workplace and was told to quarantine by a health authority.
             es: |-
-              No puedo trabajar, o mis horas se reducen, porque fui expuesto en mi lugar de trabajo y una autoridad de salud me ordenó poner en cuarentena.
+              No puedo trabajar, o mis horas se reducen, porque fui expuesto a COVID-19 en mi lugar de trabajo y una autoridad de salud me ordenó a cuarentena.
           id: situation-4
           benefits: 'UA,ESL-NJ,TDI-NJ,EPSL-FED'
           job-protections: 'A3848,FMLA-FED'
@@ -729,7 +739,7 @@ definitions:
             en: |-
               I was laid off, or furloughed, while on Family or Temporary Disability Leave, because there are fewer hours available due to business slowdown or lack of demand.
             es: |-
-              Fui despedido o suspendido mientras estaba en licencia familiar o por incapacidad temporal, porque hay menos horas disponibles debido a la desaceleración del negocio o la falta de demanda.
+              Fui despedido o suspendido, mientras estaba recibiendo los beneficios pagados de licencia familiar o por incapacidad temporal, porque hay menos horas disponibles debido a la desaceleración del negocio o la falta de demanda.
           id: situation-11
           benefits: UA
           icon:
@@ -737,7 +747,7 @@ definitions:
             color: '#235DA6'
         - name:
             en: 'My employer is permitted to be open, but I am afraid of exposure and refuse to work.'
-            es: 'A mi empleador se le permite estar abierto, pero tengo miedo de la exposición y me niego a trabajar.'
+            es: 'A mi empleador se le permite estar abierto, pero tengo miedo de la exposición a COVID-19 y me niego a trabajar.'
           id: situation-8
           benefits: ESL-NJ
           icon:
@@ -746,7 +756,7 @@ definitions:
         - name:
             en: 'My employer was ordered to close, but has remained open. I am afraid of exposure and refuse to work.'
             es: |-
-              A mi empleador se le ordenó cerrar, pero se ha mantenido abierto. Tengo miedo a la exposición y me niego a trabajar.
+              A mi empleador se le ordenó cerrar, pero se quedó abierto. Tengo miedo a la exposición a COVID-19 y me niego a trabajar.
           id: situation-9
           benefits: ESL-NJ
           icon:
@@ -755,7 +765,7 @@ definitions:
         - name:
             en: None of the above statements describe my situation. I would like to know more about all program benefits.
             es: |-
-              Ninguna de las declaraciones anteriores describe mi situación. Me gustaría saber más sobre todos los beneficios del programa.
+              Ninguna de las declaraciones anteriores describe la situación mia. Me gustaría saber más sobre todos los beneficios.
           id: situation-10
           benefits: 'UA,EPSL-FED,ESL-NJ,FLI-NJ,TDI-NJ,FEC-FMLA-FED'
           job-protections: 'A3848,FMLA-FED,FLA-NJ'
