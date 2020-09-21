@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://getstarted.nj.gov/labor/precache-manifest.09e059f5f0f0b50f742aae0d22702688.js"
+  "https://getstarted.nj.gov/labor/precache-manifest.7de0f44f64dd6d719e0d3fb3eb7aa484.js"
 );
 
 self.addEventListener('message', (event) => {
