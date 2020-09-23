@@ -375,6 +375,40 @@ sections:
         1. Obtenga más información: [NJ Family Leave Act](https://www.nj.gov/oag/dcr/downloads/fact-FLA.pdf)
         2. Hable con su empleador sobre su situación de protección laboral
         3. Si no cumplen, [presente una queja](https://www.nj.gov/oag/dcr/filing.html)
+  DDU-NJ:
+    title:
+      en: New Jersey Disability During Unemployment (NJDDU)
+      es: Discapacidad de Nueva Jersey durante el desempleo (NJDDU)
+    content:
+      en: |-
+        If your medical provider certifies you are unable to work due to your own non-work-related medical condition, including pregnancy and delivery, more than 14 days after your last day of work in covered employment, you may be eligible for Disability During Unemployment (DDU) benefits. This is a combination of the Unemployment and Temporary Disability Insurance programs.
+
+        **Suggested next steps:**
+
+        1. Get more information and learn how to apply [here](https://myleavebenefits.nj.gov/unemployed).
+      es: |-
+        Si su proveedor médico certifica que no puede trabajar debido a su propia afección médica no relacionada con el trabajo, incluidos el embarazo y el parto, más de 14 días después de su último día de trabajo en un empleo cubierto, es posible que sea elegible para la discapacidad durante el desempleo (DDU) beneficios. Esta es una combinación de los programas de seguro de desempleo y por discapacidad temporal.
+
+        ** Próximos pasos sugeridos: **
+
+        1. Obtenga más información y aprenda cómo postularse [aquí](https://myleavebenefits.nj.gov/unemployed).
+  FLDU-NJ:
+    title:
+      en: New Jersey Family Leave During Unemployment (NJFLDU)
+      es: Permiso familiar de Nueva Jersey durante el desempleo (NJFLDU)
+    content:
+      en: |-
+        If you need to bond with a new child or care for an ill or injured loved one more than 14 days after your last day of work in covered employment, and are not on an employer-approved leave of absence, you may be eligible for Family Leave During Unemployment (FLDU) benefits. This is a combination of the Unemployment and Family Leave Insurance programs.
+
+        **Suggested next steps:**
+
+        1. Get more information and learn how to apply [here](https://myleavebenefits.nj.gov/unemployed).
+      es: |-
+        Si necesita vincularse con un nuevo hijo o cuidar a un ser querido enfermo o lesionado más de 14 días después de su último día de trabajo en un empleo cubierto, y no está en una licencia de ausencia aprobada por el empleador, puede ser elegible para Beneficios de licencia durante el desempleo (FLDU). Esta es una combinación de los programas de seguro por desempleo y permiso familiar.
+
+        ** Próximos pasos sugeridos: **
+
+        1. Obtenga más información y aprenda cómo postularse [aquí](https://myleavebenefits.nj.gov/unemployed).
 pages:
   - title:
       en: Introduction
@@ -628,6 +662,16 @@ pages:
                       es: |-
                         Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
                   - type: sections
+                    id: terminal-eligibility-3
+                    sections:
+                      name:
+                        en: Benefits
+                        es: Beneficios
+                      include:
+                        - DDU-NJ
+                        - FLDU-NJ
+                      color: '#F6F7F9'
+                  - type: sections
                     id: terminal-eligibility-2
                     sections:
                       name:
@@ -636,7 +680,7 @@ pages:
                       include:
                         - PEUC-FED
                         - FPUC-FED
-                      color: '#F6F7F9'
+                      color: '#ECEEF1'
           'works-in-another-state,laid-off-in-another-state':
             - name:
                 en: Eligibility
@@ -763,6 +807,30 @@ definitions:
             label: J
             color: '#ACD6B2'
         - name:
+            en: 'My workplace is unsafe, my employer refuses to follow health and safety guidelines, and I refuse to work.'
+            es: 'Mi lugar de trabajo no es seguro, mi empleador se niega a seguir las pautas de salud y seguridad y yo me niego a trabajar.'
+          id: situation-12
+          benefits: UA
+          icon:
+            label: K
+            color: '#FFB6C1'
+        - name:
+            en: 'I have been receiving unemployment benefits but I am no longer able to work due to my own non-work-related medical condition, including pregnancy and delivery.'
+            es: 'He estado recibiendo beneficios por desempleo pero ya no puedo trabajar debido a mi propia afección médica no relacionada con el trabajo, incluidos el embarazo y el parto.'
+          id: situation-13
+          benefits: DDU-NJ
+          icon:
+            label: L
+            color: '#BF7F58'
+        - name:
+            en: 'I have been receiving unemployment benefits but I am no longer available for work because I am bonding with a new child or providing care for an ill or injured loved one.'
+            es: 'He estado recibiendo beneficios por desempleo, pero ya no estoy disponible para trabajar porque estoy creando un vínculo afectivo con un nuevo hijo o brindando atención a un ser querido enfermo o lesionado.'
+          id: situation-14
+          benefits: FLDU-NJ
+          icon:
+            label: M
+            color: '#C72263'
+        - name:
             en: None of the above statements describe my situation. I would like to know more about all program benefits.
             es: |-
               Ninguna de las declaraciones anteriores describe la situación mia. Me gustaría saber más sobre todos los beneficios.
@@ -770,10 +838,10 @@ definitions:
           benefits: 'UA,EPSL-FED,ESL-NJ,FLI-NJ,TDI-NJ,FEC-FMLA-FED'
           job-protections: 'A3848,FMLA-FED,FLA-NJ'
           icon:
-            label: K
+            label: N
             color: lightgrey
       switch:
-        ? 'situation-1,situation-2,situation-3,situation-4,situation-5,situation-6,situation-7,situation-8,situation-9,situation-11'
+        ? 'situation-1,situation-2,situation-3,situation-4,situation-5,situation-6,situation-7,situation-8,situation-9,situation-11,situation-12,situation-13,situation-14'
         : - name:
               en: You may be eligible for...
               es: Puede ser elegible para ...
