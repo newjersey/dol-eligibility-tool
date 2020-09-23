@@ -409,6 +409,29 @@ sections:
         ** Próximos pasos sugeridos: **
 
         1. Obtenga más información y aprenda cómo postularse [aquí](https://myleavebenefits.nj.gov/unemployed).
+  UI-NJ:
+    title:
+      en: Unemployment Insurance (UI)
+      es: Seguro de desempleo (UI)
+    content:
+      en: |-
+        You may be eligible for regular Unemployment Insurance benefits. In most cases, you cannot collect Unemployment Insurance (UI) benefits if you refuse [suitable work](https://www.nj.gov/labor/worker-protections/returntowork.shtml). Exceptions could occur where an individual quits or refuses work because the work poses a high degree of risk to health and safety. NJDOL examines cases on an individual basis, and makes eligibility determinations in accordance with the law.
+
+        **Suggested next steps:**
+
+        1. Learn more about returning to work amid COVID-19 [here](https://www.nj.gov/labor/worker-protections/returntowork.shtml).
+        2. Learn [how to apply](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/) for unemployment.
+        3. Create an account at [myunemployment.nj.gov](https://myunemployment.nj.gov/labor/myunemployment/before/createaccount/index.shtml).
+        4. File an [application](https://myunemployment.nj.gov/) (online preferred).
+      es: |-
+        Puede ser elegible para los beneficios regulares del seguro de desempleo. En la mayoría de los casos, no puede cobrar los beneficios del seguro de desempleo (UI) si se niega a [trabajo adecuado](https://www.nj.gov/labor/worker-protections/returntowork.shtml). Pueden ocurrir excepciones cuando una persona renuncia o se niega a trabajar porque el trabajo presenta un alto grado de riesgo para la salud y la seguridad. NJDOL examina los casos de forma individual y determina la elegibilidad de acuerdo con la ley.
+
+        ** Próximos pasos sugeridos: **
+
+        1. Obtenga más información sobre cómo regresar al trabajo en medio de COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
+        2. Aprenda [cómo solicitar](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/) para el desempleo.
+        3. Cree una cuenta en [myunemployment.nj.gov] (https://myunemployment.nj.gov/labor/myunemployment/before/createaccount/index.shtml).
+        4. Presente una [solicitud] (https://myunemployment.nj.gov/) (preferiblemente en línea).
 pages:
   - title:
       en: Introduction
@@ -810,7 +833,7 @@ definitions:
             en: 'My workplace is unsafe, my employer refuses to follow health and safety guidelines, and I refuse to work.'
             es: 'Mi lugar de trabajo no es seguro, mi empleador se niega a seguir las pautas de salud y seguridad y yo me niego a trabajar.'
           id: situation-12
-          benefits: UA
+          benefits: UI-NJ
           icon:
             label: K
             color: '#FFB6C1'
