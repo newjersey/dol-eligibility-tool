@@ -415,7 +415,7 @@ sections:
       es: Seguro de desempleo (UI)
     content:
       en: |-
-        You may be eligible for regular Unemployment Insurance benefits. In most cases, you cannot collect Unemployment Insurance (UI) benefits if you refuse [suitable work](https://www.nj.gov/labor/worker-protections/returntowork.shtml). Exceptions could occur where an individual quits or refuses work because the work poses a high degree of risk to health and safety. NJDOL examines cases on an individual basis, and makes eligibility determinations in accordance with the law.
+        You may be eligible for regular Unemployment Insurance benefits. In most cases, you cannot collect Unemployment Insurance (UI) benefits if you refuse [suitable work](https://www.nj.gov/labor/worker-protections/returntowork.shtml#suitable). Exceptions could occur where an individual quits or refuses work because the work poses a high degree of risk to health and safety and the employee has attempted to remedy the problem with the employer. NJDOL examines cases on an individual basis, and makes eligibility determinations in accordance with the law.
 
         **Suggested next steps:**
 
@@ -424,7 +424,7 @@ sections:
         3. Create an account at [myunemployment.nj.gov](https://myunemployment.nj.gov/labor/myunemployment/before/createaccount/index.shtml).
         4. File an [application](https://myunemployment.nj.gov/) (online preferred).
       es: |-
-        Puede ser elegible para los beneficios regulares del seguro de desempleo. En la mayoría de los casos, no puede cobrar los beneficios del seguro de desempleo (UI) si se niega a [trabajo adecuado](https://www.nj.gov/labor/worker-protections/returntowork.shtml). Pueden ocurrir excepciones cuando una persona renuncia o se niega a trabajar porque el trabajo presenta un alto grado de riesgo para la salud y la seguridad. NJDOL examina los casos de forma individual y determina la elegibilidad de acuerdo con la ley.
+        Puede ser elegible para los beneficios regulares del seguro de desempleo. En la mayoría de los casos, no puede cobrar los beneficios del seguro de desempleo (UI) si se niega a [trabajo adecuado](https://www.nj.gov/labor/worker-protections/returntowork.shtml#suitable). Pueden ocurrir excepciones cuando un individuo renuncia o se niega a trabajar porque el trabajo representa un alto grado de riesgo para la salud y la seguridad y el empleado ha intentado remediar el problema con el empleador. NJDOL examina los casos de forma individual y determina la elegibilidad de acuerdo con la ley.
 
         ** Próximos pasos sugeridos: **
 
@@ -825,7 +825,7 @@ definitions:
             es: |-
               A mi empleador se le ordenó cerrar, pero se quedó abierto. Tengo miedo a la exposición a COVID-19 y me niego a trabajar.
           id: situation-9
-          benefits: ESL-NJ
+          benefits: 'ESL-NJ,UI-NJ'
           icon:
             label: J
             color: '#ACD6B2'
@@ -833,7 +833,7 @@ definitions:
             en: 'My workplace is unsafe, my employer refuses to follow health and safety guidelines, and I refuse to work.'
             es: 'Mi lugar de trabajo no es seguro, mi empleador se niega a seguir las pautas de salud y seguridad y yo me niego a trabajar.'
           id: situation-12
-          benefits: UI-NJ
+          benefits: 'ESL-NJ,UI-NJ'
           icon:
             label: K
             color: '#FFB6C1'
