@@ -3,7 +3,7 @@ title:
   es: NJDOL COVID-19 Benefits Eligibility Tool
 description:
   en: Determine what benefits you are eligible in the state of New Jersey.
-  es: Determine qué beneficios es elegible en el estado de Nueva Jersey.
+  es: Determine qué beneficios es elegible en el estado de New Jersey.
 seal: NJDOL_logo_web_560x560.png
 variables:
   STATE_CODE: NJ
@@ -49,7 +49,7 @@ instructions:
       Una vez que se hayan verificado todas las secciones, seleccione 'Enviar' para completar el llenado de su reclamo. Su reclamo no se archivará a menos que haga clic en 'Enviar' a continuación.
   demo-warning:
     en: This is a demo of the New Jersey benefits questionnaire.
-    es: Esta es una demostración del cuestionario de beneficios de Nueva Jersey.
+    es: Esta es una demostración del cuestionario de beneficios de New Jersey.
   back:
     en: Go Back
     es: Regresa
@@ -143,7 +143,7 @@ sections:
   ESL-NJ:
     title:
       en: New Jersey Earned Sick Leave (ESL)
-      es: Licencia por enfermedad ganada de Nueva Jersey (ESL)
+      es: Licencia por enfermedad ganada de New Jersey (ESL)
     content:
       en: |-
         You may be eligible for sick leave from your employer through New Jersey's Earned Sick Leave. The New Jersey Earned Sick Leave Law allows employees to accrue 1 hour of earned sick leave for every 30 hours worked, up to 40 hours each year.
@@ -154,7 +154,7 @@ sections:
         2. Talk to your employer about your right to utilize this leave
         3. If they don't comply, file a [wage claim](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html) (online preferred)
       es: |-
-        Puede ser elegible para licencia por enfermedad de su empleador a través de la licencia por enfermedad ganada de Nueva Jersey. La Ley de licencia por enfermedad por enfermedad de Nueva Jersey permite a los empleados acumular 1 hora de licencia por enfermedad por cada 30 horas trabajadas, hasta 40 horas cada año.
+        Puede ser elegible para licencia por enfermedad de su empleador a través de la licencia por enfermedad ganada de New Jersey. La Ley de licencia por enfermedad por enfermedad de New Jersey permite a los empleados acumular 1 hora de licencia por enfermedad por cada 30 horas trabajadas, hasta 40 horas cada año.
 
         ** Próximos pasos sugeridos: **
 
@@ -164,7 +164,7 @@ sections:
   FLI-NJ:
     title:
       en: New Jersey Family Leave Insurance (FLI)
-      es: Seguro de licencia familiar de Nueva Jersey (FLI)
+      es: Seguro de licencia familiar de New Jersey (FLI)
     content:
       en: |-
         You may be eligible for Family Leave Insurance. Family Leave Insurance provides New Jersey workers cash benefits for up to 12 weeks to provide care for a seriously ill or injured family member.
@@ -175,7 +175,7 @@ sections:
         2. Create an account
         3. File an [application](https://myleavebenefits.nj.gov/labor/myleavebenefits/worker/fli/) (online preferred)
       es: |-
-        Puede ser elegible para el seguro de licencia familiar. El seguro de licencia familiar brinda a los trabajadores de Nueva Jersey beneficios en efectivo por hasta 12 semanas para brindar atención a un familiar gravemente enfermo o lesionado.
+        Puede ser elegible para el seguro de licencia familiar. El seguro de licencia familiar brinda a los trabajadores de New Jersey beneficios en efectivo por hasta 12 semanas para brindar atención a un familiar gravemente enfermo o lesionado.
 
         ** Próximos pasos sugeridos: **
 
@@ -185,7 +185,7 @@ sections:
   TDI-NJ:
     title:
       en: New Jersey Temporary Disability Insurance (TDI)
-      es: Seguro de discapacidad temporal de Nueva Jersey (TDI)
+      es: Seguro de discapacidad temporal de New Jersey (TDI)
     content:
       en: |-
         You may be eligible for Temporary Disability Insurance. Temporary Disability Insurance provides cash benefits to (1) New Jersey workers who suffer an illness, injury, or other disability that prevents them from working, and wasn’t caused by their job, and (2) expectant mothers who need to stop working before giving birth and for their recovery.
@@ -196,7 +196,7 @@ sections:
         2. Create an account
         3. File an [application](https://myleavebenefits.nj.gov/labor/myleavebenefits/worker/tdi/) (online preferred)
       es: |-
-        Puede ser elegible para el seguro por discapacidad temporal. El seguro de discapacidad temporal proporciona beneficios en efectivo a (1) los trabajadores de Nueva Jersey que sufren una enfermedad, lesión u otra discapacidad que les impide trabajar y no fue causada por su trabajo, y (2) las mujeres embarazadas que necesitan dejar de trabajar antes dar a luz y para su recuperación.
+        Puede ser elegible para el seguro por discapacidad temporal. El seguro de discapacidad temporal proporciona beneficios en efectivo a (1) los trabajadores de New Jersey que sufren una enfermedad, lesión u otra discapacidad que les impide trabajar y no fue causada por su trabajo, y (2) las mujeres embarazadas que necesitan dejar de trabajar antes dar a luz y para su recuperación.
 
         ** Próximos pasos sugeridos: **
 
@@ -357,7 +357,7 @@ sections:
   FLA-NJ:
     title:
       en: New Jersey Family Leave Act (NJFLA)
-      es: Ley de licencia familiar de Nueva Jersey (NJFLA)
+      es: Ley de licencia familiar de New Jersey (NJFLA)
     content:
       en: |-
         You may be eligible for unpaid Family Leave from your employer under the New Jersey Family Leave Act. If your employer is covered under the NJFLA, and you are an eligible employee, then you are generally entitled to up to 12 weeks of job-protected leave to care for a loved one in a two-year period. This includes leave to care for your child if their school or place of care is closed by order of a public official due to COVID-19.
@@ -368,7 +368,7 @@ sections:
         2. Talk to your employer about your job protection situation
         3. If they do not comply, [file a complaint](https://www.nj.gov/oag/dcr/filing.html)
       es: |-
-        Puede ser elegible para un Permiso Familiar no remunerado de su empleador según la Ley de Permiso Familiar de Nueva Jersey. Si su empleador está cubierto por la NJFLA y usted es un empleado elegible, entonces generalmente tiene derecho a hasta 12 semanas de licencia con protección laboral para cuidar a un ser querido en un período de dos años. Esto incluye permiso para cuidar a su hijo si su escuela o lugar de cuidado está cerrado por orden de un funcionario público debido a COVID-19.
+        Puede ser elegible para un Permiso Familiar no remunerado de su empleador según la Ley de Permiso Familiar de New Jersey. Si su empleador está cubierto por la NJFLA y usted es un empleado elegible, entonces generalmente tiene derecho a hasta 12 semanas de licencia con protección laboral para cuidar a un ser querido en un período de dos años. Esto incluye permiso para cuidar a su hijo si su escuela o lugar de cuidado está cerrado por orden de un funcionario público debido a COVID-19.
 
         ** Próximos pasos sugeridos: **
 
@@ -473,7 +473,7 @@ pages:
 
         The information you share for purposes of this screening tool will be anonymous and may be shared with New Jersey State agencies to improve access to benefits and programs.
       es: |-
-        La pandemia del COVID-19 está causando una alteración extraordinaria en la vida de los trabajadores de Nueva Jersey. El Department of Labor and Workforce Development de New Jersey (NJDOL) quiere facilitarle la comprensión de los programas de beneficios que están disponibles para ayudar a estabilizar su situación económica durante estos momentos difíciles.
+        La pandemia del COVID-19 está causando una alteración extraordinaria en la vida de los trabajadores de New Jersey. El Department of Labor and Workforce Development de New Jersey (NJDOL) quiere facilitarle la comprensión de los programas de beneficios que están disponibles para ayudar a estabilizar su situación económica durante estos momentos difíciles.
 
         Esta es una versión beta de esta herramienta. Lo actualizaremos periódicamente a medida que estén disponibles nuevos beneficios federales, estatales y locales. Se revisa su posible elegibilidad para los programas a continuación según la información que proporcione.
 
@@ -481,7 +481,7 @@ pages:
 
         ###### Beneficios
 
-        - Licencia por enfermedad pagada de Nueva Jersey (ESL)
+        - Licencia por enfermedad pagada de New Jersey (ESL)
         - Seguro de licencia familiar de NJ (FLI)
         - Seguro de incapacidad temporal de NJ (TDI)
         - Asistencia de desempleo
@@ -495,7 +495,7 @@ pages:
 
         - Protección contra la discriminación laboral relacionada con COVID-19
         - Ley Federal de Licencia Médica y Familiar (FMLA)
-        - Ley de licencia familiar de Nueva Jersey (NJFLA)
+        - Ley de licencia familiar de New Jersey (NJFLA)
 
         #### Términos de servicio
 
@@ -503,7 +503,7 @@ pages:
 
         Esta herramienta de evaluación proporcionará los siguientes pasos sugeridos que pueden incluir solicitar beneficios fuera de este sitio web, pero no puede garantizar la elegibilidad y no reserva ningún beneficio ni un lugar en ninguna fila de solicitudes. La organización o agencia administradora determinará todos los requisitos de elegibilidad una vez que envíe una solicitud y / u otros documentos pertinentes a esa organización o agencia para el programa respectivo.
 
-        La información que comparta para los fines de esta herramienta de evaluación será anónima y puede compartirse con las agencias estatales de Nueva Jersey para mejorar el acceso a los beneficios y programas.
+        La información que comparta para los fines de esta herramienta de evaluación será anónima y puede compartirse con las agencias estatales de New Jersey para mejorar el acceso a los beneficios y programas.
     questions:
       - name:
           en: Agreement
@@ -528,7 +528,7 @@ pages:
     questions:
       - name:
           en: Are you currently employed in New Jersey?
-          es: ¿Actualmente trabaja en Nueva Jersey?
+          es: ¿Actualmente trabaja en New Jersey?
         id: employed_in_new_jersey
         required: true
         type: single-select
@@ -539,7 +539,7 @@ pages:
             id: yes
           - name:
               en: 'No. I was laid off, furloughed, or am otherwise not receiving pay for my job in New Jersey.'
-              es: 'No. Fui despedido, suspendido o de lo contrario no recibo paga por mi trabajo en Nueva Jersey.'
+              es: 'No. Fui despedido, suspendido o de lo contrario no recibo paga por mi trabajo en New Jersey.'
             id: laid-off-in-new-jersey
           - name:
               en: 'No, I work in another state'
@@ -584,7 +584,7 @@ pages:
                 self-employed-by-independent-contractor:
                   - name:
                       en: Have you already applied for unemployment insurance through the state of New Jersey?
-                      es: ¿Ya solicitó el seguro de desempleo en el estado de Nueva Jersey?
+                      es: ¿Ya solicitó el seguro de desempleo en el estado de New Jersey?
                     id: already-applied
                     type: single-select
                     required: true
@@ -719,7 +719,7 @@ pages:
 
                   *You may also qualify for federal benefits under the [CARES Act.](https://www.dol.gov/coronavirus/unemployment-insurance)*
                 es: |-
-                  ** La herramienta de elegibilidad de beneficios COVID-19 del estado de Nueva Jersey está diseñada para ayudar a las personas que trabajan en Nueva Jersey a identificar programas de beneficios para los que pueden ser elegibles.**
+                  ** La herramienta de elegibilidad de beneficios COVID-19 del estado de New Jersey está diseñada para ayudar a las personas que trabajan en New Jersey a identificar programas de beneficios para los que pueden ser elegibles.**
 
                   Verifique con el estado donde está / estuvo empleado anteriormente para ver si califica para los beneficios allí.
 
