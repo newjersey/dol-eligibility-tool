@@ -39,7 +39,7 @@ instructions:
     es: Descargar
   clear-form:
     en: Clear Form
-    es: Forma clara
+    es: Borra las selecciones
   submit-instructions:
     en: |-
       Please review and verify the information section below. If there are errors in any section, you may select 'Edit' to revisit that page of your application.
@@ -297,7 +297,7 @@ sections:
   FEC-FMLA-FED:
     title:
       en: Federal Emergency Childcare FMLA
-      es: Federal Emergency Childcare FMLA
+      es: Ley federal de emergencia – FMLA licencia por Cuidar Hijos
     content:
       en: |-
         You may be eligible for up to 12 weeks of job-protected leave, 10 paid by your employer. Federal Emergency Childcare FMLA gives certain workers access to emergency paid leave to care for their children at home, due to COVID-19.
