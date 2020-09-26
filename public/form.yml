@@ -378,16 +378,16 @@ sections:
   DDU-NJ:
     title:
       en: New Jersey Disability During Unemployment (NJDDU)
-      es: Discapacidad de Nueva Jersey durante el desempleo (NJDDU)
+      es: Seguro de Incapacidad de New Jersey Durante el Desempleo (NJDDU)
     content:
       en: |-
-        If your medical provider certifies you are unable to work due to your own non-work-related medical condition, including pregnancy and delivery, more than 14 days after your last day of work in covered employment, you may be eligible for Disability During Unemployment (DDU) benefits. This is a combination of the Unemployment and Temporary Disability Insurance programs.
+        If your medical provider certifies you are unable to work due to your own non-work-related medical condition, including pregnancy and delivery, more than 14 days after your last day of work, you may be eligible for Disability During Unemployment (DDU) benefits. This is a combination of the Unemployment and Temporary Disability Insurance programs.
 
         **Suggested next steps:**
 
         1. Get more information and learn how to apply [here](https://myleavebenefits.nj.gov/unemployed).
       es: |-
-        Si su proveedor médico certifica que no puede trabajar debido a su propia afección médica no relacionada con el trabajo, incluidos el embarazo y el parto, más de 14 días después de su último día de trabajo en un empleo cubierto, es posible que sea elegible para la discapacidad durante el desempleo (DDU) beneficios. Esta es una combinación de los programas de seguro de desempleo y por discapacidad temporal.
+        Si su proveedor médico certifica que no puede trabajar debido a su propia condición médica no relacionada con el trabajo, incluidos el embarazo y el parto, más de 14 días después de su último día de trabajo, es posible que sea elegible para los beneficios de Incapacidad Durante el Desempleo (DDU). DDU es una combinación de los programas de Seguro de Desempleo y por Incapacidad Temporal.
 
         ** Próximos pasos sugeridos: **
 
@@ -395,16 +395,16 @@ sections:
   FLDU-NJ:
     title:
       en: New Jersey Family Leave During Unemployment (NJFLDU)
-      es: Permiso familiar de Nueva Jersey durante el desempleo (NJFLDU)
+      es: Licencia Familiar de New Jersey Durante el Desempleo (NJFLDU)
     content:
       en: |-
-        If you need to bond with a new child or care for an ill or injured loved one more than 14 days after your last day of work in covered employment, and are not on an employer-approved leave of absence, you may be eligible for Family Leave During Unemployment (FLDU) benefits. This is a combination of the Unemployment and Family Leave Insurance programs.
+        If you need to bond with a new child or care for an ill or injured loved one more than 14 days after your last day of work, and are not on an employer-approved leave of absence, you may be eligible for Family Leave During Unemployment (FLDU) benefits. This is a combination of the Unemployment and Family Leave Insurance programs.
 
         **Suggested next steps:**
 
         1. Get more information and learn how to apply [here](https://myleavebenefits.nj.gov/unemployed).
       es: |-
-        Si necesita vincularse con un nuevo hijo o cuidar a un ser querido enfermo o lesionado más de 14 días después de su último día de trabajo en un empleo cubierto, y no está en una licencia de ausencia aprobada por el empleador, puede ser elegible para Beneficios de licencia durante el desempleo (FLDU). Esta es una combinación de los programas de seguro por desempleo y permiso familiar.
+        Si necesita vincularse con un hijo nuevo o cuidar a un ser querido enfermo o lesionado más de 14 días después de su último día de trabajo, y no está en una licencia de ausencia aprobada por el empleador, puede ser elegible para Beneficios de Licencia Familiar Durante el Desempleo (FLDU). Esta es una combinación de los programas de Seguro por Desempleo y Seguro de Licencia Familiar.
 
         ** Próximos pasos sugeridos: **
 
@@ -424,14 +424,14 @@ sections:
         3. Create an account at [myunemployment.nj.gov](https://myunemployment.nj.gov/labor/myunemployment/before/createaccount/index.shtml).
         4. File an [application](https://myunemployment.nj.gov/) (online preferred).
       es: |-
-        Puede ser elegible para los beneficios regulares del seguro de desempleo. En la mayoría de los casos, no puede cobrar los beneficios del seguro de desempleo (UI) si se niega a [trabajo adecuado](https://www.nj.gov/labor/worker-protections/returntowork.shtml#suitable). Pueden ocurrir excepciones cuando un individuo renuncia o se niega a trabajar porque el trabajo representa un alto grado de riesgo para la salud y la seguridad y el empleado ha intentado remediar el problema con el empleador. NJDOL examina los casos de forma individual y determina la elegibilidad de acuerdo con la ley.
+        Puede ser elegible para los beneficios regulares del Seguro de Desempleo. En la mayoría de los casos, no puede cobrar los beneficios del seguro de desempleo (UI) si rechaza un [trabajo adecuado](https://www.nj.gov/labor/worker-protections/returntowork.shtml#suitable). Pueden ocurrir excepciones cuando un individuo renuncia o se niega a trabajar porque el trabajo representa un alto grado de riesgo para la salud y la seguridad y el empleado ha intentado remediar el problema con el empleador. NJDOL examina los casos de forma individual y determina la elegibilidad de acuerdo con la ley.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información sobre cómo regresar al trabajo en medio de COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
-        2. Aprenda [cómo solicitar](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/) para el desempleo.
-        3. Cree una cuenta en [myunemployment.nj.gov] (https://myunemployment.nj.gov/labor/myunemployment/before/createaccount/index.shtml).
-        4. Presente una [solicitud] (https://myunemployment.nj.gov/) (preferiblemente en línea).
+        1. Obtenga más información sobre el regreso al trabajo en medio de COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
+        2. Aprenda [cómo solicitar](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/) los beneficios del desempleo.
+        3. Abra una cuenta en [myunemployment.nj.gov] (https://myunemployment.nj.gov/labor/myunemployment/before/createaccount/index.shtml).
+        4. Presentar una [solicitud] (https://myunemployment.nj.gov/) (preferiblemente en línea).
 pages:
   - title:
       en: Introduction
@@ -831,7 +831,7 @@ definitions:
             color: '#ACD6B2'
         - name:
             en: 'My workplace is unsafe, my employer refuses to follow health and safety guidelines, and I refuse to work.'
-            es: 'Mi lugar de trabajo no es seguro, mi empleador se niega a seguir las pautas de salud y seguridad y yo me niego a trabajar.'
+            es: 'Mi lugar de trabajo no está seguro, mi empleador se niega a seguir las directrices de salud y seguridad y yo me niego a trabajar.'
           id: situation-12
           benefits: 'ESL-NJ,UI-NJ'
           icon:
@@ -839,7 +839,7 @@ definitions:
             color: '#FFB6C1'
         - name:
             en: 'I have been receiving unemployment benefits but I am no longer able to work due to my own non-work-related medical condition, including pregnancy and delivery.'
-            es: 'He estado recibiendo beneficios por desempleo pero ya no puedo trabajar debido a mi propia afección médica no relacionada con el trabajo, incluidos el embarazo y el parto.'
+            es: 'Estoy recibiendo beneficios por desempleo, pero ya no puedo trabajar debido a mi propia condición médica que no es relacionada con el trabajo, incluidos el embarazo y el parto.'
           id: situation-13
           benefits: DDU-NJ
           icon:
@@ -847,7 +847,7 @@ definitions:
             color: '#BF7F58'
         - name:
             en: 'I have been receiving unemployment benefits but I am no longer available for work because I am bonding with a new child or providing care for an ill or injured loved one.'
-            es: 'He estado recibiendo beneficios por desempleo, pero ya no estoy disponible para trabajar porque estoy creando un vínculo afectivo con un nuevo hijo o brindando atención a un ser querido enfermo o lesionado.'
+            es: 'He estado recibiendo beneficios por desempleo, pero ya no estoy disponible para trabajar porque estoy estableciendo un vínculo fuerte con un hijo nuevo o cuidando a un ser querido enfermo o lesionado.'
           id: situation-14
           benefits: FLDU-NJ
           icon:
