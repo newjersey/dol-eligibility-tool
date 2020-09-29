@@ -292,7 +292,7 @@ sections:
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información: Descripción general: [Licencia por enfermedad pagada de emergencia y ampliada ley de licencia médica y familiar](https://www.nj.gov/labor/assets/PDFs/FamiliesFirstCoronaResAct.pdf)
+        1. Obtenga más información: Descripción general: [Licencia por enfermedad pagada de emergencia y ampliada ley de licencia médica y familiar](https://nj.gov/labor/assets/PDFs/FamiliesFirstCoronaResAct%20Spanish%204%2022%2020.pdf)
         2. Hable con su empleador sobre su derecho a utilizar este permiso
   FEC-FMLA-FED:
     title:
@@ -311,7 +311,7 @@ sections:
 
         ** Próximos pasos sugeridos **
 
-        1. Obtenga más información: [Ley de respuesta al coronavirus de Families First](https://www.nj.gov/labor/assets/PDFs/FamiliesFirstCoronaResAct.pdf)
+        1. Obtenga más información: [Ley de respuesta al coronavirus de Families First](https://nj.gov/labor/assets/PDFs/FamiliesFirstCoronaResAct%20Spanish%204%2022%2020.pdf)
         2. Hable con su empleador sobre su derecho a utilizar este permiso
   A3848:
     title:
@@ -430,8 +430,8 @@ sections:
 
         1. Obtenga más información sobre el regreso al trabajo en medio de COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
         2. Aprenda [cómo solicitar](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/) los beneficios del desempleo.
-        3. Abra una cuenta en [myunemployment.nj.gov] (https://myunemployment.nj.gov/labor/myunemployment/before/createaccount/index.shtml).
-        4. Presentar una [solicitud] (https://myunemployment.nj.gov/) (preferiblemente en línea).
+        3. Abra una cuenta en [myunemployment.nj.gov](https://myunemployment.nj.gov/labor/myunemployment/before/createaccount/index.shtml).
+        4. Presentar una [solicitud](https://myunemployment.nj.gov/) (preferiblemente en línea).
 pages:
   - title:
       en: Introduction
@@ -858,7 +858,7 @@ definitions:
             es: |-
               Ninguna de las declaraciones anteriores describe la situación mia. Me gustaría saber más sobre todos los beneficios.
           id: situation-10
-          benefits: 'UA,EPSL-FED,ESL-NJ,FLI-NJ,TDI-NJ,FEC-FMLA-FED'
+          benefits: 'UA,EPSL-FED,ESL-NJ,FLI-NJ,TDI-NJ,FEC-FMLA-FED,DDU-NJ,FLDU-NJ,UI-NJ'
           job-protections: 'A3848,FMLA-FED,FLA-NJ'
           icon:
             label: N
