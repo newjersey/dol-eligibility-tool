@@ -184,7 +184,14 @@ export const FormProvider: React.FC = (props) => {
         return undefined
       }
 
-      let text = copy[language]
+      let text
+      if (language in copy) {
+        text = copy[language]
+      } else if ('en' in copy) {
+        text = copy['en']
+      } else {
+        text = 'UNKNOWN STRING'
+      }
 
       // Apply templating variables by looking for `{{VARIABLE_NAME}}` fields.
       // The value is evaluated as the first truthy value of:
