@@ -452,7 +452,10 @@ pages:
         - NJ Earned Sick Leave (ESL)
         - NJ Family Leave Insurance (FLI)
         - NJ Temporary Disability Insurance (TDI)
-        - Unemployment Assistance
+        - NJ Family Leave During Unemployment (NJFLDU)
+        - NJ Disability During Unemployment (NJDDU)
+        - Unemployment Insurance (UI)
+        - Unemployment Assistance (CARES Act)
         - Federal Pandemic Unemployment Compensation (FPUC)
         - Pandemic Emergency Unemployment Compensation (PEUC)
         - Pandemic Unemployment Assistance (PUA)
@@ -858,7 +861,7 @@ definitions:
             es: |-
               Ninguna de las declaraciones anteriores describe la situación mia. Me gustaría saber más sobre todos los beneficios.
           id: situation-10
-          benefits: 'UA,EPSL-FED,ESL-NJ,FLI-NJ,TDI-NJ,FEC-FMLA-FED,DDU-NJ,FLDU-NJ,UI-NJ'
+          benefits: 'ESL-NJ,FLI-NJ,TDI-NJ,FLDU-NJ,DDU-NJ,UI-NJ,UA,FPUC-FED,PEUC-FED,EPSL-FED,FEC-FMLA-FED'
           job-protections: 'A3848,FMLA-FED,FLA-NJ'
           icon:
             label: N
