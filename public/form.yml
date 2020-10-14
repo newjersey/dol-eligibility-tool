@@ -260,21 +260,27 @@ sections:
         Obtenga más información [aquí](https://www.dol.gov/coronavirus/unemployment-insurance)
   PUA-FED:
     title:
-      en: Pandemic Unemployment Assistance (PUA) via the CARES Act
-      es: Asistencia de desempleo pandémico (PUA) a través de la Ley CARES
+      en: Pandemic Unemployment Assistance (PUA)
+      es: Asistencia de Desempleo Pandémico (PUA)
     content:
       en: |-
-        You may be eligible for federal benefits through Pandemic Unemployment Assistance due to COVID-19. The Coronavirus Aid, Relief, and Economic Security (CARES) Act created a new temporary federal program called Pandemic Unemployment Assistance that provides up to 39 weeks of unemployment benefits.
+        You may be eligible for federal benefits called Pandemic Unemployment Assistance (PUA), through the Coronavirus Aid, Relief, and Economic Security Act (CARES Act). PUA can provide up to 39 weeks of unemployment benefits to self-employed individuals, and those who are unable to work due to COVID-19 reasons, including school/childcare closures or mandatory remote learning, or a doctor-advised quarantine.
 
         **Suggested next step:**
 
-        Get more information [here.](https://www.dol.gov/coronavirus/unemployment-insurance)
+        1. Get more information about back to school and COVID-19 [here.](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
+        2.	Get more information about PUA [here.](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml)
+        3.	To apply, complete an application for regular unemployment: learn [how.](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/applyonline.shtml)
+        4.	If you’re already receiving unemployment benefits, continue to certify weekly following the [COVID-19 certification guide.](https://myunemployment.nj.gov/labor/myunemployment/covidinstructions.shtml)
       es: |-
-        Puede ser elegible para beneficios federales a través de la Asistencia de desempleo pandémico debido a COVID-19. La Ley de Ayuda, Alivio y Seguridad Económica de Coronavirus (CARES) creó un nuevo programa federal temporal llamado Asistencia de desempleo pandémico que brinda hasta 39 semanas de beneficios de desempleo.
+        Puede ser elegible para los beneficios federales denominados Asistencia por Desempleo Pandémico (PUA), a través de la Ley de Ayuda, Alivio y Seguridad Económica de Coronavirus (Ley CARES). PUA puede proporcionar hasta 39 semanas de beneficios por desempleo a los trabajadores independientes y a aquellos que no pueden trabajar debido a razones de COVID-19, incluidos los cierres de escuelas / guarderías o aprendizaje remoto obligatorio, o una cuarentena aconsejada por un médico.
 
         ** Siguiente paso sugerido: **
 
-        Obtenga más información [aquí.](https://www.dol.gov/coronavirus/unemployment-insurance)
+        1. Obtenga más información sobre el regreso a clases y COVID-19 [aquí.](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
+        2.	Obtenga más información sobre PUA [aquí.](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml)
+        3.	Para postularse, complete una solicitud de desempleo regular: aprenda [cómo postular.](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/applyonline.shtml)
+        4.	Si ya está recibiendo beneficios de desempleo, continúe certificando semanalmente siguiendo [la guía de certificación COVID-19.](https://myunemployment.nj.gov/labor/myunemployment/covidinstructions.shtml)
   EPSL-FED:
     title:
       en: Federal Emergency Paid Sick Leave
@@ -636,6 +642,7 @@ pages:
                             include:
                               - EPSL-FED
                               - FEC-FMLA-FED
+                              - PUA-FED
                       yes-rejected:
                         - name:
                             en: Eligibility
@@ -657,6 +664,7 @@ pages:
                             include:
                               - EPSL-FED
                               - FEC-FMLA-FED
+                              - PUA-FED
                       no:
                         - name:
                             en: Eligibility
@@ -676,7 +684,7 @@ pages:
                               es: Beneficios
                             color: '#F6F7F9'
                             include:
-                              - UA
+                              - PUA-FED
                               - EPSL-FED
                               - FEC-FMLA-FED
                 receiving-unemployment:
@@ -709,6 +717,7 @@ pages:
                       include:
                         - PEUC-FED
                         - FPUC-FED
+                        - PUA-FED
                       color: '#ECEEF1'
           'works-in-another-state,laid-off-in-another-state':
             - name:
@@ -744,7 +753,7 @@ definitions:
             en: "I can't work, or my hours are reduced, because I need to care for my children due to COVID-19-related school or child care closures, including mandatory remote learning."
             es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a mis hijos debido al cierre de escuelas o guarderías relacionadas con COVID-19, incluido el aprendizaje remoto obligatorio.'
           id: situation-1
-          benefits: 'ESL-NJ,UA,FEC-FMLA-FED'
+          benefits: 'EPSL-FED,ESL-NJ,FEC-FMLA-FED,PUA-FED'
           job-protections: 'FMLA-FED,FLA-NJ'
           icon:
             label: A
