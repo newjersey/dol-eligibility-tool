@@ -753,8 +753,7 @@ definitions:
             en: "I can't work, or my hours are reduced, because I need to care for my children due to COVID-19-related school or child care closures, including mandatory remote learning."
             es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a mis hijos debido al cierre de escuelas o guarderías relacionadas con COVID-19, incluido el aprendizaje remoto obligatorio.'
           id: situation-1
-          benefits: 'EPSL-FED,ESL-NJ,FEC-FMLA-FED,PUA-FED'
-          job-protections: 'FMLA-FED,FLA-NJ'
+          benefits: 'EPSL-FED,PUA-FED'
           icon:
             label: A
             color: '#4DB0E3'
@@ -764,8 +763,7 @@ definitions:
             es: |-
               No puedo trabajar, o mis horas se reducen, porque estoy cuidando a un miembro de la familia que es diagnosticado con COVID-19 o en cuarentena con sospecha de exposición.
           id: situation-2
-          benefits: 'ESL-NJ,EPSL-FED,UA,FLI-NJ'
-          job-protections: 'FMLA-FED,FLA-NJ'
+          benefits: 'PUA-FED'
           icon:
             label: B
             color: '#4FAB5B'
@@ -775,8 +773,8 @@ definitions:
             es: |-
               No puedo trabajar porque un médico o una autoridad de salud pública me aconsejaron ponerme en cuarentena.
           id: situation-3
-          benefits: 'UA,ESL-NJ,TDI-NJ,EPSL-FED'
-          job-protections: 'A3848,FMLA-FED'
+          benefits: 'PUA-FED'
+          job-protections: 'A3848'
           icon:
             label: C
             color: '#E95143'
@@ -786,8 +784,8 @@ definitions:
             es: |-
               No puedo trabajar, o mis horas se reducen, porque fui expuesto a COVID-19 en mi lugar de trabajo y una autoridad de salud me ordenó a cuarentena.
           id: situation-4
-          benefits: 'UA,ESL-NJ,TDI-NJ,EPSL-FED'
-          job-protections: 'A3848,FMLA-FED'
+          benefits: 'PUA-FED'
+          job-protections: 'A3848'
           icon:
             label: D
             color: '#F3A553'
@@ -831,7 +829,7 @@ definitions:
             en: 'My employer is permitted to be open, but I am afraid of exposure and refuse to work.'
             es: 'A mi empleador se le permite estar abierto, pero tengo miedo de la exposición a COVID-19 y me niego a trabajar.'
           id: situation-8
-          benefits: ESL-NJ
+          benefits: UI-NJ
           icon:
             label: I
             color: '#E67162'
@@ -840,7 +838,7 @@ definitions:
             es: |-
               A mi empleador se le ordenó cerrar, pero se quedó abierto. Tengo miedo a la exposición a COVID-19 y me niego a trabajar.
           id: situation-9
-          benefits: 'ESL-NJ,UI-NJ'
+          benefits: 'UI-NJ'
           icon:
             label: J
             color: '#ACD6B2'
