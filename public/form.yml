@@ -910,7 +910,7 @@ definitions:
             en: "I can't work, or my hours are reduced, because I need to care for my children due to COVID-19-related school or child care closures, including mandatory remote learning."
             es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a mis hijos debido al cierre de escuelas o guarderías relacionadas con COVID-19, incluido el aprendizaje remoto obligatorio.'
           id: situation-1
-          benefits: 'EPSL-FED,ESL-NJ,FMLA-FED,PUA-FED'
+          benefits: 'EPSL-FED,ESL-NJ,FEC-FMLA-FED,PUA-FED'
           job-protections: 'FLA-NJ'
           icon:
             label: A
