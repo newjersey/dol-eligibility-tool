@@ -921,7 +921,8 @@ definitions:
             es: |-
               No puedo trabajar, o mis horas se reducen, porque estoy cuidando a un miembro de la familia que es diagnosticado con COVID-19 o en cuarentena con sospecha de exposición.
           id: situation-2
-          benefits: 'PUA-FED'
+          benefits: 'ESL-NJ,EPSL-FED,FLI-NJ,UA'
+          job-protections: 'FMLA-FED,FLA-NJ'
           icon:
             label: B
             color: '#4FAB5B'
@@ -931,8 +932,8 @@ definitions:
             es: |-
               No puedo trabajar porque un médico o una autoridad de salud pública me aconsejaron ponerme en cuarentena.
           id: situation-3
-          benefits: 'PUA-FED'
-          job-protections: 'A3848'
+          benefits: 'ESL-NJ,EPSL-FED,TDI-NJ,UA'
+          job-protections: 'A3848,FMLA-FED'
           icon:
             label: C
             color: '#E95143'
@@ -942,8 +943,8 @@ definitions:
             es: |-
               No puedo trabajar, o mis horas se reducen, porque fui expuesto a COVID-19 en mi lugar de trabajo y una autoridad de salud me ordenó a cuarentena.
           id: situation-4
-          benefits: 'PUA-FED'
-          job-protections: 'A3848'
+          benefits: 'ESL-NJ,EPSL-FED,TDI-NJ,UA'
+          job-protections: 'A3848,FMLA-FED'
           icon:
             label: D
             color: '#F3A553'
@@ -987,7 +988,7 @@ definitions:
             en: 'My employer is permitted to be open, but I am afraid of exposure and refuse to work.'
             es: 'A mi empleador se le permite estar abierto, pero tengo miedo de la exposición a COVID-19 y me niego a trabajar.'
           id: situation-8
-          benefits: UI-NJ
+          benefits: ESL-NJ
           icon:
             label: I
             color: '#E67162'
@@ -996,7 +997,7 @@ definitions:
             es: |-
               A mi empleador se le ordenó cerrar, pero se quedó abierto. Tengo miedo a la exposición a COVID-19 y me niego a trabajar.
           id: situation-9
-          benefits: 'UI-NJ'
+          benefits: 'ESL-NJ,UI-NJ'
           icon:
             label: J
             color: '#ACD6B2'
