@@ -921,7 +921,7 @@ definitions:
             es: |-
               No puedo trabajar, o mis horas se reducen, porque estoy cuidando a un miembro de la familia que es diagnosticado con COVID-19 o en cuarentena con sospecha de exposición.
           id: situation-2
-          benefits: 'ESL-NJ,EPSL-FED,FLI-NJ,UA'
+          benefits: 'EPSL-FED,ESL-NJ,FLI-NJ,PUA-FED'
           job-protections: 'FMLA-FED,FLA-NJ'
           icon:
             label: B
@@ -932,7 +932,7 @@ definitions:
             es: |-
               No puedo trabajar porque un médico o una autoridad de salud pública me aconsejaron ponerme en cuarentena.
           id: situation-3
-          benefits: 'ESL-NJ,EPSL-FED,TDI-NJ,UA'
+          benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED'
           job-protections: 'A3848,FMLA-FED'
           icon:
             label: C
@@ -943,7 +943,7 @@ definitions:
             es: |-
               No puedo trabajar, o mis horas se reducen, porque fui expuesto a COVID-19 en mi lugar de trabajo y una autoridad de salud me ordenó a cuarentena.
           id: situation-4
-          benefits: 'ESL-NJ,EPSL-FED,TDI-NJ,UA'
+          benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED'
           job-protections: 'A3848,FMLA-FED'
           icon:
             label: D
