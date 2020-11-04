@@ -440,7 +440,7 @@ sections:
         4. Presentar una [solicitud](https://myunemployment.nj.gov/) (preferiblemente en línea).
   WC-NJ:
     title:
-      en: Worker's Compensation
+      en: Workers' Compensation
       es: Compensacíon al Trabajador
     content:
       en: |-
@@ -448,15 +448,14 @@ sections:
 
         **Suggested next steps:**
 
-        1. Learn more about [Worker's Compensation](https://www.nj.gov/labor/wc/workers/workers_index.html).
+        1. Learn more about [Workers' Compensation](https://www.nj.gov/labor/wc/workers/workers_index.html).
         2. Speak to a worker’s compensation attorney.
       es: |-
         Puede ser elegible para la Compensación al trabajador, que brinda beneficios a los empleados que sufren lesiones o enfermedades relacionadas con el trabajo.
-        Puede ser elegible para la Compensación al Trabajador, que brinda beneficios a los empleados que sufren lesiones o enfermedades relacionadas con el trabajo.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información sobre [la compensación laboral](https://www.nj.gov/labor/wc/workers/workers_index.html)
+        1. Obtenga más información sobre [la compensación laboral](https://www.nj.gov/labor/wc/workers/workers_index.html).
         2. Hable con un abogado de compensación laboral.
 pages:
   - title:
@@ -482,6 +481,7 @@ pages:
         - NJ Disability During Unemployment (NJDDU)
         - Unemployment Insurance (UI)
         - Unemployment Assistance (CARES Act)
+        - Workers' Compensation
         - Federal Pandemic Unemployment Compensation (FPUC)
         - Pandemic Emergency Unemployment Compensation (PEUC)
         - Pandemic Unemployment Assistance (PUA)
@@ -517,6 +517,7 @@ pages:
         - Seguro de Incapacidad de New Jersey Durante el Desempleo (NJDDU)
         - Seguro de desempleo (UI)
         - Asistencia de desempleo (CARES Act)
+        - Compensacíon al Trabajador
         - Compensación federal de desempleo pandémico (FPUC)
         - Compensación de emergencia por desempleo pandémico (PEUC)
         - Asistencia de desempleo pandémico (PUA)
@@ -893,7 +894,7 @@ definitions:
             es: |-
               Ninguna de las declaraciones anteriores describe la situación mia. Me gustaría saber más sobre todos los beneficios.
           id: situation-10
-          benefits: 'ESL-NJ,FLI-NJ,TDI-NJ,FLDU-NJ,DDU-NJ,UI-NJ,UA,FPUC-FED,PEUC-FED,PUA-FED,EPSL-FED,FEC-FMLA-FED'
+          benefits: 'ESL-NJ,FLI-NJ,TDI-NJ,FLDU-NJ,DDU-NJ,UI-NJ,UA,WC-NJ,FPUC-FED,PEUC-FED,PUA-FED,EPSL-FED,FEC-FMLA-FED'
           job-protections: 'A3848,FMLA-FED,FLA-NJ'
           icon:
             label: N
