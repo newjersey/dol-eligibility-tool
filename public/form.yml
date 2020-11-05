@@ -441,22 +441,22 @@ sections:
   WC-NJ:
     title:
       en: Workers' Compensation
-      es: Compensacíon al Trabajador
+      es: Seguro de Compensación al Trabajador
     content:
       en: |-
-        You may be eligible for Worker’s Compensation, which provides benefits to employees who suffer job-related injuries or illnesses.
+        You may be eligible for Workers' Compensation, which provides benefits to employees who suffer job-related injuries or illnesses.
 
         **Suggested next steps:**
 
         1. Learn more about [Workers' Compensation](https://www.nj.gov/labor/wc/workers/workers_index.html).
-        2. Speak to a worker’s compensation attorney.
+        2. Speak to a workers' compensation attorney.
       es: |-
-        Puede ser elegible para la Compensación al trabajador, que brinda beneficios a los empleados que sufren lesiones o enfermedades relacionadas con el trabajo.
+        Puede ser elegible para la Compensación al Trabajador, que brinda beneficios a los empleados que sufren lesiones o enfermedades relacionadas con el trabajo.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información sobre [la compensación laboral](https://www.nj.gov/labor/wc/workers/workers_index.html).
-        2. Hable con un abogado de compensación laboral.
+        1. Obtenga más información sobre el [ Seguro de Compensación al Trabajador](https://www.nj.gov/labor/wc/workers/workers_index.html).
+        2. Hable con un abogado del seguro de compensación al trabajador.
 pages:
   - title:
       en: Introduction
@@ -517,7 +517,7 @@ pages:
         - Seguro de Incapacidad de New Jersey Durante el Desempleo (NJDDU)
         - Seguro de desempleo (UI)
         - Asistencia de desempleo (CARES Act)
-        - Compensacíon al Trabajador
+        - Seguro de Compensación al Trabajador
         - Compensación federal de desempleo pandémico (FPUC)
         - Compensación de emergencia por desempleo pandémico (PEUC)
         - Asistencia de desempleo pandémico (PUA)
