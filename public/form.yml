@@ -575,6 +575,10 @@ pages:
               es: 'No. Fui despedido, suspendido o de lo contrario no recibo paga por mi trabajo en New Jersey.'
             id: laid-off-in-new-jersey
           - name:
+              en: 'No, but I’ve been recalled to my work or received an offer of work.'
+              es: 'No, pero me llamaron a regresar a mi trabajo o recibí una oferta de trabajo.'
+            id: return-to-work
+          - name:
               en: 'No, I work in another state'
               es: 'No, trabajo en otro estado'
             id: works-in-another-state
@@ -740,6 +744,25 @@ pages:
                         - FPUC-FED
                         - PUA-FED
                       color: '#ECEEF1'
+          return-to-work:
+            - name:
+                en: What is your relationship to your employer?
+                es: ¿Cuál es su relación con su empleador?
+              id: relationship-to-employer
+              type: single-select
+              required: true
+              options:
+                - name:
+                    en: I am receiving partial unemployment and I am partially employed.
+                    es: Estoy recibiendo desempleo parcial y estoy parcialmente empleado.
+                  id: receiving-partial-unemployment
+                - name:
+                    en: I have been receiving unemployment and I am not otherwise employed.
+                    es: He estado recibiendo desempleo y no tengo otro empleo.
+                  id: receiving-unemployment
+              switch:
+                'receiving-unemployment,receiving-partial-unemployment':
+                  - 'definition:return-to-work-situations'
           'works-in-another-state,laid-off-in-another-state':
             - name:
                 en: Eligibility
@@ -899,6 +922,153 @@ definitions:
           icon:
             label: N
             color: lightgrey
+      switch:
+        ? 'situation-1,situation-2,situation-3,situation-4,situation-5,situation-6,situation-7,situation-8,situation-9,situation-11,situation-12,situation-13,situation-14'
+        : - name:
+              en: You may be eligible for...
+              es: Puede ser elegible para ...
+            id: you-may-be-eligible
+            type: instructions-only
+            instructions:
+              en: |-
+                Based on the information you've provided, you may be eligible for protection or financial aid from these program(s):
+              es: |-
+                Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
+          - id: terminal-eligibility-benefits
+            type: sections
+            sections:
+              name:
+                en: Benefits
+                es: Beneficios
+              instructions:
+                en: 'Note: We have listed these programs in suggested priority order for your convenience.'
+                es: 'Nota: Hemos enumerado estos programas en el orden de prioridad sugerido para su conveniencia.'
+              id: benefits
+              color: '#F6F7F9'
+          - id: terminal-eligibility-job-protections
+            type: sections
+            sections:
+              name:
+                en: Job Protections
+                es: Protecciones laborales
+              instructions:
+                en: 'Note: All protections are unpaid, but the timing could overlap with benefits listed above.'
+                es: 'Nota: Todas las protecciones no se pagan, pero el tiempo podría superponerse con los beneficios enumerados anteriormente.'
+              id: job-protections
+              color: '#ECEEF1'
+          - id: faq-terminal-not-eligible
+            type: instructions-only
+            instructions:
+              en: |-
+                For more information, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+              es: |-
+                Para obtener más información, visite nuestra [página de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+        situation-10:
+          - name:
+              en: Additional Information
+              es: Información Adicional
+            id: additional-information
+            type: warning-only
+            instructions:
+              en: |-
+                Based on the information you may not be eligible for any of the following benefits that are being offered at this time:
+              es: |-
+                Según la información, es posible que no sea elegible para ninguno de los siguientes beneficios que se ofrecen en este momento:
+          - id: terminal-eligibility-benefits-not-eligible
+            type: sections
+            sections:
+              name:
+                en: Benefits
+                es: Beneficios
+              id: benefits
+              color: '#F6F7F9'
+          - id: terminal-eligibility-job-protections-not-eligible
+            type: sections
+            sections:
+              name:
+                en: Job Protections
+                es: Protecciones laborales
+              id: job-protections
+              color: '#ECEEF1'
+          - id: faq-terminal-not-eligible
+            type: instructions-only
+            instructions:
+              en: |-
+                For more information, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+              es: |-
+                Para obtener más información, visite nuestra [página de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+  return-to-work-situations:
+    - name:
+        en: Which of the following statements best describes your situation? Select all that apply.
+        es: ¿Cuál de las siguientes afirmaciones describe mejor su situación? Seleccione todas las que correspondan.
+      id: describe-situation
+      required: true
+      type: multiselect
+      additionalKeys: 'benefits,job-protections'
+      options:
+        - name:
+            en: "I can't work, or my hours are reduced, because I need to care for my children due to COVID-19-related school or child care closures, including mandatory remote learning."
+            es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a mis hijos debido al cierre de escuelas o guarderías relacionadas con COVID-19, incluido el aprendizaje remoto obligatorio.'
+          id: situation-1
+          benefits: PUA-FED
+          icon:
+            label: A
+            color: '#4DB0E3'
+        - name:
+            en: |-
+              I can't work, or my hours are reduced, because I am caring for a family member who is diagnosed with COVID-19 or in quarantine with suspicion of exposure.
+            es: |-
+              No puedo trabajar, o mis horas se reducen, porque estoy cuidando a un miembro de la familia que es diagnosticado con COVID-19 o en cuarentena con sospecha de exposición.
+          id: situation-2
+          benefits: PUA-FED
+          icon:
+            label: B
+            color: '#4FAB5B'
+        - name:
+            en: |-
+              I can't work because I'm advised by a doctor or public health authority to quarantine.
+            es: |-
+              No puedo trabajar porque un médico o una autoridad de salud pública me aconsejaron ponerme en cuarentena.
+          id: situation-3
+          benefits: PUA-FED
+          icon:
+            label: C
+            color: '#E95143'
+        - name:
+            en: |-
+              I can't work, or my hours are reduced, because I was exposed in my workplace and was told to quarantine by a health authority.
+            es: |-
+              No puedo trabajar, o mis horas se reducen, porque fui expuesto a COVID-19 en mi lugar de trabajo y una autoridad de salud me ordenó a cuarentena.
+          id: situation-4
+          benefits: PUA-FED
+          icon:
+            label: D
+            color: '#F3A553'
+        - name:
+            en: 'My employer is permitted to be open, but I am afraid of exposure and refuse to work.'
+            es: 'A mi empleador se le permite estar abierto, pero tengo miedo de la exposición a COVID-19 y me niego a trabajar.'
+          id: situation-8
+          benefits: ESL-NJ
+          icon:
+            label: I
+            color: '#E67162'
+        - name:
+            en: 'My employer was ordered to close, but has remained open. I am afraid of exposure and refuse to work.'
+            es: |-
+              A mi empleador se le ordenó cerrar, pero se quedó abierto. Tengo miedo a la exposición a COVID-19 y me niego a trabajar.
+          id: situation-9
+          benefits: 'PUA-FED,UI-NJ'
+          icon:
+            label: J
+            color: '#ACD6B2'
+        - name:
+            en: 'My workplace is unsafe, my employer refuses to follow health and safety guidelines, and I refuse to work.'
+            es: 'Mi lugar de trabajo no está seguro, mi empleador se niega a seguir las directrices de salud y seguridad y yo me niego a trabajar.'
+          id: situation-12
+          benefits: UI-NJ
+          icon:
+            label: K
+            color: '#FFB6C1'
       switch:
         ? 'situation-1,situation-2,situation-3,situation-4,situation-5,situation-6,situation-7,situation-8,situation-9,situation-11,situation-12,situation-13,situation-14'
         : - name:
