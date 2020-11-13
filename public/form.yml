@@ -576,7 +576,7 @@ pages:
             id: laid-off-in-new-jersey
           - name:
               en: 'No, but I’ve been recalled to my work or received an offer of work.'
-              es: 'No, pero me llamaron a regresar a mi trabajo o recibí una oferta de trabajo.'
+              es: 'No, pero me llamaron a mi trabajo o recibí una oferta de trabajo.'
             id: return-to-work
           - name:
               en: 'No, I work in another state'
