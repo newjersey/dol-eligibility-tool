@@ -473,6 +473,24 @@ sections:
 
         1. Obtenga más información sobre el [ Seguro de Compensación al Trabajador](https://www.nj.gov/labor/wc/workers/workers_index.html)
         2. Hable con un abogado del seguro de compensación al trabajador
+  EO-192:
+    title:
+      en: COVID-19 rights and protections for workplace health and safety
+      es: Derechos y protecciones de COVID-19 para la salud y seguridad en el lugar de trabajo
+    content:
+      en: |-
+        Every employer in New Jersey must protect workers, customers, and visitors from the spread of COVID-19 and follow Executive Order 192 requirements regarding social distancing, face masks, health checks, cleaning/disinfecting and more.
+
+        **Suggested next step:**
+
+        Learn more about Executive Order 192 and how to file a complaint [here](https://www.nj.gov/labor/worker-protections/myworkrights/covidprotections.shtml)
+        Speak to a workers' compensation attorney
+      es: |-
+        Cada empleador en New Jersey tiene que proteger a los trabajadores, clientes y visitantes de la propagación del COVID-19 y seguir los requisitos de la Orden Ejecutiva 192 con respecto al distanciamiento social, máscaras faciales, controles de salud, limpieza / desinfección y más.
+
+        ** Siguiente paso sugerido: **
+
+        Obtenga más información sobre la Orden Ejecutiva 192 y cómo presentar una queja
 pages:
   - title:
       en: Introduction
@@ -504,9 +522,10 @@ pages:
         - Federal Emergency Paid Sick Leave
         - Federal Emergency Childcare FMLA
 
-        ###### Job Protections
+        ###### Protections
 
         - Protection against COVID-19 related discrimination at work
+        - COVID-19 rights and protections for workplace health and safety
         - Federal Family and Medical Leave Act (FMLA)
         - NJ Family Leave Act (NJFLA)
 
@@ -540,9 +559,10 @@ pages:
         - Permiso federal de emergencia por enfermedad pagada
         - Ley federal de emergencia – FMLA licencia por Cuidar Hijos
 
-        ###### Protecciones laborales
+        ###### Protecciones
 
         - Protección contra la discriminación laboral relacionada con COVID-19
+        - Derechos y protecciones de COVID-19 para la salud y seguridad en el lugar de trabajo
         - Ley Federal de Licencia Médica y Familiar (FMLA)
         - Ley de licencia familiar de New Jersey (NJFLA)
 
@@ -905,8 +925,8 @@ definitions:
             label: J
             color: '#ACD6B2'
         - name:
-            en: 'My workplace is unsafe, my employer refuses to follow health and safety guidelines, and I refuse to work.'
-            es: 'Mi lugar de trabajo no está seguro, mi empleador se niega a seguir las directrices de salud y seguridad y yo me niego a trabajar.'
+            en: 'My workplace is unsafe and my employer refuses to follow health and safety guidelines.'
+            es: 'Mi lugar de trabajo no está seguro y mi empleador se niega a seguir las directrices de salud y seguridad.'
           id: situation-12
           benefits: 'ESL-NJ,UI-NJ'
           icon:
@@ -1082,8 +1102,8 @@ definitions:
             label: J
             color: '#ACD6B2'
         - name:
-            en: 'My workplace is unsafe, my employer refuses to follow health and safety guidelines, and I refuse to work.'
-            es: 'Mi lugar de trabajo no está seguro, mi empleador se niega a seguir las directrices de salud y seguridad y yo me niego a trabajar.'
+            en: 'My workplace is unsafe and my employer refuses to follow health and safety guidelines.'
+            es: 'Mi lugar de trabajo no está seguro y mi empleador se niega a seguir las directrices de salud y seguridad..'
           id: situation-12
           benefits: 'ESL-NJ,UI-NJ'
           icon:
