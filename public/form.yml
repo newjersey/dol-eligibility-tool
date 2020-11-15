@@ -238,13 +238,13 @@ sections:
 
         **Suggested next step:**
 
-        Get more information [here.](https://www.dol.gov/coronavirus/unemployment-insurance)
+        Get more information [here](https://www.dol.gov/coronavirus/unemployment-insurance)
       es: |-
         Usted puede ser elegible para beneficios federales hasta el 25 de julio de 2020 a través de la Compensación por Desempleo Pandémico. La Ley de Ayuda, Alivio y Seguridad Económica del Coronavirus (Ley CARES, por sus millones) incluye la Compensación Federal por Desempleo Pandémico que proporciona $600 adicionales por semana a las personas que están cobrando seguro de desempleo regular, PEUC y PUA.
 
         ** Siguiente paso sugerido: **
 
-        Obtenga más información [aquí.](https://www.dol.gov/coronavirus/unemployment-insurance)
+        Obtenga más información [aquí](https://www.dol.gov/coronavirus/unemployment-insurance)
   PEUC-FED:
     title:
       en: Pandemic Emergency Unemployment Compensation (PEUC) via the CARES Act
@@ -272,19 +272,19 @@ sections:
 
         **Suggested next step:**
 
-        1. Get more information about back to school and COVID-19 [here.](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
+        1. Get more information about back to school and COVID-19 [here](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
         2. Learn more about returning to work [here](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
-        3. Get more information about PUA [here.](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml)
-        4. To apply, complete an application for regular unemployment: learn [how.](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/applyonline.shtml)
+        3. Get more information about PUA [here](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml)
+        4. To apply, complete an application for regular unemployment: learn [how](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/applyonline.shtml)
       es: |-
         Puede ser elegible para los beneficios federales denominados Asistencia por Desempleo Pandémico (PUA), a través de la Ley de Ayuda, Alivio y Seguridad Económica de Coronavirus (Ley CARES). PUA puede proporcionar hasta 39 semanas de beneficios por desempleo a los trabajadores independientes y a aquellos que no pueden trabajar debido a razones de COVID-19, incluidos los cierres de escuelas / guarderías o aprendizaje remoto obligatorio, o una cuarentena aconsejada por un médico.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información sobre el regreso a clases y COVID-19 [aquí.](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
+        1. Obtenga más información sobre el regreso a clases y COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
         2. Obtenga más información sobre cómo regresar al trabajo [aquí](https://www.nj.gov/labor/worker-protections/covid_returntowork.shtml)
-        3. Obtenga más información sobre PUA [aquí.](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml)
-        4. Para postularse, complete una solicitud de desempleo regular: aprenda [cómo postular.](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/applyonline.shtml)
+        3. Obtenga más información sobre PUA [aquí](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml)
+        4. Para postularse, complete una solicitud de desempleo regular: aprenda [cómo postular](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/applyonline.shtml)
   EPSL-FED:
     title:
       en: Federal Emergency Paid Sick Leave (EPSL)
@@ -342,17 +342,17 @@ sections:
 
         **Suggested next steps:**
 
-        1. Get more information [here](https://www.nj.gov/labor/worker-protections/covid_discrimination.shtml).
-        2. Talk to your employer about your right to job protection; you can refer them to the information [here](https://www.nj.gov/labor/worker-protections/covid_discrimination.shtml).
-        3. If the employer doesn’t comply, file a [complaint](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html) (also known as wage claim) with NJDOL.
+        1. Get more information [here](https://www.nj.gov/labor/worker-protections/covid_discrimination.shtml)
+        2. Talk to your employer about your right to job protection; you can refer them to the information [here](https://www.nj.gov/labor/worker-protections/covid_discrimination.shtml)
+        3. If the employer doesn’t comply, file a [complaint](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html) (also known as wage claim) with NJDOL
       es: |-
         Los empleadores tienen prohibido despedir o castigar a un empleado que solicita tiempo libre o se ausenta del trabajo en base a la determinación de un profesional médico de que el empleado tiene, o es probable que tenga, COVID-19. La ley solo se aplica durante la pandemia COVID-19 y la emergencia de salud pública relacionada y la emergencia estatal.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información [aquí](https://www.nj.gov/labor/worker-protections/covid_discrimination.shtml).
-        2. Hable con su empleador sobre su derecho a la protección laboral; puedes referirlos a la información [aquí](https://www.nj.gov/labor/worker-protections/covid_discrimination.shtml).
-        3. Si el empleador no cumple, presente una [queja](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html) (también conocida como reclamo salarial) ante NJDOL.
+        1. Obtenga más información [aquí](https://www.nj.gov/labor/worker-protections/covid_discrimination.shtml)
+        2. Hable con su empleador sobre su derecho a la protección laboral; puedes referirlos a la información [aquí](https://www.nj.gov/labor/worker-protections/covid_discrimination.shtml)
+        3. Si el empleador no cumple, presente una [queja](https://www.nj.gov/labor/wagehour/complnt/filing_wage_claim.html) (también conocida como reclamo salarial) ante NJDOL
   FMLA-FED:
     title:
       en: Federal Family and Medical Leave Act (FMLA)
@@ -407,13 +407,13 @@ sections:
 
         **Suggested next steps:**
 
-        1. Get more information and learn how to apply [here](https://myleavebenefits.nj.gov/unemployed).
+        1. Get more information and learn how to apply [here](https://myleavebenefits.nj.gov/unemployed)
       es: |-
         Si su proveedor médico certifica que no puede trabajar debido a su propia condición médica no relacionada con el trabajo, incluidos el embarazo y el parto, más de 14 días después de su último día de trabajo, es posible que sea elegible para los beneficios de Incapacidad Durante el Desempleo (DDU). DDU es una combinación de los programas de Seguro de Desempleo y por Incapacidad Temporal.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información y aprenda cómo postularse [aquí](https://myleavebenefits.nj.gov/unemployed).
+        1. Obtenga más información y aprenda cómo postularse [aquí](https://myleavebenefits.nj.gov/unemployed)
   FLDU-NJ:
     title:
       en: New Jersey Family Leave During Unemployment (NJFLDU)
@@ -424,13 +424,13 @@ sections:
 
         **Suggested next steps:**
 
-        1. Get more information and learn how to apply [here](https://myleavebenefits.nj.gov/unemployed).
+        1. Get more information and learn how to apply [here](https://myleavebenefits.nj.gov/unemployed)
       es: |-
         Si necesita vincularse con un hijo nuevo o cuidar a un ser querido enfermo o lesionado más de 14 días después de su último día de trabajo, y no está en una licencia de ausencia aprobada por el empleador, puede ser elegible para Beneficios de Licencia Familiar Durante el Desempleo (FLDU). Esta es una combinación de los programas de Seguro por Desempleo y Seguro de Licencia Familiar.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información y aprenda cómo postularse [aquí](https://myleavebenefits.nj.gov/unemployed).
+        1. Obtenga más información y aprenda cómo postularse [aquí](https://myleavebenefits.nj.gov/unemployed)
   UI-NJ:
     title:
       en: Unemployment Insurance (UI)
@@ -441,10 +441,10 @@ sections:
 
         **Suggested next steps:**
 
-        1. Learn more about returning to work amid COVID-19 [here](https://www.nj.gov/labor/worker-protections/returntowork.shtml).
+        1. Learn more about returning to work amid COVID-19 [here](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
         2. Learn [how to apply](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/) for unemployment.
-        3. Create an account at [myunemployment.nj.gov](https://myunemployment.nj.gov/labor/myunemployment/before/createaccount/index.shtml).
-        4. File an [application](https://myunemployment.nj.gov/) (online preferred).
+        3. Create an account at [myunemployment.nj.gov](https://myunemployment.nj.gov/labor/myunemployment/before/createaccount/index.shtml)
+        4. File an [application](https://myunemployment.nj.gov/) (online preferred)
       es: |-
         Puede ser elegible para los beneficios regulares del Seguro de Desempleo. En la mayoría de los casos, no puede cobrar los beneficios del seguro de desempleo (UI) si rechaza un [trabajo adecuado](https://www.nj.gov/labor/worker-protections/returntowork.shtml#suitable). Pueden ocurrir excepciones cuando un individuo renuncia o se niega a trabajar porque el trabajo representa un alto grado de riesgo para la salud y la seguridad y el empleado ha intentado remediar el problema con el empleador. NJDOL examina los casos de forma individual y determina la elegibilidad de acuerdo con la ley.
 
@@ -452,8 +452,8 @@ sections:
 
         1. Obtenga más información sobre el regreso al trabajo en medio de COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
         2. Aprenda [cómo solicitar](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/) los beneficios del desempleo.
-        3. Abra una cuenta en [myunemployment.nj.gov](https://myunemployment.nj.gov/labor/myunemployment/before/createaccount/index.shtml).
-        4. Presentar una [solicitud](https://myunemployment.nj.gov/) (preferiblemente en línea).
+        3. Abra una cuenta en [myunemployment.nj.gov](https://myunemployment.nj.gov/labor/myunemployment/before/createaccount/index.shtml)
+        4. Presentar una [solicitud](https://myunemployment.nj.gov/) (preferiblemente en línea)
   WC-NJ:
     title:
       en: Workers' Compensation
@@ -464,15 +464,15 @@ sections:
 
         **Suggested next steps:**
 
-        1. Learn more about [Workers' Compensation](https://www.nj.gov/labor/wc/workers/workers_index.html).
-        2. Speak to a workers' compensation attorney.
+        1. Learn more about [Workers' Compensation](https://www.nj.gov/labor/wc/workers/workers_index.html)
+        2. Speak to a workers' compensation attorney
       es: |-
         Puede ser elegible para la Compensación al Trabajador, que brinda beneficios a los empleados que sufren lesiones o enfermedades relacionadas con el trabajo.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información sobre el [ Seguro de Compensación al Trabajador](https://www.nj.gov/labor/wc/workers/workers_index.html).
-        2. Hable con un abogado del seguro de compensación al trabajador.
+        1. Obtenga más información sobre el [ Seguro de Compensación al Trabajador](https://www.nj.gov/labor/wc/workers/workers_index.html)
+        2. Hable con un abogado del seguro de compensación al trabajador
 pages:
   - title:
       en: Introduction
@@ -595,8 +595,8 @@ pages:
               es: 'No, pero me llamaron a regresar a mi trabajo o recibí una oferta de trabajo.'
             id: return-to-work
           - name:
-              en: 'No, I work in another state'
-              es: 'No, trabajo en otro estado'
+              en: 'No, I work in another state.'
+              es: 'No, trabajo en otro estado.'
             id: works-in-another-state
           - name:
               en: 'No, I was laid off, furloughed, or am otherwise not receiving pay for my job in another state.'
@@ -613,9 +613,9 @@ pages:
               options:
                 - name:
                     en: |-
-                      I am/was paid hourly or salaried by an employer. (Hint: you receive(d) a W-2 form for tax purposes)
+                      I am/was paid hourly or salaried by an employer. (Hint: you receive(d) a W-2 form for tax purposes.)
                     es: |-
-                      Me pagan / me pagan por hora o me pagan un empleador. (Sugerencia: recibe (recibió) un formulario W-2 para fines fiscales)
+                      Me pagan / me pagan por hora o me pagan un empleador. (Sugerencia: recibe (recibió) un formulario W-2 para fines fiscales.)
                   id: paid-hourly-by-employer
                 - name:
                     en: I am receiving partial unemployment and I am partially employed.
@@ -623,9 +623,9 @@ pages:
                   id: receiving-partial-unemployment
                 - name:
                     en: |-
-                      I am/was self employed or an independent contractor. (Hint: You receive(d) a 1099 form for tax purposes)
+                      I am/was self employed or an independent contractor. (Hint: You receive(d) a 1099 form for tax purposes.)
                     es: |-
-                      Soy / era trabajador independiente o un contratista independiente. (Sugerencia: recibe (recibió) un formulario 1099 para fines fiscales)
+                      Soy / era trabajador independiente o un contratista independiente. (Sugerencia: recibe (recibió) un formulario 1099 para fines fiscales.)
                   id: self-employed-by-independent-contractor
                 - name:
                     en: I have been receiving unemployment and I am not otherwise employed.
