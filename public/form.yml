@@ -1091,7 +1091,7 @@ definitions:
             es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a mis hijos debido al cierre de escuelas o guarderías relacionadas con COVID-19, incluido el aprendizaje remoto obligatorio.'
           id: situation-1
           benefits: 'EPSL-FED,ESL-NJ,FEC-FMLA-FED,PUA-FED'
-          job-protections: FLA-NJ
+          job-protections: 'EO-192,FLA-NJ'
           icon:
             label: A
             color: '#4DB0E3'
@@ -1102,7 +1102,7 @@ definitions:
               No puedo trabajar, o mis horas se reducen, porque estoy cuidando a un miembro de la familia que es diagnosticado con COVID-19 o en cuarentena con sospecha de exposición.
           id: situation-2
           benefits: 'EPSL-FED,ESL-NJ,FLI-NJ,PUA-FED'
-          job-protections: 'FMLA-FED,FLA-NJ'
+          job-protections: 'EO-192,FMLA-FED,FLA-NJ'
           icon:
             label: B
             color: '#4FAB5B'
@@ -1113,7 +1113,7 @@ definitions:
               No puedo trabajar porque un médico o una autoridad de salud pública me aconsejaron ponerme en cuarentena.
           id: situation-3
           benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED'
-          job-protections: 'A3848,FMLA-FED'
+          job-protections: 'A3848,EO-192,FMLA-FED'
           icon:
             label: C
             color: '#E95143'
@@ -1124,7 +1124,7 @@ definitions:
               No puedo trabajar, o mis horas se reducen, porque fui expuesto a COVID-19 en mi lugar de trabajo y una autoridad de salud me ordenó a cuarentena.
           id: situation-4
           benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED,WC-NJ'
-          job-protections: 'A3848,FMLA-FED'
+          job-protections: 'A3848,EO-192,FMLA-FED'
           icon:
             label: D
             color: '#F3A553'
@@ -1133,6 +1133,7 @@ definitions:
             es: 'A mi empleador se le permite estar abierto, pero tengo miedo de la exposición a COVID-19 y me niego a trabajar.'
           id: situation-8
           benefits: ESL-NJ
+          job-protections: EO-192
           icon:
             label: I
             color: '#E67162'
@@ -1142,6 +1143,7 @@ definitions:
               A mi empleador se le ordenó cerrar, pero se quedó abierto. Tengo miedo a la exposición a COVID-19 y me niego a trabajar.
           id: situation-9
           benefits: 'ESL-NJ,UI-NJ'
+          job-protections: EO-192
           icon:
             label: J
             color: '#ACD6B2'
@@ -1150,6 +1152,7 @@ definitions:
             es: 'Mi lugar de trabajo no está seguro y mi empleador se niega a seguir las directrices de salud y seguridad..'
           id: situation-12
           benefits: 'ESL-NJ,UI-NJ'
+          job-protections: EO-192
           icon:
             label: K
             color: '#FFB6C1'
