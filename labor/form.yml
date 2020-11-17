@@ -255,13 +255,13 @@ sections:
 
         **Suggested next step:**
 
-        Get more information [here](https://www.dol.gov/coronavirus/unemployment-insurance)
+        Get more information [here](https://www.myunemployment.nj.gov/labor/myunemployment/apply/extensions/)
       es: |-
         Puede ser elegible para beneficios federales a través de la Compensación de desempleo de emergencia pandémica debido a COVID-19. La Ley de Ayuda, Alivio y Seguridad Económica de Coronavirus (CARES) creó un nuevo programa federal temporal llamado Compensación de desempleo de emergencia pandémica que brinda hasta 13 semanas adicionales de beneficios a las personas que han agotado su derecho regular de seguro de desempleo.
 
         ** Siguiente paso sugerido: **
 
-        Obtenga más información [aquí](https://www.dol.gov/coronavirus/unemployment-insurance)
+        Obtenga más información [aquí](https://www.myunemployment.nj.gov/labor/myunemployment/apply/extensions/)
   PUA-FED:
     title:
       en: Pandemic Unemployment Assistance (PUA)
@@ -473,6 +473,23 @@ sections:
 
         1. Obtenga más información sobre el [ Seguro de Compensación al Trabajador](https://www.nj.gov/labor/wc/workers/workers_index.html)
         2. Hable con un abogado del seguro de compensación al trabajador
+  EO-192:
+    title:
+      en: COVID-19 rights and protections for workplace health and safety
+      es: Derechos y protecciones de COVID-19 para la salud y seguridad en el lugar de trabajo
+    content:
+      en: |-
+        Every employer in New Jersey must protect workers, customers, and visitors from the spread of COVID-19 and follow Executive Order 192 requirements regarding social distancing, face masks, health checks, cleaning/disinfecting and more.
+
+        **Suggested next step:**
+
+        Learn more about Executive Order 192 and how to file a complaint [here](https://www.nj.gov/labor/worker-protections/myworkrights/covidprotections.shtml)
+      es: |-
+        Cada empleador en New Jersey tiene que proteger a los trabajadores, clientes y visitantes de la propagación del COVID-19 y seguir los requisitos de la Orden Ejecutiva 192 con respecto al distanciamiento social, máscaras faciales, controles de salud, limpieza / desinfección y más.
+
+        ** Siguiente paso sugerido: **
+
+        Obtenga más información sobre la Orden Ejecutiva 192 y cómo presentar una queja [aquí](https://www.nj.gov/labor/worker-protections/myworkrights/covidprotections.shtml)
 pages:
   - title:
       en: Introduction
@@ -504,9 +521,10 @@ pages:
         - Federal Emergency Paid Sick Leave
         - Federal Emergency Childcare FMLA
 
-        ###### Job Protections
+        ###### Protections
 
         - Protection against COVID-19 related discrimination at work
+        - COVID-19 rights and protections for workplace health and safety
         - Federal Family and Medical Leave Act (FMLA)
         - NJ Family Leave Act (NJFLA)
 
@@ -540,9 +558,10 @@ pages:
         - Permiso federal de emergencia por enfermedad pagada
         - Ley federal de emergencia – FMLA licencia por Cuidar Hijos
 
-        ###### Protecciones laborales
+        ###### Protecciones
 
         - Protección contra la discriminación laboral relacionada con COVID-19
+        - Derechos y protecciones de COVID-19 para la salud y seguridad en el lugar de trabajo
         - Ley Federal de Licencia Médica y Familiar (FMLA)
         - Ley de licencia familiar de New Jersey (NJFLA)
 
@@ -684,6 +703,15 @@ pages:
                               - EPSL-FED
                               - FEC-FMLA-FED
                               - PUA-FED
+                        - id: terminal-not-applied-for-ui
+                          type: sections
+                          sections:
+                            name:
+                              en: Protections
+                              es: Protecciones
+                            color: '#ECEEF1'
+                            include:
+                              - EO-192
                       yes-rejected:
                         - name:
                             en: Eligibility
@@ -706,6 +734,15 @@ pages:
                               - EPSL-FED
                               - FEC-FMLA-FED
                               - PUA-FED
+                        - id: terminal-not-applied-for-ui
+                          type: sections
+                          sections:
+                            name:
+                              en: Protections
+                              es: Protecciones
+                            color: '#ECEEF1'
+                            include:
+                              - EO-192
                       no:
                         - name:
                             en: Eligibility
@@ -728,6 +765,15 @@ pages:
                               - PUA-FED
                               - EPSL-FED
                               - FEC-FMLA-FED
+                        - id: terminal-not-applied-for-ui
+                          type: sections
+                          sections:
+                            name:
+                              en: Protections
+                              es: Protecciones
+                            color: '#ECEEF1'
+                            include:
+                              - EO-192
                 receiving-unemployment:
                   - name:
                       en: Eligibility
@@ -760,6 +806,15 @@ pages:
                         - FPUC-FED
                         - PUA-FED
                       color: '#ECEEF1'
+                  - id: terminal-eligibility-1
+                    type: sections
+                    sections:
+                      name:
+                        en: Protections
+                        es: Protecciones
+                      color: '#F6F7F9'
+                      include:
+                        - EO-192
           return-to-work:
             - name:
                 en: What is your relationship to your employer?
@@ -814,7 +869,7 @@ definitions:
             es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a mis hijos debido al cierre de escuelas o guarderías relacionadas con COVID-19, incluido el aprendizaje remoto obligatorio.'
           id: situation-1
           benefits: 'EPSL-FED,ESL-NJ,FEC-FMLA-FED,PUA-FED'
-          job-protections: 'FLA-NJ'
+          job-protections: 'EO-192,FLA-NJ'
           icon:
             label: A
             color: '#4DB0E3'
@@ -825,7 +880,7 @@ definitions:
               No puedo trabajar, o mis horas se reducen, porque estoy cuidando a un miembro de la familia que es diagnosticado con COVID-19 o en cuarentena con sospecha de exposición.
           id: situation-2
           benefits: 'EPSL-FED,ESL-NJ,FLI-NJ,PUA-FED'
-          job-protections: 'FMLA-FED,FLA-NJ'
+          job-protections: 'EO-192,FMLA-FED,FLA-NJ'
           icon:
             label: B
             color: '#4FAB5B'
@@ -836,7 +891,7 @@ definitions:
               No puedo trabajar porque un médico o una autoridad de salud pública me aconsejaron ponerme en cuarentena.
           id: situation-3
           benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED'
-          job-protections: 'A3848,FMLA-FED'
+          job-protections: 'A3848,EO-192,FMLA-FED'
           icon:
             label: C
             color: '#E95143'
@@ -847,7 +902,7 @@ definitions:
               No puedo trabajar, o mis horas se reducen, porque fui expuesto a COVID-19 en mi lugar de trabajo y una autoridad de salud me ordenó a cuarentena.
           id: situation-4
           benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED,WC-NJ'
-          job-protections: 'A3848,FMLA-FED'
+          job-protections: 'A3848,EO-192,FMLA-FED'
           icon:
             label: D
             color: '#F3A553'
@@ -858,6 +913,7 @@ definitions:
               No puedo trabajar, o mis horas se reducen, porque hay menos horas disponibles debido a la desaceleración del negocio o la falta de demanda.
           id: situation-5
           benefits: UA
+          job-protections: EO-192
           icon:
             label: E
             color: '#F8CB56'
@@ -866,6 +922,7 @@ definitions:
             es: 'No puedo trabajar, o mis horas se reducen, porque mi empleador recibió la orden de cerrar.'
           id: situation-6
           benefits: UA
+          job-protections: EO-192
           icon:
             label: F
             color: '#8B378D'
@@ -874,6 +931,7 @@ definitions:
             es: 'No puedo trabajar, o mis horas se reducen, porque mi empleador cerró voluntariamente.'
           id: situation-7
           benefits: UA
+          job-protections: EO-192
           icon:
             label: G
             color: '#C0D1E0'
@@ -884,6 +942,7 @@ definitions:
               Fui despedido o suspendido, mientras estaba recibiendo los beneficios pagados de licencia familiar o por incapacidad temporal, porque hay menos horas disponibles debido a la desaceleración del negocio o la falta de demanda.
           id: situation-11
           benefits: UA
+          job-protections: EO-192
           icon:
             label: H
             color: '#235DA6'
@@ -892,6 +951,7 @@ definitions:
             es: 'A mi empleador se le permite estar abierto, pero tengo miedo de la exposición a COVID-19 y me niego a trabajar.'
           id: situation-8
           benefits: ESL-NJ
+          job-protections: EO-192
           icon:
             label: I
             color: '#E67162'
@@ -901,14 +961,16 @@ definitions:
               A mi empleador se le ordenó cerrar, pero se quedó abierto. Tengo miedo a la exposición a COVID-19 y me niego a trabajar.
           id: situation-9
           benefits: 'ESL-NJ,UI-NJ'
+          job-protections: EO-192
           icon:
             label: J
             color: '#ACD6B2'
         - name:
-            en: 'My workplace is unsafe, my employer refuses to follow health and safety guidelines, and I refuse to work.'
-            es: 'Mi lugar de trabajo no está seguro, mi empleador se niega a seguir las directrices de salud y seguridad y yo me niego a trabajar.'
+            en: 'My workplace is unsafe and my employer refuses to follow health and safety guidelines.'
+            es: 'Mi lugar de trabajo no está seguro y mi empleador se niega a seguir las directrices de salud y seguridad.'
           id: situation-12
           benefits: 'ESL-NJ,UI-NJ'
+          job-protections: EO-192
           icon:
             label: K
             color: '#FFB6C1'
@@ -917,6 +979,7 @@ definitions:
             es: 'Estoy recibiendo beneficios por desempleo, pero ya no puedo trabajar debido a mi propia condición médica que no es relacionada con el trabajo, incluidos el embarazo y el parto.'
           id: situation-13
           benefits: DDU-NJ
+          job-protections: EO-192
           icon:
             label: L
             color: '#BF7F58'
@@ -925,6 +988,7 @@ definitions:
             es: 'He estado recibiendo beneficios por desempleo, pero ya no estoy disponible para trabajar porque estoy estableciendo un vínculo fuerte con un hijo nuevo o cuidando a un ser querido enfermo o lesionado.'
           id: situation-14
           benefits: FLDU-NJ
+          job-protections: EO-192
           icon:
             label: M
             color: '#C72263'
@@ -934,7 +998,7 @@ definitions:
               Ninguna de las declaraciones anteriores describe la situación mia. Me gustaría saber más sobre todos los beneficios.
           id: situation-10
           benefits: 'ESL-NJ,FLI-NJ,TDI-NJ,FLDU-NJ,DDU-NJ,UI-NJ,UA,WC-NJ,FPUC-FED,PEUC-FED,PUA-FED,EPSL-FED,FEC-FMLA-FED'
-          job-protections: 'A3848,FMLA-FED,FLA-NJ'
+          job-protections: 'A3848,EO-192,FMLA-FED,FLA-NJ'
           icon:
             label: N
             color: lightgrey
@@ -965,8 +1029,8 @@ definitions:
             type: sections
             sections:
               name:
-                en: Job Protections
-                es: Protecciones laborales
+                en: Protections
+                es: Protecciones
               instructions:
                 en: 'Note: All protections are unpaid, but the timing could overlap with benefits listed above.'
                 es: 'Nota: Todas las protecciones no se pagan, pero el tiempo podría superponerse con los beneficios enumerados anteriormente.'
@@ -1002,8 +1066,8 @@ definitions:
             type: sections
             sections:
               name:
-                en: Job Protections
-                es: Protecciones laborales
+                en: Protections
+                es: Protecciones
               id: job-protections
               color: '#ECEEF1'
           - id: faq-terminal-not-eligible
@@ -1027,7 +1091,7 @@ definitions:
             es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a mis hijos debido al cierre de escuelas o guarderías relacionadas con COVID-19, incluido el aprendizaje remoto obligatorio.'
           id: situation-1
           benefits: 'EPSL-FED,ESL-NJ,FEC-FMLA-FED,PUA-FED'
-          job-protections: FLA-NJ
+          job-protections: 'EO-192,FLA-NJ'
           icon:
             label: A
             color: '#4DB0E3'
@@ -1038,7 +1102,7 @@ definitions:
               No puedo trabajar, o mis horas se reducen, porque estoy cuidando a un miembro de la familia que es diagnosticado con COVID-19 o en cuarentena con sospecha de exposición.
           id: situation-2
           benefits: 'EPSL-FED,ESL-NJ,FLI-NJ,PUA-FED'
-          job-protections: 'FMLA-FED,FLA-NJ'
+          job-protections: 'EO-192,FMLA-FED,FLA-NJ'
           icon:
             label: B
             color: '#4FAB5B'
@@ -1049,7 +1113,7 @@ definitions:
               No puedo trabajar porque un médico o una autoridad de salud pública me aconsejaron ponerme en cuarentena.
           id: situation-3
           benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED'
-          job-protections: 'A3848,FMLA-FED'
+          job-protections: 'A3848,EO-192,FMLA-FED'
           icon:
             label: C
             color: '#E95143'
@@ -1060,7 +1124,7 @@ definitions:
               No puedo trabajar, o mis horas se reducen, porque fui expuesto a COVID-19 en mi lugar de trabajo y una autoridad de salud me ordenó a cuarentena.
           id: situation-4
           benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED,WC-NJ'
-          job-protections: 'A3848,FMLA-FED'
+          job-protections: 'A3848,EO-192,FMLA-FED'
           icon:
             label: D
             color: '#F3A553'
@@ -1069,6 +1133,7 @@ definitions:
             es: 'A mi empleador se le permite estar abierto, pero tengo miedo de la exposición a COVID-19 y me niego a trabajar.'
           id: situation-8
           benefits: ESL-NJ
+          job-protections: EO-192
           icon:
             label: I
             color: '#E67162'
@@ -1078,14 +1143,16 @@ definitions:
               A mi empleador se le ordenó cerrar, pero se quedó abierto. Tengo miedo a la exposición a COVID-19 y me niego a trabajar.
           id: situation-9
           benefits: 'ESL-NJ,UI-NJ'
+          job-protections: EO-192
           icon:
             label: J
             color: '#ACD6B2'
         - name:
-            en: 'My workplace is unsafe, my employer refuses to follow health and safety guidelines, and I refuse to work.'
-            es: 'Mi lugar de trabajo no está seguro, mi empleador se niega a seguir las directrices de salud y seguridad y yo me niego a trabajar.'
+            en: 'My workplace is unsafe and my employer refuses to follow health and safety guidelines.'
+            es: 'Mi lugar de trabajo no está seguro y mi empleador se niega a seguir las directrices de salud y seguridad..'
           id: situation-12
           benefits: 'ESL-NJ,UI-NJ'
+          job-protections: EO-192
           icon:
             label: K
             color: '#FFB6C1'
@@ -1116,8 +1183,8 @@ definitions:
             type: sections
             sections:
               name:
-                en: Job Protections
-                es: Protecciones laborales
+                en: Protections
+                es: Protecciones
               instructions:
                 en: 'Note: All protections are unpaid, but the timing could overlap with benefits listed above.'
                 es: 'Nota: Todas las protecciones no se pagan, pero el tiempo podría superponerse con los beneficios enumerados anteriormente.'
@@ -1153,8 +1220,8 @@ definitions:
             type: sections
             sections:
               name:
-                en: Job Protections
-                es: Protecciones laborales
+                en: Protections
+                es: Protecciones
               id: job-protections
               color: '#ECEEF1'
           - id: faq-terminal-not-eligible
