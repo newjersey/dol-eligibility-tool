@@ -651,8 +651,10 @@ pages:
                     es: He estado recibiendo desempleo y no tengo otro empleo.
                   id: receiving-unemployment
               switch:
-                'paid-hourly-by-employer,receiving-partial-unemployment':
-                  - 'definition:situations'
+                paid-hourly-by-employer:
+                  - 'definition:paid-hourly-by-employer-situations'
+                receiving-partial-unemployment:
+                  - 'definition:receiving-partial-unemployment-situations'
                 self-employed-by-independent-contractor:
                   - name:
                       en: Have you already applied for unemployment insurance through the state of New Jersey?
@@ -857,7 +859,7 @@ pages:
 
                   *También puede calificar para beneficios federales bajo la Ley CARES.*
 definitions:
-  situations:
+  paid-hourly-by-employer-situations:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
         es: ¿Cuál de las siguientes afirmaciones describe mejor su situación? Seleccione todas las que correspondan.
@@ -990,6 +992,228 @@ definitions:
             es: 'He estado recibiendo beneficios por desempleo, pero ya no estoy disponible para trabajar porque estoy estableciendo un vínculo fuerte con un hijo nuevo o cuidando a un ser querido enfermo o lesionado.'
           id: situation-14
           benefits: FLDU-NJ
+          job-protections: EO-192
+          icon:
+            label: M
+            color: '#C72263'
+        - name:
+            en: None of the above statements describe my situation. I would like to know more about all program benefits.
+            es: |-
+              Ninguna de las declaraciones anteriores describe la situación mia. Me gustaría saber más sobre todos los beneficios.
+          id: situation-10
+          benefits: 'ESL-NJ,FLI-NJ,TDI-NJ,FLDU-NJ,DDU-NJ,UI-NJ,UA,WC-NJ,FPUC-FED,PEUC-FED,PUA-FED,EPSL-FED,FEC-FMLA-FED'
+          job-protections: 'A3848,EO-192,FMLA-FED,FLA-NJ'
+          icon:
+            label: N
+            color: lightgrey
+      switch:
+        ? 'situation-1,situation-2,situation-3,situation-4,situation-5,situation-6,situation-7,situation-8,situation-9,situation-11,situation-12,situation-13,situation-14'
+        : - name:
+              en: You may be eligible for...
+              es: Puede ser elegible para ...
+            id: you-may-be-eligible
+            type: instructions-only
+            instructions:
+              en: |-
+                Based on the information you've provided, you may be eligible for protection or financial aid from these program(s):
+              es: |-
+                Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
+          - id: terminal-eligibility-benefits
+            type: sections
+            sections:
+              name:
+                en: Benefits
+                es: Beneficios
+              instructions:
+                en: 'Note: We have listed these programs in suggested priority order for your convenience.'
+                es: 'Nota: Hemos enumerado estos programas en el orden de prioridad sugerido para su conveniencia.'
+              id: benefits
+              color: '#F6F7F9'
+          - id: terminal-eligibility-job-protections
+            type: sections
+            sections:
+              name:
+                en: Protections
+                es: Protecciones
+              instructions:
+                en: 'Note: All protections are unpaid, but the timing could overlap with benefits listed above.'
+                es: 'Nota: Todas las protecciones no se pagan, pero el tiempo podría superponerse con los beneficios enumerados anteriormente.'
+              id: job-protections
+              color: '#ECEEF1'
+          - id: faq-terminal-not-eligible
+            type: instructions-only
+            instructions:
+              en: |-
+                For more information, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+              es: |-
+                Para obtener más información, visite nuestra [página de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+        situation-10:
+          - name:
+              en: Additional Information
+              es: Información Adicional
+            id: additional-information
+            type: warning-only
+            instructions:
+              en: |-
+                Based on the information you may not be eligible for any of the following benefits that are being offered at this time:
+              es: |-
+                Según la información, es posible que no sea elegible para ninguno de los siguientes beneficios que se ofrecen en este momento:
+          - id: terminal-eligibility-benefits-not-eligible
+            type: sections
+            sections:
+              name:
+                en: Benefits
+                es: Beneficios
+              id: benefits
+              color: '#F6F7F9'
+          - id: terminal-eligibility-job-protections-not-eligible
+            type: sections
+            sections:
+              name:
+                en: Protections
+                es: Protecciones
+              id: job-protections
+              color: '#ECEEF1'
+          - id: faq-terminal-not-eligible
+            type: instructions-only
+            instructions:
+              en: |-
+                For more information, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+              es: |-
+                Para obtener más información, visite nuestra [página de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+  receiving-partial-unemployment-situations:
+    - name:
+        en: Which of the following statements best describes your situation? Select all that apply.
+        es: ¿Cuál de las siguientes afirmaciones describe mejor su situación? Seleccione todas las que correspondan.
+      id: describe-situation
+      required: true
+      type: multiselect
+      additionalKeys: 'benefits,job-protections'
+      options:
+        - name:
+            en: "I can't work, or my hours are reduced, because I need to care for my children due to COVID-19-related school or child care closures, including mandatory remote learning."
+            es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a mis hijos debido al cierre de escuelas o guarderías relacionadas con COVID-19, incluido el aprendizaje remoto obligatorio.'
+          id: situation-1
+          benefits: 'EPSL-FED,ESL-NJ,FEC-FMLA-FED,PUA-FED'
+          job-protections: 'EO-192,FLA-NJ'
+          icon:
+            label: A
+            color: '#4DB0E3'
+        - name:
+            en: |-
+              I can't work, or my hours are reduced, because I am caring for a family member who is diagnosed with COVID-19 or in quarantine with suspicion of exposure.
+            es: |-
+              No puedo trabajar, o mis horas se reducen, porque estoy cuidando a un miembro de la familia que es diagnosticado con COVID-19 o en cuarentena con sospecha de exposición.
+          id: situation-2
+          benefits: 'EPSL-FED,ESL-NJ,FLI-NJ,PUA-FED'
+          job-protections: 'EO-192,FMLA-FED,FLA-NJ'
+          icon:
+            label: B
+            color: '#4FAB5B'
+        - name:
+            en: |-
+              I can't work because I'm advised by a doctor or public health authority to quarantine.
+            es: |-
+              No puedo trabajar porque un médico o una autoridad de salud pública me aconsejaron ponerme en cuarentena.
+          id: situation-3
+          benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED'
+          job-protections: 'A3848,EO-192,FMLA-FED'
+          icon:
+            label: C
+            color: '#E95143'
+        - name:
+            en: |-
+              I can't work, or my hours are reduced, because I was exposed in my workplace and was told to quarantine by a health authority.
+            es: |-
+              No puedo trabajar, o mis horas se reducen, porque fui expuesto a COVID-19 en mi lugar de trabajo y una autoridad de salud me ordenó a cuarentena.
+          id: situation-4
+          benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED,WC-NJ'
+          job-protections: 'A3848,EO-192,FMLA-FED'
+          icon:
+            label: D
+            color: '#F3A553'
+        - name:
+            en: |-
+              There is no work for me, or my hours are reduced, because there are fewer hours available due to business slowdown or lack of demand.
+            es: |-
+              No puedo trabajar, o mis horas se reducen, porque hay menos horas disponibles debido a la desaceleración del negocio o la falta de demanda.
+          id: situation-5
+          benefits: UA
+          job-protections: EO-192
+          icon:
+            label: E
+            color: '#F8CB56'
+        - name:
+            en: 'There is no work for me, or my hours are reduced, because my employer was ordered to close.'
+            es: 'No puedo trabajar, o mis horas se reducen, porque mi empleador recibió la orden de cerrar.'
+          id: situation-6
+          benefits: UA
+          job-protections: EO-192
+          icon:
+            label: F
+            color: '#8B378D'
+        - name:
+            en: "I can't work, or my hours are reduced, because my employer voluntarily closed."
+            es: 'No puedo trabajar, o mis horas se reducen, porque mi empleador cerró voluntariamente.'
+          id: situation-7
+          benefits: UA
+          job-protections: EO-192
+          icon:
+            label: G
+            color: '#C0D1E0'
+        - name:
+            en: |-
+              I was laid off, or furloughed, while on Family or Temporary Disability Leave, because there are fewer hours available due to business slowdown or lack of demand.
+            es: |-
+              Fui despedido o suspendido, mientras estaba recibiendo los beneficios pagados de licencia familiar o por incapacidad temporal, porque hay menos horas disponibles debido a la desaceleración del negocio o la falta de demanda.
+          id: situation-11
+          benefits: UA
+          job-protections: EO-192
+          icon:
+            label: H
+            color: '#235DA6'
+        - name:
+            en: 'My employer is permitted to be open, but I am afraid of exposure and refuse to work.'
+            es: 'A mi empleador se le permite estar abierto, pero tengo miedo de la exposición a COVID-19 y me niego a trabajar.'
+          id: situation-8
+          benefits: ESL-NJ
+          job-protections: EO-192
+          icon:
+            label: I
+            color: '#E67162'
+        - name:
+            en: 'My employer was ordered to close, but has remained open. I am afraid of exposure and refuse to work.'
+            es: |-
+              A mi empleador se le ordenó cerrar, pero se quedó abierto. Tengo miedo a la exposición a COVID-19 y me niego a trabajar.
+          id: situation-9
+          benefits: 'ESL-NJ,UI-NJ'
+          job-protections: EO-192
+          icon:
+            label: J
+            color: '#ACD6B2'
+        - name:
+            en: 'My workplace is unsafe and my employer refuses to follow health and safety guidelines.'
+            es: 'Mi lugar de trabajo no está seguro y mi empleador se niega a seguir las directrices de salud y seguridad.'
+          id: situation-12
+          benefits: 'ESL-NJ,UI-NJ'
+          job-protections: EO-192
+          icon:
+            label: K
+            color: '#FFB6C1'
+        - name:
+            en: 'I have been receiving unemployment benefits but I am no longer able to work due to my own non-work-related medical condition, including pregnancy and delivery.'
+            es: 'Estoy recibiendo beneficios por desempleo, pero ya no puedo trabajar debido a mi propia condición médica que no es relacionada con el trabajo, incluidos el embarazo y el parto.'
+          id: situation-13
+          benefits: TDI-NJ
+          job-protections: EO-192
+          icon:
+            label: L
+            color: '#BF7F58'
+        - name:
+            en: 'I have been receiving unemployment benefits but I am no longer available for work because I am bonding with a new child or providing care for an ill or injured loved one.'
+            es: 'He estado recibiendo beneficios por desempleo, pero ya no estoy disponible para trabajar porque estoy estableciendo un vínculo fuerte con un hijo nuevo o cuidando a un ser querido enfermo o lesionado.'
+          id: situation-14
+          benefits: FLI-NJ
           job-protections: EO-192
           icon:
             label: M
