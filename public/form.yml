@@ -622,7 +622,7 @@ pages:
               es: 'No, me despidieron, me suspendieron o de lo contrario no recibo paga por mi trabajo en otro estado.'
             id: laid-off-in-another-state
         switch:
-          'yes,laid-off-in-new-jersey':
+          yes:
             - name:
                 en: What is your relationship to your employer?
                 es: ¿Cuál es su relación con su empleador?
@@ -817,6 +817,207 @@ pages:
                       color: '#F6F7F9'
                       include:
                         - EO-192
+          laid-off-in-new-jersey:
+            - name:
+                en: What is your relationship to your employer?
+                es: ¿Cuál es su relación con su empleador?
+              id: relationship-to-employer
+              type: single-select
+              required: true
+              options:
+                - name:
+                    en: |-
+                      I am/was paid hourly or salaried by an employer. (Hint: you receive(d) a W-2 form for tax purposes.)
+                    es: |-
+                      Me pagan / me pagan por hora o me pagan un empleador. (Sugerencia: recibe (recibió) un formulario W-2 para fines fiscales.)
+                  id: paid-hourly-by-employer
+                - name:
+                    en: I am receiving partial unemployment and I am partially employed.
+                    es: Estoy recibiendo desempleo parcial y estoy parcialmente empleado.
+                  id: receiving-partial-unemployment
+                - name:
+                    en: |-
+                      I am/was self employed or an independent contractor. (Hint: You receive(d) a 1099 form for tax purposes.)
+                    es: |-
+                      Soy / era trabajador independiente o un contratista independiente. (Sugerencia: recibe (recibió) un formulario 1099 para fines fiscales.)
+                  id: self-employed-by-independent-contractor
+                - name:
+                    en: I have been receiving unemployment and I am not otherwise employed.
+                    es: He estado recibiendo desempleo y no tengo otro empleo.
+                  id: receiving-unemployment
+              switch:
+                paid-hourly-by-employer:
+                  - 'definition:paid-hourly-by-employer-situations'
+                  - 'definition:nj-careers'
+                receiving-partial-unemployment:
+                  - 'definition:receiving-partial-unemployment-situations'
+                  - 'definition:nj-careers'
+                self-employed-by-independent-contractor:
+                  - name:
+                      en: Have you already applied for unemployment insurance through the state of New Jersey?
+                      es: ¿Ya solicitó el seguro de desempleo en el estado de New Jersey?
+                    id: already-applied
+                    type: single-select
+                    required: true
+                    options:
+                      - name:
+                          en: Yes, I have applied for unemployment insurance and I have not heard back yet.
+                          es: Sí, he solicitado el seguro de desempleo y todavía no he recibido respuesta.
+                        id: yes-pending
+                      - name:
+                          en: Yes, I have applied for unemployment insurance and I was rejected, but accepted for Pandemic Unemployment Assistance (PUA).
+                          es: Sí, solicité el seguro de desempleo y me rechazaron, pero me aceptaron para la Asistencia por desempleo pandémico (PUA).
+                        id: yes-rejected
+                      - name:
+                          en: No, I have not applied for unemployment insurance.
+                          es: No, no he solicitado el seguro de desempleo.
+                        id: no
+                    switch:
+                      yes-pending:
+                        - type: warning-only
+                          id: ui-eligibility-warning
+                          instructions:
+                            en: |-
+                              **If you applied for Unemployment Insurance, then your case will automatically be assessed for Pandemic Unemployment Assistance (PUA).**
+                            es: |-
+                              **Si solicitó el seguro de desempleo, su caso se evaluará automáticamente para la Asistencia por desempleo pandémico (PUA).**
+                        - name:
+                            en: Eligibility
+                            es: Elegibilidad
+                          id: eligibility-instructions
+                          type: instructions-only
+                          instructions:
+                            en: |-
+                              Based on the information you've provided, you may be eligible for the following benefits:
+                            es: |-
+                              Según la información que ha proporcionado, puede ser elegible para los siguientes beneficios:
+                        - id: terminal-not-applied-for-ui
+                          type: sections
+                          sections:
+                            name:
+                              en: Benefits
+                              es: Beneficios
+                            color: '#F6F7F9'
+                            include:
+                              - EPSL-FED
+                              - FEC-FMLA-FED
+                              - PUA-FED
+                        - id: terminal-not-applied-for-ui
+                          type: sections
+                          sections:
+                            name:
+                              en: Protections
+                              es: Protecciones
+                            color: '#ECEEF1'
+                            include:
+                              - EO-192
+                        - 'definition:nj-careers'
+                      yes-rejected:
+                        - name:
+                            en: Eligibility
+                            es: Elegibilidad
+                          id: eligibility-instructions
+                          type: instructions-only
+                          instructions:
+                            en: |-
+                              Based on the information you've provided, you may be eligible for the following benefits:
+                            es: |-
+                              Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
+                        - id: terminal-not-applied-for-ui
+                          type: sections
+                          sections:
+                            name:
+                              en: Benefits
+                              es: Beneficios
+                            color: '#F6F7F9'
+                            include:
+                              - EPSL-FED
+                              - FEC-FMLA-FED
+                              - PUA-FED
+                        - id: terminal-not-applied-for-ui
+                          type: sections
+                          sections:
+                            name:
+                              en: Protections
+                              es: Protecciones
+                            color: '#ECEEF1'
+                            include:
+                              - EO-192
+                        - 'definition:nj-careers'
+                      no:
+                        - name:
+                            en: Eligibility
+                            es: Elegibilidad
+                          id: eligibility-instructions
+                          type: instructions-only
+                          instructions:
+                            en: |-
+                              Based on the information you've provided, you may be eligible for the following benefits:
+                            es: |-
+                              Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
+                        - id: terminal-not-applied-for-ui
+                          type: sections
+                          sections:
+                            name:
+                              en: Benefits
+                              es: Beneficios
+                            color: '#F6F7F9'
+                            include:
+                              - PUA-FED
+                              - EPSL-FED
+                              - FEC-FMLA-FED
+                        - id: terminal-not-applied-for-ui
+                          type: sections
+                          sections:
+                            name:
+                              en: Protections
+                              es: Protecciones
+                            color: '#ECEEF1'
+                            include:
+                              - EO-192
+                        - 'definition:nj-careers'
+                receiving-unemployment:
+                  - name:
+                      en: Eligibility
+                      es: Elegibilidad
+                    id: eligibility-instructions
+                    type: instructions-only
+                    instructions:
+                      en: |-
+                        Based on the information you've provided, you may be eligible for protection or financial aid from these program(s):
+                      es: |-
+                        Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
+                  - type: sections
+                    id: terminal-eligibility-3
+                    sections:
+                      name:
+                        en: Benefits
+                        es: Beneficios
+                      include:
+                        - DDU-NJ
+                        - FLDU-NJ
+                      color: '#F6F7F9'
+                  - type: sections
+                    id: terminal-eligibility-2
+                    sections:
+                      name:
+                        en: Federal Benefits Programs and Legislation
+                        es: Programas de beneficios federales y legislación
+                      include:
+                        - PEUC-FED
+                        - FPUC-FED
+                        - PUA-FED
+                      color: '#ECEEF1'
+                  - id: terminal-eligibility-1
+                    type: sections
+                    sections:
+                      name:
+                        en: Protections
+                        es: Protecciones
+                      color: '#F6F7F9'
+                      include:
+                        - EO-192
+                  - 'definition:nj-careers'
           return-to-work:
             - name:
                 en: What is your relationship to your employer?
