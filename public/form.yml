@@ -838,7 +838,28 @@ pages:
                   - 'definition:return-to-work-receiving-unemployment-situations'
                 receiving-partial-unemployment:
                   - 'definition:return-to-work-receiving-partial-unemployment-situations'
-          'works-in-another-state,laid-off-in-another-state':
+          laid-off-in-another-state:
+            - name:
+                en: Eligibility
+                es: Elegibilidad
+              type: warning-only
+              id: terminal-eligibility-1
+              required: true
+              instructions:
+                en: |-
+                  **The State of New Jersey COVID-19 Benefits Eligibility Tool is designed to help individuals working in New Jersey identify benefits programs for which they may be eligible.**
+
+                  Check with the state where you are/were formerly employed to see if you qualify for benefits there.
+
+                  *You may also qualify for federal benefits under the [CARES Act.](https://www.dol.gov/coronavirus/unemployment-insurance)*
+                es: |-
+                  ** La herramienta de elegibilidad de beneficios COVID-19 del estado de New Jersey está diseñada para ayudar a las personas que trabajan en New Jersey a identificar programas de beneficios para los que pueden ser elegibles.**
+
+                  Verifique con el estado donde está / estuvo empleado anteriormente para ver si califica para los beneficios allí.
+
+                  *También puede calificar para beneficios federales bajo la Ley CARES.*
+            - 'definition:nj-careers'
+          works-in-another-state:
             - name:
                 en: Eligibility
                 es: Elegibilidad
@@ -859,6 +880,24 @@ pages:
 
                   *También puede calificar para beneficios federales bajo la Ley CARES.*
 definitions:
+  nj-careers:
+    - name:
+        en: NJ Careers
+        es: TODO Spanish Copy
+      type: instructions-only
+      id: terminal-eligibility-2
+      required: true
+      instructions:
+        en: |-
+          **Change the way you look for jobs.**
+
+          The [New Jersey Career Network](https://njcareers.org/) is your free resource to help find meaningful work. Elevate your search with our interactive tool, designed to help you land the job you want.
+        es: |-
+          TODO SPANISH COPY
+
+          **Change the way you look for jobs.**
+
+          The New Jersey Career Network is your free resource to help find meaningful work. Elevate your search with our interactive tool, designed to help you land the job you want.
   paid-hourly-by-employer-situations:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
