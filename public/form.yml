@@ -1037,8 +1037,10 @@ pages:
               switch:
                 receiving-unemployment:
                   - 'definition:return-to-work-receiving-unemployment-situations'
+                  - 'definition:nj-careers'
                 receiving-partial-unemployment:
                   - 'definition:return-to-work-receiving-partial-unemployment-situations'
+                  - 'definition:nj-careers'
           laid-off-in-another-state:
             - name:
                 en: Eligibility
