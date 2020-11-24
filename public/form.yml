@@ -1086,7 +1086,7 @@ definitions:
   nj-careers:
     - name:
         en: NJ Careers
-        es: TODO Spanish Copy
+        es: NJ Careers
       type: instructions-only
       id: terminal-eligibility-2
       required: true
@@ -1096,12 +1096,9 @@ definitions:
 
           The [New Jersey Career Network](https://njcareers.org/) is your free resource to help find meaningful work. Elevate your search with our interactive tool, designed to help you land the job you want.
         es: |-
-          TODO SPANISH COPY
+          **Cambia la forma en que buscas trabajo.**
 
-          **Change the way you look for jobs.**
-
-          The New Jersey Career Network is your free resource to help find meaningful work. Elevate your search with our interactive tool, designed to help you land the job you want.
-  paid-hourly-by-employer-situations:
+          [New Jersey Career Network](https://njcareers.org/) es su recurso gratuito para ayudarlo a encontrar un trabajo significativo. Eleve su búsqueda con nuestra herramienta interactiva, diseñada para ayudarlo a conseguir el trabajo que desea.
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
         es: ¿Cuál de las siguientes afirmaciones describe mejor su situación? Seleccione todas las que correspondan.
@@ -1286,9 +1283,9 @@ definitions:
             type: instructions-only
             instructions:
               en: |-
-                For more information, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                For more information on job protections and benefits, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
               es: |-
-                Para obtener más información, visite nuestra [página de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                Para obtener más información sobre protecciones y beneficios laborales, visite nuestra [página web de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
         situation-10:
           - name:
               en: Additional Information
@@ -1320,9 +1317,9 @@ definitions:
             type: instructions-only
             instructions:
               en: |-
-                For more information, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                For more information on job protections and benefits, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
               es: |-
-                Para obtener más información, visite nuestra [página de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                Para obtener más información sobre protecciones y beneficios laborales, visite nuestra [página web de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
   receiving-partial-unemployment-situations:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
@@ -1508,9 +1505,9 @@ definitions:
             type: instructions-only
             instructions:
               en: |-
-                For more information, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                For more information on job protections and benefits, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
               es: |-
-                Para obtener más información, visite nuestra [página de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                Para obtener más información sobre protecciones y beneficios laborales, visite nuestra [página web de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
         situation-10:
           - name:
               en: Additional Information
@@ -1542,9 +1539,9 @@ definitions:
             type: instructions-only
             instructions:
               en: |-
-                For more information, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                For more information on job protections and benefits, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
               es: |-
-                Para obtener más información, visite nuestra [página de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                Para obtener más información sobre protecciones y beneficios laborales, visite nuestra [página web de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
   return-to-work-receiving-unemployment-situations:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
@@ -1680,9 +1677,9 @@ definitions:
             type: instructions-only
             instructions:
               en: |-
-                For more information, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                For more information on job protections and benefits, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
               es: |-
-                Para obtener más información, visite nuestra [página de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                Para obtener más información sobre protecciones y beneficios laborales, visite nuestra [página web de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
         situation-10:
           - name:
               en: Additional Information
@@ -1714,9 +1711,9 @@ definitions:
             type: instructions-only
             instructions:
               en: |-
-                For more information, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                For more information on job protections and benefits, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
               es: |-
-                Para obtener más información, visite nuestra [página de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                Para obtener más información sobre protecciones y beneficios laborales, visite nuestra [página web de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
   return-to-work-receiving-partial-unemployment-situations:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
@@ -1852,9 +1849,9 @@ definitions:
             type: instructions-only
             instructions:
               en: |-
-                For more information, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                For more information on job protections and benefits, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
               es: |-
-                Para obtener más información, visite nuestra [página de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                Para obtener más información sobre protecciones y beneficios laborales, visite nuestra [página web de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
         situation-10:
           - name:
               en: Additional Information
@@ -1886,6 +1883,6 @@ definitions:
             type: instructions-only
             instructions:
               en: |-
-                For more information, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                For more information on job protections and benefits, please visit our [FAQ page](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
               es: |-
-                Para obtener más información, visite nuestra [página de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+                Para obtener más información sobre protecciones y beneficios laborales, visite nuestra [página web de preguntas frecuentes](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
