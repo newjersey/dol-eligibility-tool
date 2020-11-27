@@ -187,7 +187,7 @@ sections:
   TDI-NJ:
     title:
       en: New Jersey Temporary Disability Insurance (TDI)
-      es: Seguro de discapacidad temporal de New Jersey (TDI)
+      es: Seguro de Incapacidad Temporal de New Jersey  (TDI)
     content:
       en: |-
         You may be eligible for Temporary Disability Insurance. Temporary Disability Insurance provides cash benefits to (1) New Jersey workers who suffer an illness, injury, or other disability that prevents them from working, and wasn’t caused by their job, and (2) expectant mothers who need to stop working before giving birth and for their recovery.
@@ -207,7 +207,7 @@ sections:
   UA:
     title:
       en: Unemployment Assistance
-      es: Asistencia de desempleo
+      es: Asistencia de Desempleo
     content:
       en: |-
         You may be eligible for federal benefits through the Coronavirus Aid, Relief, and Economic Security (CARES) Act. The new law created a temporary federal program called Pandemic Unemployment Assistance (PUA) that provides up to 39 weeks of unemployment benefits. The CARES Act also created federal Pandemic Unemployment Compensation (FPUC), which provided an additional $600 per week to individuals collecting either PUA or traditional unemployment insurance benefits up until July 25, 2020, and federal Pandemic Emergency Unemployment Compensation, which provides an additional 13 weeks of benefits to individuals who have exhausted their regular unemployment benefits.
@@ -270,7 +270,7 @@ sections:
 
         1. Get more information about back to school and COVID-19 [here](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
         2. Learn more about returning to work [here](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
-        3. Get more information about PUA [here](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml)
+        3. Get more information about PUA [here](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml#scenarios)
         4. To apply, complete an application for regular unemployment: learn [how](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/applyonline.shtml)
       es: |-
         Puede ser elegible para beneficios federales a través de la Asistencia de Desempleo Pandémico debido a COVID-19. La Ley de Ayuda, Alivio y Seguridad Económica de Coronavirus (CARES) creó un nuevo programa federal temporal llamado Asistencia de Desempleo Pandémico que brinda hasta 39 semanas de beneficios de desempleo.
@@ -279,28 +279,28 @@ sections:
 
         1. Obtenga más información sobre el regreso a clases y COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
         2. Obtenga más información sobre cómo regresar al trabajo [aquí](https://www.nj.gov/labor/worker-protections/covid_returntowork.shtml)
-        3. Obtenga más información sobre PUA [aquí](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml)
+        3. Obtenga más información sobre PUA [aquí](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml#scenarios)
         4. Para postularse, complete una solicitud de desempleo regular: aprenda [cómo postular](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/applyonline.shtml)
   EPSL-FED:
     title:
       en: Federal Emergency Paid Sick Leave (EPSL)
-      es: Permiso federal por enfermedad pagado por emergencia
+      es: 'Ley Federal de Emergencia: Licencia por Enfermedad Pagada'
     content:
       en: |-
         You may be eligible for job-protected Emergency Paid Sick Leave, enforced by the United States Department of Labor. Emergency Paid Sick Leave gives certain workers access to emergency paid leave to care for themselves, or a loved one, due to COVID-19.
 
         **Suggested next steps:**
 
-        1. Get more information: Overview: [Emergency Paid Sick Leave & Expanded Family & Medical Leave Act](https://www.nj.gov/labor/assets/PDFs/FamiliesFirstCoronaResAct.pdf)
+        1. Get more information: [Families First Coronavirus Response Act](https://www.nj.gov/labor/assets/PDFs/FamiliesFirstCoronaResAct.pdf)
         2. Get more information about back to school and COVID-19 [here](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
         3. Learn more about returning to work amid COVID-19 [here](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
         4. Talk to your employer about your right to utilize this leave
       es: |-
-        Usted puede ser elegible para una licencia por enfermedad pagada de emergencia (con protección de su trabajo), regulada por U.S. Department of Labor. La licencia federal por enfermedad pagada de emergencia le ofrece a ciertos trabajadores acceso a la licencia pagada para cuidar de sí mismo o de un ser querido, debido a COVID-19.
+        Usted puede ser elegible para una licencia por enfermedad pagada de emergencia (con protección de su trabajo), regulada por U.S. Department of Labor. La licencia federal por enfermedad pagada de emergencia les ofrece a ciertos trabajadores acceso a la licencia pagada para cuidar de sí mismo o de un ser querido, debido a COVID-19.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información: Descripción general: [Licencia por enfermedad pagada de emergencia y ampliada ley de licencia médica y familiar](https://nj.gov/labor/assets/PDFs/FamiliesFirstCoronaResAct%20Spanish%204%2022%2020.pdf)
+        1. Obtenga más información: [Ley de respuesta al coronavirus de Families First](https://nj.gov/labor/assets/PDFs/FamiliesFirstCoronaResAct%20Spanish%204%2022%2020.pdf)
         2. Obtenga más información sobre el regreso a clases y COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
         3. Obtenga más información sobre cómo regresar al trabajo en medio de COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/covid_returntowork.shtml)
         4. Hable con su empleador sobre su derecho a utilizar este permiso
