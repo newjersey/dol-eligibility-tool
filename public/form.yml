@@ -795,7 +795,7 @@ pages:
                         - FLDU-NJ
                       color: '#F6F7F9'
                   - type: sections
-                    id: terminal-eligibility-2
+                    id: terminal-eligibility-4
                     sections:
                       name:
                         en: Federal Benefits Programs and Legislation
@@ -1085,7 +1085,7 @@ definitions:
         en: NJ Careers
         es: NJ Careers
       type: instructions-only
-      id: terminal-eligibility-2
+      id: nj-careers
       required: true
       instructions:
         en: |-
