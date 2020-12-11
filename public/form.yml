@@ -684,14 +684,14 @@ pages:
                         - name:
                             en: Eligibility
                             es: Elegibilidad
-                          id: eligibility-instructions
+                          id: eligibility-instructions-1
                           type: instructions-only
                           instructions:
                             en: |-
                               Based on the information you've provided, you may be eligible for the following benefits:
                             es: |-
                               Según la información que ha proporcionado, puede ser elegible para los siguientes beneficios:
-                        - id: terminal-not-applied-for-ui
+                        - id: terminal-not-applied-for-ui-8
                           type: sections
                           sections:
                             name:
@@ -702,7 +702,7 @@ pages:
                               - EPSL-FED
                               - FEC-FMLA-FED
                               - PUA-FED
-                        - id: terminal-not-applied-for-ui
+                        - id: terminal-not-applied-for-ui-7
                           type: sections
                           sections:
                             name:
@@ -715,14 +715,14 @@ pages:
                         - name:
                             en: Eligibility
                             es: Elegibilidad
-                          id: eligibility-instructions
+                          id: eligibility-instructions-6
                           type: instructions-only
                           instructions:
                             en: |-
                               Based on the information you've provided, you may be eligible for the following benefits:
                             es: |-
                               Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
-                        - id: terminal-not-applied-for-ui
+                        - id: terminal-not-applied-for-ui-2
                           type: sections
                           sections:
                             name:
@@ -733,7 +733,7 @@ pages:
                               - EPSL-FED
                               - FEC-FMLA-FED
                               - PUA-FED
-                        - id: terminal-not-applied-for-ui
+                        - id: terminal-not-applied-for-ui-3
                           type: sections
                           sections:
                             name:
@@ -746,14 +746,14 @@ pages:
                         - name:
                             en: Eligibility
                             es: Elegibilidad
-                          id: eligibility-instructions
+                          id: eligibility-instructions-2
                           type: instructions-only
                           instructions:
                             en: |-
                               Based on the information you've provided, you may be eligible for the following benefits:
                             es: |-
                               Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
-                        - id: terminal-not-applied-for-ui
+                        - id: terminal-not-applied-for-ui-4
                           type: sections
                           sections:
                             name:
@@ -764,7 +764,7 @@ pages:
                               - PUA-FED
                               - EPSL-FED
                               - FEC-FMLA-FED
-                        - id: terminal-not-applied-for-ui
+                        - id: terminal-not-applied-for-ui-5
                           type: sections
                           sections:
                             name:
@@ -777,7 +777,7 @@ pages:
                   - name:
                       en: Eligibility
                       es: Elegibilidad
-                    id: eligibility-instructions
+                    id: eligibility-instructions-3
                     type: instructions-only
                     instructions:
                       en: |-
@@ -795,7 +795,7 @@ pages:
                         - FLDU-NJ
                       color: '#F6F7F9'
                   - type: sections
-                    id: terminal-eligibility-2
+                    id: terminal-eligibility-4
                     sections:
                       name:
                         en: Federal Benefits Programs and Legislation
@@ -881,14 +881,14 @@ pages:
                         - name:
                             en: Eligibility
                             es: Elegibilidad
-                          id: eligibility-instructions
+                          id: eligibility-instructions-4
                           type: instructions-only
                           instructions:
                             en: |-
                               Based on the information you've provided, you may be eligible for the following benefits:
                             es: |-
                               Según la información que ha proporcionado, puede ser elegible para los siguientes beneficios:
-                        - id: terminal-not-applied-for-ui
+                        - id: terminal-not-applied-for-ui-14
                           type: sections
                           sections:
                             name:
@@ -899,7 +899,7 @@ pages:
                               - EPSL-FED
                               - FEC-FMLA-FED
                               - PUA-FED
-                        - id: terminal-not-applied-for-ui
+                        - id: terminal-not-applied-for-ui-15
                           type: sections
                           sections:
                             name:
@@ -913,14 +913,14 @@ pages:
                         - name:
                             en: Eligibility
                             es: Elegibilidad
-                          id: eligibility-instructions
+                          id: eligibility-instructions-5
                           type: instructions-only
                           instructions:
                             en: |-
                               Based on the information you've provided, you may be eligible for the following benefits:
                             es: |-
                               Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
-                        - id: terminal-not-applied-for-ui
+                        - id: terminal-not-applied-for-ui-16
                           type: sections
                           sections:
                             name:
@@ -931,7 +931,7 @@ pages:
                               - EPSL-FED
                               - FEC-FMLA-FED
                               - PUA-FED
-                        - id: terminal-not-applied-for-ui
+                        - id: terminal-not-applied-for-ui-17
                           type: sections
                           sections:
                             name:
@@ -945,14 +945,14 @@ pages:
                         - name:
                             en: Eligibility
                             es: Elegibilidad
-                          id: eligibility-instructions
+                          id: eligibility-instructions-6
                           type: instructions-only
                           instructions:
                             en: |-
                               Based on the information you've provided, you may be eligible for the following benefits:
                             es: |-
                               Según la información que proporcionó, puede ser elegible para recibir protección o ayuda financiera de estos programas:
-                        - id: terminal-not-applied-for-ui
+                        - id: terminal-not-applied-for-ui-10
                           type: sections
                           sections:
                             name:
@@ -963,7 +963,7 @@ pages:
                               - PUA-FED
                               - EPSL-FED
                               - FEC-FMLA-FED
-                        - id: terminal-not-applied-for-ui
+                        - id: terminal-not-applied-for-ui-11
                           type: sections
                           sections:
                             name:
@@ -977,7 +977,7 @@ pages:
                   - name:
                       en: Eligibility
                       es: Elegibilidad
-                    id: eligibility-instructions
+                    id: eligibility-instructions-7
                     type: instructions-only
                     instructions:
                       en: |-
@@ -1085,7 +1085,7 @@ definitions:
         en: NJ Careers
         es: NJ Careers
       type: instructions-only
-      id: terminal-eligibility-2
+      id: nj-careers
       required: true
       instructions:
         en: |-
