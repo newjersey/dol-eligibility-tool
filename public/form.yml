@@ -623,7 +623,7 @@ pages:
             - name:
                 en: What is your relationship to your employer?
                 es: ¿Cuál es su relación con su empleador?
-              id: relationship-to-employer
+              id: relationship-to-employer-1
               type: single-select
               required: true
               options:
@@ -818,7 +818,7 @@ pages:
             - name:
                 en: What is your relationship to your employer?
                 es: ¿Cuál es su relación con su empleador?
-              id: relationship-to-employer
+              id: relationship-to-employer-2
               type: single-select
               required: true
               options:
@@ -1019,7 +1019,7 @@ pages:
             - name:
                 en: What is your relationship to your employer?
                 es: ¿Cuál es su relación con su empleador?
-              id: relationship-to-employer
+              id: relationship-to-employer-3
               type: single-select
               required: true
               options:
@@ -1100,7 +1100,7 @@ definitions:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
         es: ¿Cuál de las siguientes afirmaciones describe mejor su situación? Seleccione todas las que correspondan.
-      id: describe-situation
+      id: describe-situation-1
       required: true
       type: multiselect
       additionalKeys: 'benefits,job-protections'
@@ -1322,7 +1322,7 @@ definitions:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
         es: ¿Cuál de las siguientes afirmaciones describe mejor su situación? Seleccione todas las que correspondan.
-      id: describe-situation
+      id: describe-situation-2
       required: true
       type: multiselect
       additionalKeys: 'benefits,job-protections'
@@ -1544,7 +1544,7 @@ definitions:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
         es: ¿Cuál de las siguientes afirmaciones describe mejor su situación? Seleccione todas las que correspondan.
-      id: describe-situation
+      id: describe-situation-3
       required: true
       type: multiselect
       additionalKeys: 'benefits,job-protections'
@@ -1716,7 +1716,7 @@ definitions:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
         es: ¿Cuál de las siguientes afirmaciones describe mejor su situación? Seleccione todas las que correspondan.
-      id: describe-situation
+      id: describe-situation-4
       required: true
       type: multiselect
       additionalKeys: 'benefits,job-protections'
