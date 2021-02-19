@@ -21,7 +21,7 @@ instructions:
     es: opcional
   yes:
     en: Yes
-    es: si
+    es: Sí
   no:
     en: No
     es: No
@@ -211,61 +211,64 @@ sections:
       es: Asistencia de Desempleo
     content:
       en: |-
-        You may be eligible for federal benefits through the Coronavirus Aid, Relief, and Economic Security (CARES) Act. The new law created a temporary federal program called Pandemic Unemployment Assistance (PUA) that provides up to 39 weeks of unemployment benefits. The CARES Act also created federal Pandemic Unemployment Compensation (FPUC), which provided an additional $600 per week to individuals collecting either PUA or traditional unemployment insurance benefits up until July 25, 2020, and federal Pandemic Emergency Unemployment Compensation, which provides an additional 13 weeks of benefits to individuals who have exhausted their regular unemployment benefits.
-
+        You may be eligible for federal benefits through the Continued Assistance Act. The law extended Pandemic Unemployment Assistance (PUA) and Pandemic Emergency Unemployment Compensation (PEUC), temporary federal programs that provide unemployment benefits. The law also extended federal Pandemic Unemployment Compensation (FPUC), providing an additional $300 per week from January 2, 2021 to March 13, 2021.  Individuals who exhaust regular unemployment benefits may be eligible for up to an additional 20 weeks of state unemployment benefits. 
         **Suggested next steps:**
 
-        1. Learn [how to apply](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/)
-        2. Create an account at [myunemployment.nj.gov](https://myunemployment.nj.gov)
-        3. File an [application](https://myunemployment.nj.gov/) (online preferred)
+        1. Get more information on [benefit extensions](https://www.myunemployment.nj.gov/labor/myunemployment/apply/extensions/)
+        2. Get more information about [PUA](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml#scenarios)
+        3. Get more information about [back to school and COVID-19](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
+        4. Learn more about [returning to work](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
+        5. To apply, complete an application for regular unemployment: [learn how](https://www.myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/applyonline.shtml)
       es: |-
-        Puede ser elegible para recibir beneficios federales a través de la Ley de Ayuda, Alivio y Seguridad Económica para el Coronavirus (CARES). La nueva ley creó un programa federal temporal llamado Asistencia por Desempleo Pandémico (PUA por sus señales in inglés) que proporciona hasta 39 semanas de beneficios por desempleo. La Ley CARES también creó la Compensación por Desempleo Pandémico Federal (FPUC por sus señales in inglés), que proporcionó $ 600 adicionales por semana a las personas que recibían beneficios de Seguro de Desempleo tradicional o PUA hasta el 25 de julio de 2020, y la Compensación por Desempleo de Emergencia Pandémica Federal, que proporciona 13 semanas adicionales de beneficios a las personas que hayan agotado sus beneficios de desempleo regulares.
+        Puede ser elegible para recibir beneficios federales a través de la Ley de Asistencia Continuada. La  ley  extendió la Asistencia por Desempleo Pandémico (PUA por sus señales in inglés) y Compensación por Desempleo de Emergencia Pandémica Federal (PEUC por sus señales in inglés), unos programas federales temporales que proporcionan  beneficios por desempleo. El Ley también extendió la Compensación por Desempleo Pandémico Federal (FPUC por sus señales in inglés), que proporcionó $600 adicionales por semana a las personas que recibían beneficios de Seguro de Desempleo tradicional o PUA hasta el 25 de julio de 2020 y proporciona $300 adicionales por semana desde el 2 de enero de 2021 hasta el 13 de marzo de 2021. Las personas que agoten beneficios de desempleo regulares pueden ser elegibles para hasta 20 semanas adicionales de beneficios estatales por desempleo.
         ** Próximos pasos sugeridos: **
 
-        1. Aprenda [cómo solicitar](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/)
-        2. Cree una cuenta en [myunemployment.nj.gov](https://myunemployment.nj.gov)
-        3. Presente una [solicitud](https://myunemployment.nj.gov/) (preferido en línea)
+        1. Obtenga más información sobre las [extensiones de beneficios](https://www.myunemployment.nj.gov/labor/myunemployment/apply/extensions/)
+        2. Obtenga más información sobre [PUA](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml#scenarios)
+        3. Obtenga más información sobre el [regreso a clases y COVID-19](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
+        4. Obtenga más información sobre cómo [regresar al trabajo](https://www.nj.gov/labor/worker-protections/covid_returntowork.shtml)
+        5. Presente una [solicitud](https://www.myunemployment.nj.gov/) (preferido en línea)
   FPUC-FED:
     title:
-      en: Pandemic Unemployment Compensation (FPUC) via the CARES Act
-      es: Compensación de desempleo pandémico (FPUC) a través de la Ley CARES
+      en: Pandemic Unemployment Compensation (FPUC)
+      es: Compensación de desempleo pandémico (FPUC)
     content:
       en: |-
-        You may be eligible for federal benefits up until July 25, 2020, through Pandemic Unemployment Compensation (FPUC). The Coronavirus Aid, Relief, and Economic Security Act (CARES Act) includes Federal Pandemic Unemployment Compensation which provides an additional $600 per week to individuals who are collecting regular Unemployment Insurance, PEUC, and PUA.
+        You may be eligible for Pandemic Unemployment Compensation (FPUC, por sus señales en inglés) from January 2, 2021 through March 13, 2021. The Continued Assistance Act extended FPUC, which provides an additional $300 per week to individuals who are collecting unemployment benefits. 
 
         **Suggested next step:**
 
-        If you are found eligible for FPUC between March 29 and July 25, 2020, it will automatically be added to your claim. Get more information [here](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+        If you are found eligible for FPUC between January 2, 2021 and March 13, 2021, it will automatically be added to your claim. Get more information [here](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
       es: |-
         Usted puede ser elegible para beneficios federales hasta el 25 de julio de 2020 a través de la Compensación por Desempleo Pandémico. La Ley de Ayuda, Alivio y Seguridad Económica del Coronavirus (Ley CARES, por sus señales en inglés) incluye la Compensación Federal por Desempleo Pandémico que proporciona $600 adicionales por semana a las personas que están recibiendo seguro de desempleo regular, PEUC y PUA.
 
         ** Siguiente paso sugerido: **
 
-        Si es elegible para FPUC entre el 29 de marzo y el 25 de julio de 2020, se agregará automáticamente a su reclamo. Obtenga más información [aquí](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
+        Si es elegible para FPUC entre el 2 de enero de 2021 y el 13 de marzo de 2021, se agregará automáticamente a su reclamo. Obtenga más información [aquí](https://myunemployment.nj.gov/labor/myunemployment/covidFAQ.shtml)
   PEUC-FED:
     title:
       en: Pandemic Emergency Unemployment Compensation (PEUC) via the CARES Act
       es: Compensación de emergencia por desempleo pandémico (PEUC) a través de la Ley CARES
     content:
       en: |-
-        You may be eligible for federal benefits through Pandemic Emergency Unemployment Compensation due to COVID-19. The Coronavirus Aid, Relief, and Economic Security (CARES) Act created a new temporary federal program called Pandemic Emergency Unemployment Compensation that provides up to 13 additional weeks of benefits to individuals who have exhausted their regular unemployment Insurance entitlement.
+        You may be eligible for federal benefits through Pandemic Emergency Unemployment Compensation due to COVID-19, extended by the Continued Assistance Act. These laws provide up to 24 additional weeks of benefits to individuals who have exhausted their regular Unemployment Insurance benefits.
 
         **Suggested next step:**
 
         If you are eligible for PEUC, there is nothing you need to do; your claim will be automatically adjusted. Get more information [here](https://myunemployment.nj.gov/labor/myunemployment/apply/extensions)
       es: |-
-        Puede ser elegible para beneficios federales a través de la Compensación de desempleo de emergencia pandémica debido a COVID-19. La Ley de Ayuda, Alivio y Seguridad Económica de Coronavirus (CARES) creó un nuevo programa federal temporal llamado Compensación de desempleo de emergencia pandémica que brinda hasta 13 semanas adicionales de beneficios a las personas que han agotado su derecho regular de seguro de desempleo.
+        Puede ser elegible para beneficios federales a través de la Compensación de desempleo de emergencia pandémica (PEUC por sus señales en inglés) debido a COVID-19, extendido por la Ley de Asistencia Continuada. Estas leyes brinda hasta 24 semanas adicionales de beneficios a las personas que han agotado sus beneficios regulares de seguro de desempleo.
 
         ** Siguiente paso sugerido: **
 
-        Si es elegible para PEUC, no es necesario que haga nada; su reclamo se ajustará automáticamente. Obtenga más información [aquí](https://myunemployment.nj.gov/labor/myunemployment/apply/extensions)
+        Si es elegible para PEUC, no hay nada que hacer; su reclamo se ajustará automáticamente. Obtenga más información [aquí](https://myunemployment.nj.gov/labor/myunemployment/apply/extensions)
   PUA-FED:
     title:
       en: Pandemic Unemployment Assistance (PUA)
       es: Asistencia de Desempleo Pandémico (PUA)
     content:
       en: |-
-        You may be eligible for federal benefits called Pandemic Unemployment Assistance (PUA), through the Coronavirus Aid, Relief, and Economic Security Act (CARES Act). PUA can provide up to 39 weeks of unemployment benefits to self-employed individuals, and those who are unable to work due to COVID-19 reasons, including school/childcare closures or mandatory remote learning, or a doctor-advised quarantine.
+        You may be eligible for federal benefits called Pandemic Unemployment Assistance (PUA), through the Coronavirus Aid, Relief, and Economic Security Act (CARES Act) and the Continued Assistance Act. PUA can provide unemployment benefits to self-employed individuals, and those who are unable to work due to COVID-19 reasons, including school/childcare closures or mandatory remote learning, or a doctor-advised quarantine.
 
         **Suggested next steps:**
 
@@ -274,7 +277,7 @@ sections:
         3. Get more information about PUA [here](https://www.nj.gov/labor/worker-protections/earnedsick/covidFAQ.shtml#scenarios)
         4. To apply, complete an application for regular unemployment: learn [how](https://myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/applyonline.shtml)
       es: |-
-        Puede ser elegible para los beneficios federales denominados Asistencia por Desempleo Pandémico (PUA), a través de la Ley de Ayuda, Alivio y Seguridad Económica de Coronavirus (Ley CARES). PUA puede proporcionar hasta 39 semanas de beneficios por desempleo a los trabajadores independientes y a aquellos que no pueden trabajar debido a razones de COVID-19, incluidos los cierres de escuelas / guarderías o aprendizaje remoto obligatorio, o una cuarentena aconsejada por un médico.
+        Puede ser elegible para los beneficios federales denominados Asistencia por Desempleo Pandémico (PUA), a través de la Ley de Ayuda, Alivio y Seguridad Económica de Coronavirus (Ley CARES) y la Ley de Asistencia Continuada. PUA puede proporcionar beneficios por desempleo a los trabajadores independientes y a aquellos que no pueden trabajar debido a razones de COVID-19, incluidos los cierres de escuelas / guarderías o aprendizaje remoto obligatorio, o una cuarentena aconsejada por un médico.
 
         ** Próximos pasos sugeridos: **
 
@@ -288,46 +291,46 @@ sections:
       es: 'Ley Federal de Emergencia: Licencia por Enfermedad Pagada'
     content:
       en: |-
-        You may be eligible for job-protected Emergency Paid Sick Leave, enforced by the United States Department of Labor. Emergency Paid Sick Leave gives certain workers access to emergency paid leave to care for themselves, or a loved one, due to COVID-19.
+        You may have access to Emergency Paid Sick Leave, which gives certain workers, including self-employed workers and independent contractors, access to emergency paid leave to care for themselves, or a loved one, due to COVID-19. Your employer is not required to provide you with this paid leave after December 31, 2020, but may voluntarily do so and receive a tax credit.
 
         **Suggested next steps:**
 
-        1. Get more information: [Families First Coronavirus Response Act](https://www.nj.gov/labor/assets/PDFs/FamiliesFirstCoronaResAct.pdf)
+        1. Get more information at [dol.gov](https://dol.gov) and [irs.gov/coronavirus/new-employer-tax-credits](https://irs.gov/coronavirus/new-employer-tax-credits)
         2. Get more information about back to school and COVID-19 [here](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
         3. Learn more about returning to work amid COVID-19 [here](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
-        4. Talk to your employer about your right to utilize this leave
+        4. Talk to your employer about utilizing this leave
       es: |-
-        Usted puede ser elegible para una licencia por enfermedad pagada de emergencia (con protección de su trabajo), regulada por U.S. Department of Labor. La licencia federal por enfermedad pagada de emergencia les ofrece a ciertos trabajadores acceso a la licencia pagada para cuidar de sí mismo o de un ser querido, debido a COVID-19.
+        Usted pueda tener acceso a la licencia por enfermedad pagada de emergencia federal, que les ofrece a ciertos trabajadores,  incluidos los trabajadores autónomos y contratistas independientes, acceso a la licencia pagada para cuidar de sí mismo o de un ser querido, debido a COVID-19. Su empleador no está obligado a proporcionárselo después del 31 de diciembre de 2020, pero puede hacerlo voluntariamente y recibir un crédito fiscal.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información: [Ley Federal de Emergencia: Licencia por Enfermedad Pagada](https://nj.gov/labor/assets/PDFs/FamiliesFirstCoronaResAct%20Spanish%204%2022%2020.pdf)
+        1. Obtenga más información a [dol.gov](https://dol.gov) y [irs.gov/coronavirus/new-employer-tax-credits](https://irs.gov/coronavirus/new-employer-tax-credits)
         2. Obtenga más información sobre el regreso a clases y COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
         3. Obtenga más información sobre cómo regresar al trabajo en medio de COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/covid_returntowork.shtml)
-        4. Hable con su empleador sobre su derecho a utilizar este permiso
+        4. Hable con su empleador sobre utilizando la licencia
   FEC-FMLA-FED:
     title:
       en: Federal Emergency Childcare FMLA
       es: 'Ley Federal de Emergencia: FMLA Licencia por Cuidar Hijos'
     content:
       en: |-
-        You may be eligible for up to 12 weeks of job-protected leave, 10 paid by your employer. Federal Emergency Childcare FMLA gives certain workers access to emergency paid leave to care for their children at home, due to COVID-19.
+        You may have access to Federal Emergency Childcare Leave, which gives certain workers, including self-employed workers and independent contractors, access to emergency paid leave to care for their children at home, due to COVID-19. Your employer is not required to provide you with it after December 31, 2020, but may voluntarily do so and receive a tax credit.
 
         **Suggested next steps: **
 
-        1. Get more information: [Families First Coronavirus Response Act](https://www.nj.gov/labor/assets/PDFs/FamiliesFirstCoronaResAct.pdf)
+        1. Get more information at [dol.gov](https://dol.gov) and [irs.gov/coronavirus/new-employer-tax-credits](https://irs.gov/coronavirus/new-employer-tax-credits)
         2. Get more information about back to school and COVID-19 [here](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
         3. Learn more about returning to work amid COVID-19 [here](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
-        4. Talk to your employer about your right to utilize this leave
+        4. Talk to your employer about utilizing this leave
       es: |-
-        Usted puede ser elegible para hasta 12 semanas de licencia con protección de su trabajo, con 10 de las 12 semanas pagadas por su empleador. FMLA Licencia para Cuidar de un Hijo(s) (Ley Federal de Emergencia) les brinda a ciertos trabajadores acceso a licencia pagada de emergencia para cuidar a sus hijos en el hogar, debido a COVID-19.
+        Usted pueda tener acceso a la licencia FMLA para Cuidar de un Hijo(s) (Ley Federal de Emergencia), esa les ofrece a ciertos trabajadores, incluidos los trabajadores autónomos y contratistas independientes, acceso a licencia pagada de emergencia para cuidar a sus hijos en el hogar, debido a COVID-19. Su empleador no está obligado a proporcionárselo después del 31 de diciembre de 2020, pero puede hacerlo voluntariamente y recibir un crédito fiscal.
 
         ** Próximos pasos sugeridos: **
 
-        1. Obtenga más información: [Ley Federal de Emergencia: FMLA Licencia por Cuidar Hijos](https://nj.gov/labor/assets/PDFs/FamiliesFirstCoronaResAct%20Spanish%204%2022%2020.pdf)
+        1. Obtenga más información a [dol.gov](https://dol.gov) y [irs.gov/coronavirus/new-employer-tax-credits](https://irs.gov/coronavirus/new-employer-tax-credits)
         2. Obtenga más información sobre el regreso a clases y COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
         3. Obtenga más información sobre cómo regresar al trabajo en medio de COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/covid_returntowork.shtml)
-        4. Hable con su empleador sobre su derecho a utilizar este permiso
+        4. Hable con su empleador sobre utilizando su licencia
   A3848:
     title:
       en: Protection against COVID-19 related discrimination at work
@@ -459,6 +462,8 @@ sections:
       en: |-
         You may be eligible for Workers' Compensation, which provides benefits to employees who suffer job-related injuries or illnesses.
 
+        Essential workers should note that on September 14, 2020, Governor Murphy signed Senate Bill 2380 into law, which creates a rebuttable presumption of workers’ compensation coverage for COVID-19 cases contracted by “essential employees” during a public health emergency. This means that if an employee deemed essential under the law contracts COVID-19, it is presumed that “the contraction of the disease is work-related and fully compensable.” An employer can attempt to dispute this presumption.
+
         **Suggested next steps:**
 
         1. Learn more about [Workers' Compensation](https://www.nj.gov/labor/wc/workers/workers_index.html)
@@ -466,6 +471,8 @@ sections:
       es: |-
         Puede ser elegible para la Compensación al Trabajador, que brinda beneficios a los empleados que sufren lesiones o enfermedades relacionadas con el trabajo.
 
+        Los trabajadores esenciales deben tener en cuenta que el 14 de septiembre de 2020, el gobernador Murphy promulgó el Proyecto de Ley del Senado 2380, que crea una presunción refutable de cobertura de compensación para trabajadores para los casos de COVID-19 contraídos por "empleados esenciales" durante una emergencia de salud pública. Esto significa que si un empleado considerado esencial bajo la ley contrata COVID-19, se presume que "la contracción de la enfermedad está relacionada con el trabajo y es totalmente indemnizable." Un empleador puede intentar disputar esta presunción.
+        
         ** Próximos pasos sugeridos: **
 
         1. Obtenga más información sobre la [compensación laboral](https://www.nj.gov/labor/wc/workers/workers_index.html)
@@ -608,11 +615,11 @@ pages:
         options:
           - name:
               en: Yes
-              es: si
+              es: Sí
             id: yes
           - name:
-              en: 'No. I was laid off, furloughed, or am otherwise not receiving pay for my job in New Jersey.'
-              es: 'No. Fui despedido, suspendido o de lo contrario no recibo paga por mi trabajo en New Jersey.'
+              en: 'No. I was laid off, furloughed, or am otherwise not receiving pay for a job in New Jersey.'
+              es: 'No. Fui despedido, suspendido o de lo contrario no recibo pago por un trabajo en New Jersey.'
             id: laid-off-in-new-jersey
           - name:
               en: 'No, but I’ve been recalled to my work or received an offer of work.'
@@ -620,10 +627,10 @@ pages:
             id: return-to-work
           - name:
               en: 'No, I work in another state.'
-              es: 'No, trabajo en otro estado.'
+              es: 'No, yo trabajo en otro estado.'
             id: works-in-another-state
           - name:
-              en: 'No, I was laid off, furloughed, or am otherwise not receiving pay for my job in another state.'
+              en: 'No, I was laid off, furloughed, or am otherwise not receiving pay for a job in another state.'
               es: 'No, me despidieron, me suspendieron o de lo contrario no recibo paga por mi trabajo en otro estado.'
             id: laid-off-in-another-state
         switch:
