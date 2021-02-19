@@ -71,10 +71,10 @@ export const FormProvider: React.FC = (props) => {
         // Parse the YAML -> JSON
         contents = yaml.safeLoad(form, {
           json: true,
-        })
+        }) as Form
         sampleContents = yaml.safeLoad(formSample, {
           json: true,
-        })
+        }) as Form
       } catch (err) {
         setFormValidationError({
           message: 'Failed to parse YAML form',

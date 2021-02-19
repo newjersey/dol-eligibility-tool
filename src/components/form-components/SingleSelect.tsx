@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, ChangeEvent } from 'react'
 import { Question } from '../../lib/types'
 import { Box, RadioButtonGroup } from 'grommet'
 import { FormContext } from '../../contexts/form'
@@ -34,7 +34,7 @@ const SingleSelectRadio: React.FC<Props> = (props) => {
         name={translateCopy(question.name) || ''}
         options={options}
         value={`${question.id}:${value}`}
-        onChange={(e) => {
+        onChange={(e: ChangeEvent<HTMLInputElement>) => {
           const id = e.target.value.split(':')[1]
           props.onChange ? props.onChange(id) : setValue(question, id)
         }}
