@@ -1616,7 +1616,7 @@ definitions:
             es: |-
               A mi empleador se le ordenó cerrar, pero se quedó abierto. Tengo miedo a la exposición a COVID-19 y me niego a trabajar.
           id: situation-9
-          benefits: 'ESL-NJ,UI-NJ'
+          benefits: 'ESL-NJ,UI-NJ,PUA-FED'
           job-protections: EO-192
           icon:
             label: J
@@ -1625,7 +1625,7 @@ definitions:
             en: 'My workplace is unsafe and my employer refuses to follow health and safety guidelines.'
             es: 'Mi lugar de trabajo no está seguro y mi empleador se niega a seguir las directrices de salud y seguridad..'
           id: situation-12
-          benefits: 'ESL-NJ,UI-NJ'
+          benefits: 'ESL-NJ,UI-NJ,PUA-FED'
           job-protections: EO-192
           icon:
             label: K
