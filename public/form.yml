@@ -1164,7 +1164,7 @@ definitions:
             es: |-
               No puedo trabajar, o mis horas se reducen, porque hay menos horas disponibles debido a la desaceleración del negocio o la falta de demanda.
           id: situation-5
-          benefits: UA
+          benefits: 'UA,PUA-FED'
           job-protections: EO-192
           icon:
             label: E
@@ -1173,7 +1173,7 @@ definitions:
             en: 'There is no work for me, or my hours are reduced, because my employer was ordered to close.'
             es: 'No puedo trabajar, o mis horas se reducen, porque mi empleador recibió la orden de cerrar.'
           id: situation-6
-          benefits: UA
+          benefits: 'UA,PUA-FED'
           job-protections: EO-192
           icon:
             label: F
@@ -1182,7 +1182,7 @@ definitions:
             en: "I can't work, or my hours are reduced, because my employer voluntarily closed."
             es: 'No puedo trabajar, o mis horas se reducen, porque mi empleador cerró voluntariamente.'
           id: situation-7
-          benefits: UA
+          benefits: 'UA,PUA-FED'
           job-protections: EO-192
           icon:
             label: G
@@ -1386,7 +1386,7 @@ definitions:
             es: |-
               No puedo trabajar, o mis horas se reducen, porque hay menos horas disponibles debido a la desaceleración del negocio o la falta de demanda.
           id: situation-5
-          benefits: UA
+          benefits: 'UA,PUA-FED'
           job-protections: EO-192
           icon:
             label: E
@@ -1395,7 +1395,7 @@ definitions:
             en: 'There is no work for me, or my hours are reduced, because my employer was ordered to close.'
             es: 'No puedo trabajar, o mis horas se reducen, porque mi empleador recibió la orden de cerrar.'
           id: situation-6
-          benefits: UA
+          benefits: 'UA,PUA-FED'
           job-protections: EO-192
           icon:
             label: F
@@ -1404,7 +1404,7 @@ definitions:
             en: "I can't work, or my hours are reduced, because my employer voluntarily closed."
             es: 'No puedo trabajar, o mis horas se reducen, porque mi empleador cerró voluntariamente.'
           id: situation-7
-          benefits: UA
+          benefits: 'UA,PUA-FED'
           job-protections: EO-192
           icon:
             label: G
