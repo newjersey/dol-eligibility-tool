@@ -213,7 +213,7 @@ sections:
       es: Asistencia de Desempleo
     content:
       en: |-
-        You may be eligible for federal benefits. Pandemic Unemployment Assistance (PUA) and Pandemic Emergency Unemployment Compensation (PEUC) are temporary federal programs that provide unemployment benefits. Federal Pandemic Unemployment Compensation (FPUC) provides an additional $300 per week from January 2, 2021 to September 4, 2021. In times of extremely high unemployment, individuals who exhaust regular unemployment benefits may be eligible for up to an additional 20 weeks of state unemployment benefits.
+        You may be eligible for federal benefits. Pandemic Unemployment Assistance (PUA) and Pandemic Emergency Unemployment Compensation (PEUC) are temporary federal programs that provide unemployment benefits. Federal Pandemic Unemployment Compensation (FPUC) provides an additional $300 per week from January 2, 2021 to September 4, 2021. In times of  high unemployment, individuals who exhaust regular unemployment benefits may be eligible for additional weeks of state unemployment benefits.
 
         **Suggested next steps:**
 
@@ -223,7 +223,7 @@ sections:
         4. Learn more about [returning to work](https://www.nj.gov/labor/worker-protections/returntowork.shtml)
         5. To apply, complete an application for regular unemployment: [learn how](https://www.myunemployment.nj.gov/labor/myunemployment/before/about/howtoapply/applyonline.shtml)
       es: |-
-        Puede ser elegible para recibir beneficios federales a través de la Ley de Asistencia Continuada. La  ley  extendió la Asistencia por Desempleo Pandémico (PUA por sus señales in inglés) y Compensación por Desempleo de Emergencia Pandémica Federal (PEUC por sus señales in inglés), unos programas federales temporales que proporcionan  beneficios por desempleo. El Ley también extendió la Compensación por Desempleo Pandémico Federal (FPUC por sus señales in inglés), que proporcionando $300 adicionales por semana desde el 2 de enero de 2021 hasta el 13 de marzo de 2021. Las personas que agoten beneficios de desempleo regulares pueden ser elegibles para hasta 20 semanas adicionales de beneficios estatales por desempleo.
+        Puede ser elegible para beneficios federales.  La Asistencia por Desempleo Pandémico (PUA por sus señales in inglés) y Compensación por Desempleo de Emergencia Pandémica Federal (PEUC por sus señales in inglés), son unos programas federales temporales que proporcionan beneficios por desempleo. La ley también extendió la Compensación por Desempleo Pandémico Federal (FPUC por sus señales in inglés) que proporciona $300 adicionales por semana desde el 2 de enero de 2021 hasta el 4 de septiembre de 2021. En tiempos de desempleo alto, las personas que agoten beneficios de desempleo regulares pueden ser elegibles para adicionales de beneficios estatales por desempleo.
 
         ** Próximos pasos sugeridos: **
 
@@ -244,11 +244,11 @@ sections:
 
         If you are found eligible for FPUC between January 2, 2021 and September 4, 2021, it will automatically be added to your claim. Get more information [here](https://www.myunemployment.nj.gov/labor/myunemployment/apply/extensions/)
       es: |-
-        Puede ser elegible para la Compensación por desempleo pandémico (FPUC, por sus señales en inglés) desde el 2 de enero de 2021 hasta el 13 de marzo de 2021. Este programa proporciona $300 adicionales por semana a las personas que están recibiendo beneficios por desempleo.
+        Puede ser elegible para la Compensación por desempleo pandémico (FPUC, por sus señales en inglés) desde el 2 de enero de 2021 hasta el 4 de septiembre de 2021. Este programa proporciona $300 adicionales por semana a las personas que están recibiendo beneficios por desempleo.
 
         ** Siguiente paso sugerido: **
 
-        Si es elegible para FPUC entre el 2 de enero de 2021 y el 4 de septiembre de 2021, se agregará automáticamente a su reclamo. Obtenga más información [aquí](https://www.myunemployment.nj.gov/labor/myunemployment/apply/extensions/)
+        Si es elegible para FPUC entre el 2 de enero de 2021 y el 4 de septiembre de 2021, se agregará automáticamente a su reclamo. Obtenga más información [aquí](https://www.myunemployment.nj.gov/independentcontractors.shtml)
   PEUC-FED:
     title:
       en: Pandemic Emergency Unemployment Compensation (PEUC)
