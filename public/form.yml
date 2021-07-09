@@ -1127,7 +1127,7 @@ definitions:
           benefits: 'EPSL-FED,ESL-NJ'
           job-protections: ''
           icon:
-            label: '0'
+            label: AA
             color: lightcoral
         - name:
             en: "I can't work, or my hours are reduced, because I need to care for my children due to COVID-19-related school or child care closures, including mandatory remote learning."
@@ -1358,7 +1358,7 @@ definitions:
           benefits: 'EPSL-FED,ESL-NJ'
           job-protections: ''
           icon:
-            label: '0'
+            label: AA
             color: lightcoral
         - name:
             en: "I can't work, or my hours are reduced, because I need to care for my children due to COVID-19-related school or child care closures, including mandatory remote learning."
