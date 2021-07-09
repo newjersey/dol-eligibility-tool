@@ -1127,8 +1127,8 @@ definitions:
           benefits: 'EPSL-FED,ESL-NJ'
           job-protections: ''
           icon:
-            label: A
-            color: '#4DB0E3'
+            label: '0'
+            color: lightcoral
         - name:
             en: "I can't work, or my hours are reduced, because I need to care for my children due to COVID-19-related school or child care closures, including mandatory remote learning."
             es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a mis hijos debido al cierre de escuelas o guarderías relacionadas con COVID-19, incluido el aprendizaje remoto obligatorio.'
@@ -1136,8 +1136,8 @@ definitions:
           benefits: 'EPSL-FED,ESL-NJ,FEC-FMLA-FED,PUA-FED'
           job-protections: 'EO-192,FLA-NJ'
           icon:
-            label: B
-            color: '#4FAB5B'
+            label: A
+            color: '#4DB0E3'
         - name:
             en: |-
               I can't work, or my hours are reduced, because I am caring for a family member who is diagnosed with COVID-19 or in quarantine with suspicion of exposure.
@@ -1147,8 +1147,8 @@ definitions:
           benefits: 'EPSL-FED,ESL-NJ,FLI-NJ,PUA-FED'
           job-protections: 'EO-192,FMLA-FED,FLA-NJ'
           icon:
-            label: C
-            color: '#E95143'
+            label: B
+            color: '#4FAB5B'
         - name:
             en: |-
               I can't work because I'm advised by a doctor or public health authority to quarantine.
@@ -1158,8 +1158,8 @@ definitions:
           benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED'
           job-protections: 'A3848,EO-192,FMLA-FED'
           icon:
-            label: D
-            color: '#F3A553'
+            label: C
+            color: '#E95143'
         - name:
             en: |-
               I can't work, or my hours are reduced, because I was exposed in my workplace and was told to quarantine by a health authority.
@@ -1169,8 +1169,8 @@ definitions:
           benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED,WC-NJ'
           job-protections: 'A3848,EO-192,FMLA-FED'
           icon:
-            label: E
-            color: '#F8CB56'
+            label: D
+            color: '#F3A553'
         - name:
             en: |-
               There is no work for me, or my hours are reduced, because there are fewer hours available due to business slowdown or lack of demand.
@@ -1180,8 +1180,8 @@ definitions:
           benefits: 'UA,PUA-FED'
           job-protections: EO-192
           icon:
-            label: F
-            color: '#8B378D'
+            label: E
+            color: '#F8CB56'
         - name:
             en: 'There is no work for me, or my hours are reduced, because my employer was ordered to close.'
             es: 'No puedo trabajar, o mis horas se reducen, porque mi empleador recibió la orden de cerrar.'
@@ -1189,8 +1189,8 @@ definitions:
           benefits: 'UA,PUA-FED'
           job-protections: EO-192
           icon:
-            label: G
-            color: '#C0D1E0'
+            label: F
+            color: '#8B378D'
         - name:
             en: "I can't work, or my hours are reduced, because my employer voluntarily closed."
             es: 'No puedo trabajar, o mis horas se reducen, porque mi empleador cerró voluntariamente.'
@@ -1198,8 +1198,8 @@ definitions:
           benefits: 'UA,PUA-FED'
           job-protections: EO-192
           icon:
-            label: H
-            color: '#235DA6'
+            label: G
+            color: '#C0D1E0'
         - name:
             en: |-
               I was laid off, or furloughed, while on Family or Temporary Disability Leave, because there are fewer hours available due to business slowdown or lack of demand.
@@ -1209,8 +1209,8 @@ definitions:
           benefits: UA
           job-protections: EO-192
           icon:
-            label: I
-            color: '#E67162'
+            label: H
+            color: '#235DA6'
         - name:
             en: 'My employer is permitted to be open, but I am afraid of exposure and refuse to work.'
             es: 'A mi empleador se le permite estar abierto, pero tengo miedo de la exposición a COVID-19 y me niego a trabajar.'
@@ -1218,8 +1218,8 @@ definitions:
           benefits: ESL-NJ
           job-protections: EO-192
           icon:
-            label: J
-            color: '#ACD6B2'
+            label: I
+            color: '#E67162'
         - name:
             en: 'My employer was ordered to close, but has remained open. I am afraid of exposure and refuse to work.'
             es: |-
@@ -1228,8 +1228,8 @@ definitions:
           benefits: 'ESL-NJ,UI-NJ'
           job-protections: EO-192
           icon:
-            label: K
-            color: '#FFB6C1'
+            label: J
+            color: '#ACD6B2'
         - name:
             en: 'My workplace is unsafe and my employer refuses to follow health and safety guidelines.'
             es: 'Mi lugar de trabajo no está seguro y mi empleador se niega a seguir las directrices de salud y seguridad.'
@@ -1237,8 +1237,8 @@ definitions:
           benefits: 'ESL-NJ,UI-NJ'
           job-protections: EO-192
           icon:
-            label: L
-            color: '#BF7F58'
+            label: K
+            color: '#FFB6C1'
         - name:
             en: 'I have been receiving unemployment benefits but I am no longer able to work due to my own non-work-related medical condition, including pregnancy and delivery.'
             es: 'Estoy recibiendo beneficios por desempleo, pero ya no puedo trabajar debido a mi propia condición médica que no es relacionada con el trabajo, incluidos el embarazo y el parto.'
@@ -1246,8 +1246,8 @@ definitions:
           benefits: DDU-NJ
           job-protections: EO-192
           icon:
-            label: M
-            color: '#C72263'
+            label: L
+            color: '#BF7F58'
         - name:
             en: 'I have been receiving unemployment benefits but I am no longer available for work because I am bonding with a new child or providing care for an ill or injured loved one.'
             es: 'He estado recibiendo beneficios por desempleo, pero ya no estoy disponible para trabajar porque estoy estableciendo un vínculo fuerte con un hijo nuevo o cuidando a un ser querido enfermo o lesionado.'
@@ -1255,8 +1255,8 @@ definitions:
           benefits: FLDU-NJ
           job-protections: EO-192
           icon:
-            label: N
-            color: lightcoral
+            label: M
+            color: '#C72263'
         - name:
             en: None of the above statements describe my situation. I would like to know more about all program benefits.
             es: |-
@@ -1265,7 +1265,7 @@ definitions:
           benefits: 'ESL-NJ,FLI-NJ,TDI-NJ,FLDU-NJ,DDU-NJ,UI-NJ,UA,WC-NJ,FPUC-FED,PEUC-FED,PUA-FED,EPSL-FED,FEC-FMLA-FED'
           job-protections: 'A3848,EO-192,FMLA-FED,FLA-NJ'
           icon:
-            label: O
+            label: N
             color: lightgrey
       switch:
         ? 'situation-1,situation-2,situation-3,situation-4,situation-5,situation-6,situation-7,situation-8,situation-9,situation-11,situation-12,situation-13,situation-14,situation-15'
@@ -1358,8 +1358,8 @@ definitions:
           benefits: 'EPSL-FED,ESL-NJ'
           job-protections: ''
           icon:
-            label: A
-            color: '#4DB0E3'
+            label: '0'
+            color: lightcoral
         - name:
             en: "I can't work, or my hours are reduced, because I need to care for my children due to COVID-19-related school or child care closures, including mandatory remote learning."
             es: 'No puedo trabajar, o mis horas se reducen, porque necesito cuidar a mis hijos debido al cierre de escuelas o guarderías relacionadas con COVID-19, incluido el aprendizaje remoto obligatorio.'
@@ -1367,8 +1367,8 @@ definitions:
           benefits: 'EPSL-FED,ESL-NJ,FEC-FMLA-FED,PUA-FED'
           job-protections: 'EO-192,FLA-NJ'
           icon:
-            label: B
-            color: '#4FAB5B'
+            label: A
+            color: '#4DB0E3'
         - name:
             en: |-
               I can't work, or my hours are reduced, because I am caring for a family member who is diagnosed with COVID-19 or in quarantine with suspicion of exposure.
@@ -1378,8 +1378,8 @@ definitions:
           benefits: 'EPSL-FED,ESL-NJ,FLI-NJ,PUA-FED'
           job-protections: 'EO-192,FMLA-FED,FLA-NJ'
           icon:
-            label: C
-            color: '#E95143'
+            label: B
+            color: '#4FAB5B'
         - name:
             en: |-
               I can't work because I'm advised by a doctor or public health authority to quarantine.
@@ -1389,8 +1389,8 @@ definitions:
           benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED'
           job-protections: 'A3848,EO-192,FMLA-FED'
           icon:
-            label: D
-            color: '#F3A553'
+            label: C
+            color: '#E95143'
         - name:
             en: |-
               I can't work, or my hours are reduced, because I was exposed in my workplace and was told to quarantine by a health authority.
@@ -1400,8 +1400,8 @@ definitions:
           benefits: 'EPSL-FED,ESL-NJ,TDI-NJ,PUA-FED,WC-NJ'
           job-protections: 'A3848,EO-192,FMLA-FED'
           icon:
-            label: E
-            color: '#F8CB56'
+            label: D
+            color: '#F3A553'
         - name:
             en: |-
               There is no work for me, or my hours are reduced, because there are fewer hours available due to business slowdown or lack of demand.
@@ -1411,8 +1411,8 @@ definitions:
           benefits: 'UA,PUA-FED'
           job-protections: EO-192
           icon:
-            label: F
-            color: '#8B378D'
+            label: E
+            color: '#F8CB56'
         - name:
             en: 'There is no work for me, or my hours are reduced, because my employer was ordered to close.'
             es: 'No puedo trabajar, o mis horas se reducen, porque mi empleador recibió la orden de cerrar.'
@@ -1420,8 +1420,8 @@ definitions:
           benefits: 'UA,PUA-FED'
           job-protections: EO-192
           icon:
-            label: G
-            color: '#C0D1E0'
+            label: F
+            color: '#8B378D'
         - name:
             en: "I can't work, or my hours are reduced, because my employer voluntarily closed."
             es: 'No puedo trabajar, o mis horas se reducen, porque mi empleador cerró voluntariamente.'
@@ -1429,8 +1429,8 @@ definitions:
           benefits: 'UA,PUA-FED'
           job-protections: EO-192
           icon:
-            label: H
-            color: '#235DA6'
+            label: G
+            color: '#C0D1E0'
         - name:
             en: |-
               I was laid off, or furloughed, while on Family or Temporary Disability Leave, because there are fewer hours available due to business slowdown or lack of demand.
@@ -1440,8 +1440,8 @@ definitions:
           benefits: UA
           job-protections: EO-192
           icon:
-            label: I
-            color: '#E67162'
+            label: H
+            color: '#235DA6'
         - name:
             en: 'My employer is permitted to be open, but I am afraid of exposure and refuse to work.'
             es: 'A mi empleador se le permite estar abierto, pero tengo miedo de la exposición a COVID-19 y me niego a trabajar.'
@@ -1449,8 +1449,8 @@ definitions:
           benefits: ESL-NJ
           job-protections: EO-192
           icon:
-            label: J
-            color: '#ACD6B2'
+            label: I
+            color: '#E67162'
         - name:
             en: 'My employer was ordered to close, but has remained open. I am afraid of exposure and refuse to work.'
             es: |-
@@ -1459,8 +1459,8 @@ definitions:
           benefits: 'ESL-NJ,UI-NJ'
           job-protections: EO-192
           icon:
-            label: K
-            color: '#FFB6C1'
+            label: J
+            color: '#ACD6B2'
         - name:
             en: 'My workplace is unsafe and my employer refuses to follow health and safety guidelines.'
             es: 'Mi lugar de trabajo no está seguro y mi empleador se niega a seguir las directrices de salud y seguridad.'
@@ -1468,8 +1468,8 @@ definitions:
           benefits: 'ESL-NJ,UI-NJ'
           job-protections: EO-192
           icon:
-            label: L
-            color: '#BF7F58'
+            label: K
+            color: '#FFB6C1'
         - name:
             en: 'I have been receiving unemployment benefits but I am no longer able to work due to my own non-work-related medical condition, including pregnancy and delivery.'
             es: 'Estoy recibiendo beneficios por desempleo, pero ya no puedo trabajar debido a mi propia condición médica que no es relacionada con el trabajo, incluidos el embarazo y el parto.'
@@ -1477,8 +1477,8 @@ definitions:
           benefits: DDU-NJ
           job-protections: EO-192
           icon:
-            label: M
-            color: '#C72263'
+            label: L
+            color: '#BF7F58'
         - name:
             en: 'I have been receiving unemployment benefits but I am no longer available for work because I am bonding with a new child or providing care for an ill or injured loved one.'
             es: 'He estado recibiendo beneficios por desempleo, pero ya no estoy disponible para trabajar porque estoy estableciendo un vínculo fuerte con un hijo nuevo o cuidando a un ser querido enfermo o lesionado.'
@@ -1486,8 +1486,8 @@ definitions:
           benefits: FLDU-NJ
           job-protections: EO-192
           icon:
-            label: N
-            color: lightcoral
+            label: M
+            color: '#C72263'
         - name:
             en: None of the above statements describe my situation. I would like to know more about all program benefits.
             es: |-
@@ -1496,7 +1496,7 @@ definitions:
           benefits: 'ESL-NJ,FLI-NJ,TDI-NJ,FLDU-NJ,DDU-NJ,UI-NJ,UA,WC-NJ,FPUC-FED,PEUC-FED,PUA-FED,EPSL-FED,FEC-FMLA-FED'
           job-protections: 'A3848,EO-192,FMLA-FED,FLA-NJ'
           icon:
-            label: O
+            label: N
             color: lightgrey
       switch:
         ? 'situation-1,situation-2,situation-3,situation-4,situation-5,situation-6,situation-7,situation-8,situation-9,situation-11,situation-12,situation-13,situation-14,situation-15'
