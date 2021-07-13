@@ -158,7 +158,7 @@ sections:
       es: |-
         Puede ser elegible para licencia por enfermedad pagada de su empleador a través de la Licencia por Enfermedad Pagada de New Jersey. La Ley de Licencia por Enfermedad Pagada de New Jersey permite a los empleados acumular 1 hora de licencia pagada por enfermedad por cada 30 horas trabajadas, hasta 40 horas cada año.
 
-        ** Próximos pasos sugeridos: **
+        **Próximos pasos sugeridos:**
 
         1. Obtenga más información: [mysickdays.nj.gov](https://mysickdays.nj.gov/)
         2. Obtenga más información sobre el regreso a clases y COVID-19 [aquí](https://www.nj.gov/labor/worker-protections/backtoschool.shtml)
@@ -638,7 +638,7 @@ pages:
             - name:
                 en: What is your relationship to your employer?
                 es: ¿Cuál es su relación con su empleador?
-              id: relationship-to-employer
+              id: relationship-to-employer-1
               type: single-select
               required: true
               options:
@@ -833,7 +833,7 @@ pages:
             - name:
                 en: What is your relationship to your employer?
                 es: ¿Cuál es su relación con su empleador?
-              id: relationship-to-employer
+              id: relationship-to-employer-2
               type: single-select
               required: true
               options:
@@ -1034,7 +1034,7 @@ pages:
             - name:
                 en: What is your relationship to your employer?
                 es: ¿Cuál es su relación con su empleador?
-              id: relationship-to-employer
+              id: relationship-to-employer-3
               type: single-select
               required: true
               options:
@@ -1115,7 +1115,7 @@ definitions:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
         es: ¿Cuál de las siguientes afirmaciones describe mejor su situación? Seleccione todas las que correspondan.
-      id: describe-situation
+      id: describe-situation-1
       required: true
       type: multiselect
       additionalKeys: 'benefits,job-protections'
@@ -1346,7 +1346,7 @@ definitions:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
         es: ¿Cuál de las siguientes afirmaciones describe mejor su situación? Seleccione todas las que correspondan.
-      id: describe-situation
+      id: describe-situation-2
       required: true
       type: multiselect
       additionalKeys: 'benefits,job-protections'
@@ -1577,7 +1577,7 @@ definitions:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
         es: ¿Cuál de las siguientes afirmaciones describe mejor su situación? Seleccione todas las que correspondan.
-      id: describe-situation
+      id: describe-situation-3
       required: true
       type: multiselect
       additionalKeys: 'benefits,job-protections'
@@ -1749,7 +1749,7 @@ definitions:
     - name:
         en: Which of the following statements best describes your situation? Select all that apply.
         es: ¿Cuál de las siguientes afirmaciones describe mejor su situación? Seleccione todas las que correspondan.
-      id: describe-situation
+      id: describe-situation-4
       required: true
       type: multiselect
       additionalKeys: 'benefits,job-protections'
