@@ -137,10 +137,27 @@ export const FormProvider: React.FC = (props) => {
       id: question.id,
       value,
     })
+    // console.log(values);
+    // console.log(values.employed_in_new_jersey, values['relationship-to-employer'], values['describe-situation']);
 
     // Insert the new value, plus additionaValues, into values and remove any fields
     // that would now map to `undefined`.
+
     let newValues = { ...values, [question.id]: value, ...(additionalValues || {}) }
+
+    // console.log(newValues);
+    // console.log(newValues.employed_in_new_jersey, newValues['relationship-to-employer'], newValues['describe-situation']);
+
+    if (
+      (values.employed_in_new_jersey !== newValues.employed_in_new_jersey ||
+        values['relationship-to-employer'] !== newValues['relationship-to-employer']) &&
+      newValues['describe-situation'] !== undefined
+    ) {
+      delete newValues.benefits
+      delete newValues['describe-situation']
+      delete newValues['job-protections']
+    }
+
     if (value === undefined) {
       newValues = omit(newValues, question.id)
     }
@@ -148,6 +165,7 @@ export const FormProvider: React.FC = (props) => {
       newValues,
       Object.keys(additionalValues || {}).filter((k) => additionalValues![k] === undefined)
     )
+
     setValues(newValues)
 
     if (process.env.NODE_ENV === 'development') {
