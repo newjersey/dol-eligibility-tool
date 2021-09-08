@@ -511,6 +511,9 @@ pages:
       es: Herramienta de elegibilidad de beneficios NJDOL
     instructions:
       en: |-
+
+        Important: This tool is currently under construction because federal benefits created during the pandemic including Pandemic Unemployment Assistance (PUA), Pandemic Emergency Unemployment Compensation (PEUC), and Federal Pandemic Unemployment Compensation (FPUC) ended September 4, 2021. [Learn more here](https://www.myunemployment.nj.gov/apply/extensions/). For links to assistance with food, housing, child care, health, and more visit [myunemployment.nj.gov/morehelp](https://www.myunemployment.nj.gov/labor/myunemployment/help/resources-support/).
+
         The COVID-19 outbreak is causing extraordinary disruption in the lives of New Jersey workers. The New Jersey Department of Labor and Workforce Development (NJDOL) wants to make it easier for you to understand what benefits programs may be available to you to help stabilize your household during this difficult time.
 
         This is a beta version of this tool. We will update it regularly as new federal, state, and local benefits become available. We will check your eligibility for the programs below based on the information you provide.
